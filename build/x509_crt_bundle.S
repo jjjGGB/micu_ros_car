@@ -1,4 +1,4 @@
-/* * Data converted from D:/Espresssif/mycode/micu_ros_car/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/micu/esp/mycode/micu_ros_car/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

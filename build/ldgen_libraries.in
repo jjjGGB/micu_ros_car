@@ -83,3 +83,4 @@ $<TARGET_FILE:__idf_UART>
 $<TARGET_FILE:__idf_anotc_client_v4.34>
 $<TARGET_FILE:__idf_config>
 $<TARGET_FILE:__idf_imu_ahrs>
+$<TARGET_FILE:__idf_micro_ros_espidf_component>

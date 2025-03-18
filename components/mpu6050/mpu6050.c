@@ -3298,6 +3298,14 @@ void get_mpu6050_euler_angle(void *param)
         proto_imu_data.euler[1] = angles.pitch;
         proto_imu_data.euler[2] = angles.yaw;
 
+        proto_imu_data.gyro[0] = gyro.x;
+        proto_imu_data.gyro[1] = gyro.y;
+        proto_imu_data.gyro[2] = gyro.z;
+
+        proto_imu_data.accel[0] = acc.x;
+        proto_imu_data.accel[1] = acc.y;
+        proto_imu_data.accel[2] = acc.z;
+
         //PRINT(imu, "%.3f,%.3f,%.3f",angles.roll,angles.pitch, angles.yaw);
         // printf( "euler angles: roll:%.3f pitch:%.3f yaw:%.3f\n", 
         //         angles.roll,angles.pitch, angles.yaw);

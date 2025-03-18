@@ -10,6 +10,7 @@
 #include "UART.h"
 #include "UDP_TCP.h"
 #include "anotc.h"
+#include "imu_pub.h"
 
 // 默认的电机数量
 #define DEFAULT_MOTOR_NUM 2

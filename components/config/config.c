@@ -75,9 +75,10 @@ bool task_init(void)
     mpu6050_task();
     //motor_task_init();
     oled_show_task();
-    UDP_task(sock);
+    //UDP_task(sock);
     uart_task();//调试用
     lidar_task();
+    imu_pub_task();
     esp_log_level_set("MPU6050", ESP_LOG_NONE);  // 不输出IMU模块日志
     printf("3.任务初始化完成\n");
     return true;
@@ -101,8 +102,8 @@ bool hardware_init(void)
         return false;   
     if(!motor_init())
         return false;
-    if(!UDP_init(&sock))
-        return false;
+    // if(!UDP_init(&sock))
+    //     return false;
 
     if (get_wifi_ip(host) != WIFI_STATUS_STA_DISCONECTED)
     {  

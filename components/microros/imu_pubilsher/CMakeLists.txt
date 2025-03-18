@@ -1,0 +1,5 @@
+idf_component_register(
+    SRCS "imu_pub.c"
+    INCLUDE_DIRS "." "include"
+    REQUIRES proto_define esp_timer
+)

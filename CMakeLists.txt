@@ -5,7 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 # 添加lib目录到组件搜索路径
 set(EXTRA_COMPONENT_DIRS "components" 
                          "components/lib"
-                         "components/external_communication")
+                         "components/external_communication"
+                         "../../extra_components")
 set(IDF_COMPONENT_MANAGER "0")
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
