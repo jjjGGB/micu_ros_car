@@ -3,10 +3,10 @@ cmake_minimum_required(VERSION 3.16)
 
 if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   file(REMOVE_RECURSE
-  "/home/micu/esp/extra_components/micro_ros_espidf_component/esp32_toolchain.cmake"
-  "/home/micu/esp/extra_components/micro_ros_espidf_component/include"
-  "/home/micu/esp/extra_components/micro_ros_espidf_component/micro_ros_dev"
-  "/home/micu/esp/extra_components/micro_ros_espidf_component/micro_ros_src"
+  "/home/micu/esp/mycode/extra_components/micro_ros_espidf_component/esp32_toolchain.cmake"
+  "/home/micu/esp/mycode/extra_components/micro_ros_espidf_component/include"
+  "/home/micu/esp/mycode/extra_components/micro_ros_espidf_component/micro_ros_dev"
+  "/home/micu/esp/mycode/extra_components/micro_ros_espidf_component/micro_ros_src"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.elf"
   "bootloader/bootloader.map"

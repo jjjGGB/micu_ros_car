@@ -16,5 +16,5 @@ dependencies:
   #   public: true
   #espressif/mpu6050: ^1.2.0
   espressif/pid_ctrl: ^0.2.0
-  espressif/mdns: ^1.8.0
+  espressif/mdns: ^1.8.1
   

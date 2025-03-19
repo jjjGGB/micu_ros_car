@@ -5562,6 +5562,57 @@
     {
         "children": [
             {
+                "children": [],
+                "depends_on": null,
+                "help": "Stack size in Bytes of the micro-ROS app",
+                "id": "MICRO_ROS_APP_STACK",
+                "name": "MICRO_ROS_APP_STACK",
+                "range": null,
+                "title": "Stack the micro-ROS app (Bytes)",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Priority of micro-ros task higher value means higher priority",
+                "id": "MICRO_ROS_APP_TASK_PRIO",
+                "name": "MICRO_ROS_APP_TASK_PRIO",
+                "range": null,
+                "title": "Priority of the micro-ROS app",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "To avoid interference between different groups of computers running ROS 2 on the same network, set a different domain ID value for each computer group.",
+                "id": "MICRO_ROS_DOMAIN_ID",
+                "name": "MICRO_ROS_DOMAIN_ID",
+                "range": [
+                    0,
+                    101
+                ],
+                "title": "Ros domain id of the micro-ROS",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "The ROS node namespace",
+                "id": "MICRO_ROS_NAMESPACE",
+                "name": "MICRO_ROS_NAMESPACE",
+                "range": null,
+                "title": "Ros namespace of the micro-ROS",
+                "type": "string"
+            }
+        ],
+        "depends_on": null,
+        "id": "micro-ros-example-app-settings",
+        "title": "micro-ROS example-app settings",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
                 "children": [
                     {
                         "children": [],
@@ -17534,7 +17585,10 @@
                         "help": "Set the number of WiFi static TX buffers. Each buffer takes approximately 1.6KB of RAM.\nThe static RX buffers are allocated when esp_wifi_init() is called, they are not released\nuntil esp_wifi_deinit() is called.\n\nFor each transmitted data frame from the higher layer TCP/IP stack, the WiFi driver makes a\ncopy of it in a TX buffer.  For some applications especially UDP applications, the upper\nlayer can deliver frames faster than WiFi layer can transmit. In these cases, we may run out\nof TX buffers.",
                         "id": "ESP_WIFI_STATIC_TX_BUFFER_NUM",
                         "name": "ESP_WIFI_STATIC_TX_BUFFER_NUM",
-                        "range": null,
+                        "range": [
+                            1,
+                            64
+                        ],
                         "title": "Max number of WiFi static TX buffers",
                         "type": "int"
                     },
@@ -17554,10 +17608,7 @@
                         "help": "Set the number of WiFi dynamic TX buffers. The size of each dynamic TX buffer is not fixed,\nit depends on the size of each transmitted data frame.\n\nFor each transmitted frame from the higher layer TCP/IP stack, the WiFi driver makes a copy\nof it in a TX buffer. For some applications, especially UDP applications, the upper layer\ncan deliver frames faster than WiFi layer can transmit. In these cases, we may run out of TX\nbuffers.",
                         "id": "ESP_WIFI_DYNAMIC_TX_BUFFER_NUM",
                         "name": "ESP_WIFI_DYNAMIC_TX_BUFFER_NUM",
-                        "range": [
-                            1,
-                            128
-                        ],
+                        "range": null,
                         "title": "Max number of WiFi dynamic TX buffers",
                         "type": "int"
                     },

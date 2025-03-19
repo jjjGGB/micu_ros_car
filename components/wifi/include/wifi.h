@@ -20,7 +20,7 @@
 #include "proto.h"
 
 #define WIF_MAX_AP_CONNECTION 2
-#define DEFAULT_WIFI_SSID           "华航学社"
+#define DEFAULT_WIFI_SSID           "华航学社_2.4G"
 #define DEFAULT_WIFI_PASSWORD       "hhxs2021"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  10
 #define DEFAULT_WIFI_AP_PSWD "87654321"

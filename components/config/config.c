@@ -78,6 +78,7 @@ bool task_init(void)
     //UDP_task(sock);
     uart_task();//调试用
     lidar_task();
+    micro_ros_init_task();
     imu_pub_task();
     esp_log_level_set("MPU6050", ESP_LOG_NONE);  // 不输出IMU模块日志
     printf("3.任务初始化完成\n");
@@ -100,8 +101,8 @@ bool hardware_init(void)
         return false;
     if (!UART_HARDWARE_init())
         return false;   
-    if(!motor_init())
-        return false;
+    // if(!motor_init())
+    //     return false;
     // if(!UDP_init(&sock))
     //     return false;
 

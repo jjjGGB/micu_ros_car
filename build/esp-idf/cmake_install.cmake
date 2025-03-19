@@ -499,7 +499,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/anotc_client_v4.34/cmake_install.cmake")
+  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/micro_ros_espidf_component/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/sysn/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/imu_publisher/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -514,6 +524,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/micro_ros_espidf_component/cmake_install.cmake")
+  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/anotc_client_v4.34/cmake_install.cmake")
 endif()
 

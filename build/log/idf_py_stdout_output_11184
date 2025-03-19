@@ -1,0 +1,18 @@
+[0/2] Re-checking globbed directories...
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /home/micu/esp/mycode/micu_ros_car/build/bootloader/esp-idf/esptool_py && /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/micu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/micu/esp/mycode/micu_ros_car/build/bootloader/bootloader.bin
+Bootloader binary size 0x51b0 bytes. 0x2e50 bytes (36%) free.
+[2/9] Building C object esp-idf/sysn/CMakeFiles/__idf_sysn.dir/sysn.c.obj
+[3/9] Linking C static library esp-idf/sysn/libsysn.a
+[4/9] Building C object esp-idf/imu_publisher/CMakeFiles/__idf_imu_publisher.dir/imu_pub.c.obj
+[5/9] Linking C static library esp-idf/imu_publisher/libimu_publisher.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable micu_ros_car.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car.bin
+[9/9] cd /home/micu/esp/mycode/micu_ros_car/build/esp-idf/esptool_py && /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/micu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/micu/esp/mycode/micu_ros_car/build/partition_table/partition-table.bin /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car.bin
+micu_ros_car.bin binary size 0xd63e0 bytes. Smallest app partition is 0x177000 bytes. 0xa0c20 bytes (43%) free.

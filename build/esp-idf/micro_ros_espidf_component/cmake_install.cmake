@@ -1,4 +1,4 @@
-# Install script for directory: /home/micu/esp/extra_components/micro_ros_espidf_component
+# Install script for directory: /home/micu/esp/mycode/extra_components/micro_ros_espidf_component
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
