@@ -1,4 +1,4 @@
-# Install script for directory: /home/micu/esp/mycode/micu_ros_car/components/external_communication/ring_buffer
+# Install script for directory: /home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

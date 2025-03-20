@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "micu_ros_car",
-    "project_version":    "47bd8d5-dirty",
+    "project_version":    "65f7fc6-dirty",
     "project_path":       "/home/micu/esp/mycode/micu_ros_car",
     "idf_path":           "/home/micu/esp/esp-idf",
     "build_dir":          "/home/micu/esp/mycode/micu_ros_car/build",
@@ -25,14 +25,14 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "/home/micu/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/micu/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/micu/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/micu/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/micu/esp/esp-idf/components/partition_table/Kconfig.projbuild;/home/micu/esp/mycode/micu_ros_car/main/Kconfig.projbuild;/home/micu/esp/mycode/extra_components/micro_ros_espidf_component/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "UART", "UDP_TCP", "WP_Math", "anotc_client_v4.34", "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "config", "console", "cxx", "data_proto", "driver", "efuse", "esp-tls", "esp32_i2c_rw", "esp_adc", "esp_app_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "espressif__mdns", "espressif__pid_ctrl", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "imu_ahrs", "imu_publisher", "json", "lidar", "log", "lwip", "main", "mbedtls", "mcu_dmp", "micro_ros_espidf_component", "motor", "mpu6050", "mqtt", "newlib", "nvs_flash", "oled", "openthread", "partition_table", "perfmon", "proto_define", "proto_utils", "protobuf-c", "protocomm", "pthread", "ring_buffer", "rotary_encoder", "sdmmc", "soc", "spi_flash", "spiffs", "sysn", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/UART", "/home/micu/esp/mycode/micu_ros_car/components/external_communication/UDP_TCP", "/home/micu/esp/mycode/micu_ros_car/components/lib/WP_Math", "/home/micu/esp/mycode/micu_ros_car/components/external_communication/anotc_client_v4.34", "/home/micu/esp/esp-idf/components/app_trace", "/home/micu/esp/esp-idf/components/app_update", "/home/micu/esp/esp-idf/components/bootloader", "/home/micu/esp/esp-idf/components/bootloader_support", "/home/micu/esp/esp-idf/components/bt", "/home/micu/esp/esp-idf/components/cmock", "/home/micu/esp/mycode/micu_ros_car/components/config", "/home/micu/esp/esp-idf/components/console", "/home/micu/esp/esp-idf/components/cxx", "/home/micu/esp/mycode/micu_ros_car/components/external_communication/data_proto", "/home/micu/esp/esp-idf/components/driver", "/home/micu/esp/esp-idf/components/efuse", "/home/micu/esp/esp-idf/components/esp-tls", "/home/micu/esp/mycode/micu_ros_car/components/lib/esp32_i2c_rw", "/home/micu/esp/esp-idf/components/esp_adc", "/home/micu/esp/esp-idf/components/esp_app_format", "/home/micu/esp/esp-idf/components/esp_coex", "/home/micu/esp/esp-idf/components/esp_common", "/home/micu/esp/esp-idf/components/esp_eth", "/home/micu/esp/esp-idf/components/esp_event", "/home/micu/esp/esp-idf/components/esp_gdbstub", "/home/micu/esp/esp-idf/components/esp_hid", "/home/micu/esp/esp-idf/components/esp_http_client", "/home/micu/esp/esp-idf/components/esp_http_server", "/home/micu/esp/esp-idf/components/esp_https_ota", "/home/micu/esp/esp-idf/components/esp_https_server", "/home/micu/esp/esp-idf/components/esp_hw_support", "/home/micu/esp/esp-idf/components/esp_lcd", "/home/micu/esp/esp-idf/components/esp_local_ctrl", "/home/micu/esp/esp-idf/components/esp_mm", "/home/micu/esp/esp-idf/components/esp_netif", "/home/micu/esp/esp-idf/components/esp_netif_stack", "/home/micu/esp/esp-idf/components/esp_partition", "/home/micu/esp/esp-idf/components/esp_phy", "/home/micu/esp/esp-idf/components/esp_pm", "/home/micu/esp/esp-idf/components/esp_psram", "/home/micu/esp/esp-idf/components/esp_ringbuf", "/home/micu/esp/esp-idf/components/esp_rom", "/home/micu/esp/esp-idf/components/esp_system", "/home/micu/esp/esp-idf/components/esp_timer", "/home/micu/esp/esp-idf/components/esp_wifi", "/home/micu/esp/esp-idf/components/espcoredump", "/home/micu/esp/mycode/micu_ros_car/managed_components/espressif__mdns", "/home/micu/esp/mycode/micu_ros_car/managed_components/espressif__pid_ctrl", "/home/micu/esp/esp-idf/components/esptool_py", "/home/micu/esp/esp-idf/components/fatfs", "/home/micu/esp/esp-idf/components/freertos", "/home/micu/esp/esp-idf/components/hal", "/home/micu/esp/esp-idf/components/heap", "/home/micu/esp/esp-idf/components/http_parser", "/home/micu/esp/esp-idf/components/idf_test", "/home/micu/esp/esp-idf/components/ieee802154", "/home/micu/esp/mycode/micu_ros_car/components/lib/imu_ahrs", "/home/micu/esp/mycode/micu_ros_car/components/microros/imu_publisher", "/home/micu/esp/esp-idf/components/json", "/home/micu/esp/mycode/micu_ros_car/components/lidar", "/home/micu/esp/esp-idf/components/log", "/home/micu/esp/esp-idf/components/lwip", "/home/micu/esp/mycode/micu_ros_car/main", "/home/micu/esp/esp-idf/components/mbedtls", "/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp", "/home/micu/esp/mycode/extra_components/micro_ros_espidf_component", "/home/micu/esp/mycode/micu_ros_car/components/motor", "/home/micu/esp/mycode/micu_ros_car/components/mpu6050", "/home/micu/esp/esp-idf/components/mqtt", "/home/micu/esp/esp-idf/components/newlib", "/home/micu/esp/esp-idf/components/nvs_flash", "/home/micu/esp/mycode/micu_ros_car/components/oled", "/home/micu/esp/esp-idf/components/openthread", "/home/micu/esp/esp-idf/components/partition_table", "/home/micu/esp/esp-idf/components/perfmon", "/home/micu/esp/mycode/micu_ros_car/components/external_communication/proto_define", "/home/micu/esp/mycode/micu_ros_car/components/external_communication/proto_utils", "/home/micu/esp/esp-idf/components/protobuf-c", "/home/micu/esp/esp-idf/components/protocomm", "/home/micu/esp/esp-idf/components/pthread", "/home/micu/esp/mycode/micu_ros_car/components/external_communication/ring_buffer", "/home/micu/esp/mycode/micu_ros_car/components/lib/rotary_encoder", "/home/micu/esp/esp-idf/components/sdmmc", "/home/micu/esp/esp-idf/components/soc", "/home/micu/esp/esp-idf/components/spi_flash", "/home/micu/esp/esp-idf/components/spiffs", "/home/micu/esp/mycode/micu_ros_car/components/microros/sysn", "/home/micu/esp/esp-idf/components/tcp_transport", "/home/micu/esp/esp-idf/components/touch_element", "/home/micu/esp/esp-idf/components/ulp", "/home/micu/esp/esp-idf/components/unity", "/home/micu/esp/esp-idf/components/usb", "/home/micu/esp/esp-idf/components/vfs", "/home/micu/esp/esp-idf/components/wear_levelling", "/home/micu/esp/mycode/micu_ros_car/components/wifi", "/home/micu/esp/esp-idf/components/wifi_provisioning", "/home/micu/esp/esp-idf/components/wpa_supplicant", "/home/micu/esp/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "UART", "WP_Math", "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "config", "console", "cxx", "driver", "efuse", "esp-tls", "esp32_i2c_rw", "esp_adc", "esp_app_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "espressif__mdns", "espressif__pid_ctrl", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "imu_ahrs", "imu_publisher", "json", "lidar", "log", "lwip", "main", "mbedtls", "mcu_dmp", "micro_ros_espidf_component", "motor", "mpu6050", "mqtt", "newlib", "nvs_flash", "oled", "openthread", "partition_table", "perfmon", "proto_define", "proto_utils", "protobuf-c", "protocomm", "pthread", "ring_buffer", "rotary_encoder", "sdmmc", "soc", "spi_flash", "spiffs", "sysn", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "/home/micu/esp/mycode/micu_ros_car/components/protocal/UART", "/home/micu/esp/mycode/micu_ros_car/components/lib/WP_Math", "/home/micu/esp/esp-idf/components/app_trace", "/home/micu/esp/esp-idf/components/app_update", "/home/micu/esp/esp-idf/components/bootloader", "/home/micu/esp/esp-idf/components/bootloader_support", "/home/micu/esp/esp-idf/components/bt", "/home/micu/esp/esp-idf/components/cmock", "/home/micu/esp/mycode/micu_ros_car/components/config", "/home/micu/esp/esp-idf/components/console", "/home/micu/esp/esp-idf/components/cxx", "/home/micu/esp/esp-idf/components/driver", "/home/micu/esp/esp-idf/components/efuse", "/home/micu/esp/esp-idf/components/esp-tls", "/home/micu/esp/mycode/micu_ros_car/components/lib/esp32_i2c_rw", "/home/micu/esp/esp-idf/components/esp_adc", "/home/micu/esp/esp-idf/components/esp_app_format", "/home/micu/esp/esp-idf/components/esp_coex", "/home/micu/esp/esp-idf/components/esp_common", "/home/micu/esp/esp-idf/components/esp_eth", "/home/micu/esp/esp-idf/components/esp_event", "/home/micu/esp/esp-idf/components/esp_gdbstub", "/home/micu/esp/esp-idf/components/esp_hid", "/home/micu/esp/esp-idf/components/esp_http_client", "/home/micu/esp/esp-idf/components/esp_http_server", "/home/micu/esp/esp-idf/components/esp_https_ota", "/home/micu/esp/esp-idf/components/esp_https_server", "/home/micu/esp/esp-idf/components/esp_hw_support", "/home/micu/esp/esp-idf/components/esp_lcd", "/home/micu/esp/esp-idf/components/esp_local_ctrl", "/home/micu/esp/esp-idf/components/esp_mm", "/home/micu/esp/esp-idf/components/esp_netif", "/home/micu/esp/esp-idf/components/esp_netif_stack", "/home/micu/esp/esp-idf/components/esp_partition", "/home/micu/esp/esp-idf/components/esp_phy", "/home/micu/esp/esp-idf/components/esp_pm", "/home/micu/esp/esp-idf/components/esp_psram", "/home/micu/esp/esp-idf/components/esp_ringbuf", "/home/micu/esp/esp-idf/components/esp_rom", "/home/micu/esp/esp-idf/components/esp_system", "/home/micu/esp/esp-idf/components/esp_timer", "/home/micu/esp/esp-idf/components/esp_wifi", "/home/micu/esp/esp-idf/components/espcoredump", "/home/micu/esp/mycode/micu_ros_car/managed_components/espressif__mdns", "/home/micu/esp/mycode/micu_ros_car/managed_components/espressif__pid_ctrl", "/home/micu/esp/esp-idf/components/esptool_py", "/home/micu/esp/esp-idf/components/fatfs", "/home/micu/esp/esp-idf/components/freertos", "/home/micu/esp/esp-idf/components/hal", "/home/micu/esp/esp-idf/components/heap", "/home/micu/esp/esp-idf/components/http_parser", "/home/micu/esp/esp-idf/components/idf_test", "/home/micu/esp/esp-idf/components/ieee802154", "/home/micu/esp/mycode/micu_ros_car/components/lib/imu_ahrs", "/home/micu/esp/mycode/micu_ros_car/components/microros/imu_publisher", "/home/micu/esp/esp-idf/components/json", "/home/micu/esp/mycode/micu_ros_car/components/lidar", "/home/micu/esp/esp-idf/components/log", "/home/micu/esp/esp-idf/components/lwip", "/home/micu/esp/mycode/micu_ros_car/main", "/home/micu/esp/esp-idf/components/mbedtls", "/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp", "/home/micu/esp/mycode/extra_components/micro_ros_espidf_component", "/home/micu/esp/mycode/micu_ros_car/components/motor", "/home/micu/esp/mycode/micu_ros_car/components/mpu6050", "/home/micu/esp/esp-idf/components/mqtt", "/home/micu/esp/esp-idf/components/newlib", "/home/micu/esp/esp-idf/components/nvs_flash", "/home/micu/esp/mycode/micu_ros_car/components/oled", "/home/micu/esp/esp-idf/components/openthread", "/home/micu/esp/esp-idf/components/partition_table", "/home/micu/esp/esp-idf/components/perfmon", "/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define", "/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_utils", "/home/micu/esp/esp-idf/components/protobuf-c", "/home/micu/esp/esp-idf/components/protocomm", "/home/micu/esp/esp-idf/components/pthread", "/home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer", "/home/micu/esp/mycode/micu_ros_car/components/lib/rotary_encoder", "/home/micu/esp/esp-idf/components/sdmmc", "/home/micu/esp/esp-idf/components/soc", "/home/micu/esp/esp-idf/components/spi_flash", "/home/micu/esp/esp-idf/components/spiffs", "/home/micu/esp/mycode/micu_ros_car/components/microros/sysn", "/home/micu/esp/esp-idf/components/tcp_transport", "/home/micu/esp/esp-idf/components/touch_element", "/home/micu/esp/esp-idf/components/ulp", "/home/micu/esp/esp-idf/components/unity", "/home/micu/esp/esp-idf/components/usb", "/home/micu/esp/esp-idf/components/vfs", "/home/micu/esp/esp-idf/components/wear_levelling", "/home/micu/esp/mycode/micu_ros_car/components/wifi", "/home/micu/esp/esp-idf/components/wifi_provisioning", "/home/micu/esp/esp-idf/components/wpa_supplicant", "/home/micu/esp/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "UART": {
             "alias": "idf::UART",
             "target": "___idf_UART",
             "prefix": "idf",
-            "dir": "/home/micu/esp/mycode/micu_ros_car/components/external_communication/UART",
+            "dir": "/home/micu/esp/mycode/micu_ros_car/components/protocal/UART",
             "type": "LIBRARY",
             "lib": "__idf_UART",
             "reqs": [ "driver", "freertos", "proto_define", "motor", "ring_buffer" ],
@@ -40,22 +40,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/UART/libUART.a",
-            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/UART/UART.c" ],
-            "include_dirs": [ ".", "include" ]
-        },
-        "UDP_TCP": {
-            "alias": "idf::UDP_TCP",
-            "target": "___idf_UDP_TCP",
-            "prefix": "idf",
-            "dir": "/home/micu/esp/mycode/micu_ros_car/components/external_communication/UDP_TCP",
-            "type": "LIBRARY",
-            "lib": "__idf_UDP_TCP",
-            "reqs": [ "driver", "lidar", "esp_netif", "esp_event", "data_proto", "motor", "proto_define", "espressif__mdns" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/UDP_TCP/libUDP_TCP.a",
-            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/UDP_TCP/UDP_TCP.c" ],
+            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/protocal/UART/UART.c" ],
             "include_dirs": [ ".", "include" ]
         },
         "WP_Math": {
@@ -71,21 +56,6 @@
             "managed_priv_reqs": [],
             "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/WP_Math/libWP_Math.a",
             "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/lib/WP_Math/WP_Math.c" ],
-            "include_dirs": [ ".", "include" ]
-        },
-        "anotc_client_v4.34": {
-            "alias": "idf::anotc_client_v4.34",
-            "target": "___idf_anotc_client_v4.34",
-            "prefix": "idf",
-            "dir": "/home/micu/esp/mycode/micu_ros_car/components/external_communication/anotc_client_v4.34",
-            "type": "LIBRARY",
-            "lib": "__idf_anotc_client_v4.34",
-            "reqs": [ "driver", "data_proto", "motor", "proto_define", "UART", "UDP_TCP" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/anotc_client_v4.34/libanotc_client_v4.34.a",
-            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/anotc_client_v4.34/anotc.c" ],
             "include_dirs": [ ".", "include" ]
         },
         "app_trace": {
@@ -185,7 +155,7 @@
             "dir": "/home/micu/esp/mycode/micu_ros_car/components/config",
             "type": "LIBRARY",
             "lib": "__idf_config",
-            "reqs": [ "driver", "esp_wifi", "wifi", "oled", "mpu6050", "motor", "esp32_i2c_rw", "lidar", "UART", "UDP_TCP", "imu_publisher", "sysn" ],
+            "reqs": [ "driver", "esp_wifi", "wifi", "oled", "mpu6050", "motor", "esp32_i2c_rw", "lidar", "UART", "imu_publisher", "sysn" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -222,21 +192,6 @@
             "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/cxx/libcxx.a",
             "sources": [ "/home/micu/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp", "/home/micu/esp/esp-idf/components/cxx/cxx_guards.cpp" ],
             "include_dirs": []
-        },
-        "data_proto": {
-            "alias": "idf::data_proto",
-            "target": "___idf_data_proto",
-            "prefix": "idf",
-            "dir": "/home/micu/esp/mycode/micu_ros_car/components/external_communication/data_proto",
-            "type": "LIBRARY",
-            "lib": "__idf_data_proto",
-            "reqs": [ "proto_define" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/data_proto/libdata_proto.a",
-            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/data_proto/data_proto.c" ],
-            "include_dirs": [ ".", "include" ]
         },
         "driver": {
             "alias": "idf::driver",
@@ -920,7 +875,7 @@
             "dir": "/home/micu/esp/mycode/micu_ros_car/components/lidar",
             "type": "LIBRARY",
             "lib": "__idf_lidar",
-            "reqs": [ "driver", "freertos", "UDP_TCP" ],
+            "reqs": [ "driver", "freertos", "UART" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -1025,7 +980,7 @@
             "dir": "/home/micu/esp/mycode/micu_ros_car/components/motor",
             "type": "LIBRARY",
             "lib": "__idf_motor",
-            "reqs": [ "driver", "freertos", "rotary_encoder", "espressif__pid_ctrl", "proto_define", "data_proto" ],
+            "reqs": [ "driver", "freertos", "rotary_encoder", "espressif__pid_ctrl", "proto_define" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -1040,7 +995,7 @@
             "dir": "/home/micu/esp/mycode/micu_ros_car/components/mpu6050",
             "type": "LIBRARY",
             "lib": "__idf_mpu6050",
-            "reqs": [ "esp32_i2c_rw", "driver", "esp_timer", "proto_define", "data_proto", "WP_Math", "mcu_dmp" ],
+            "reqs": [ "esp32_i2c_rw", "driver", "esp_timer", "proto_define", "WP_Math", "mcu_dmp" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -1157,7 +1112,7 @@
             "alias": "idf::proto_define",
             "target": "___idf_proto_define",
             "prefix": "idf",
-            "dir": "/home/micu/esp/mycode/micu_ros_car/components/external_communication/proto_define",
+            "dir": "/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define",
             "type": "LIBRARY",
             "lib": "__idf_proto_define",
             "reqs": [ "proto_utils", "esp_wifi" ],
@@ -1165,14 +1120,14 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/proto_define/libproto_define.a",
-            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/proto_define/proto.c" ],
+            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c" ],
             "include_dirs": [ "include" ]
         },
         "proto_utils": {
             "alias": "idf::proto_utils",
             "target": "___idf_proto_utils",
             "prefix": "idf",
-            "dir": "/home/micu/esp/mycode/micu_ros_car/components/external_communication/proto_utils",
+            "dir": "/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_utils",
             "type": "LIBRARY",
             "lib": "__idf_proto_utils",
             "reqs": [],
@@ -1180,7 +1135,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/proto_utils/libproto_utils.a",
-            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/proto_utils/proto_utils.c" ],
+            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_utils/proto_utils.c" ],
             "include_dirs": [ "include" ]
         },
         "protobuf-c": {
@@ -1232,7 +1187,7 @@
             "alias": "idf::ring_buffer",
             "target": "___idf_ring_buffer",
             "prefix": "idf",
-            "dir": "/home/micu/esp/mycode/micu_ros_car/components/external_communication/ring_buffer",
+            "dir": "/home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer",
             "type": "LIBRARY",
             "lib": "__idf_ring_buffer",
             "reqs": [],
@@ -1240,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/micu/esp/mycode/micu_ros_car/build/esp-idf/ring_buffer/libring_buffer.a",
-            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/external_communication/ring_buffer/ring_buffer.c" ],
+            "sources": [ "/home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer/ring_buffer.c" ],
             "include_dirs": [ ".", "include" ]
         },
         "rotary_encoder": {

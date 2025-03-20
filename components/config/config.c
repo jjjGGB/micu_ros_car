@@ -56,8 +56,6 @@ static pid_ctrl_config_t pid_config[] = {
 };
 
 
-int sock;
-
 bool config_init()
 {
 
@@ -69,28 +67,12 @@ bool config_init()
     return true;
 }
 
-bool task_init(void)
-{
-
-    mpu6050_task();
-    //motor_task_init();
-    oled_show_task();
-    //UDP_task(sock);
-    uart_task();//调试用
-    lidar_task();
-    micro_ros_init_task();
-    imu_pub_task();
-    esp_log_level_set("MPU6050", ESP_LOG_NONE);  // 不输出IMU模块日志
-    printf("3.任务初始化完成\n");
-    return true;
-}
-
 bool hardware_init(void)
 {
     char host[22];
     char buf[21]="STAT:WIFI OK";
 
-    // WiFi初始化要在UDP之前
+
     if (!wifi_init())
         return false;
     if (!i2c_device_init())
@@ -103,8 +85,7 @@ bool hardware_init(void)
         return false;   
     // if(!motor_init())
     //     return false;
-    // if(!UDP_init(&sock))
-    //     return false;
+
 
     if (get_wifi_ip(host) != WIFI_STATUS_STA_DISCONECTED)
     {  
@@ -115,4 +96,18 @@ bool hardware_init(void)
     return true;
 }
 
+bool task_init(void)
+{
+
+    mpu6050_task();
+    //motor_task_init();
+    oled_show_task();
+    uart_task();//调试用
+    lidar_task();
+    //micro_ros_init_task();
+    //imu_pub_task();
+    esp_log_level_set("MPU6050", ESP_LOG_NONE);  // 不输出IMU模块日志
+    printf("3.任务初始化完成\n");
+    return true;
+}
 

@@ -1,0 +1,6 @@
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig '/home/micu/esp/mycode/micu_ros_car/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- Component directory /home/micu/esp/mycode/micu_ros_car/components/lib does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /home/micu/esp/mycode/micu_ros_car/components/microros does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /home/micu/esp/mycode/micu_ros_car/components/protocal does not contain a CMakeLists.txt file. No component will be added
+-- Configuring incomplete, errors occurred!

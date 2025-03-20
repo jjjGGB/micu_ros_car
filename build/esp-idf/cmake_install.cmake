@@ -444,11 +444,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/data_proto/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/motor/cmake_install.cmake")
 endif()
 
@@ -479,22 +474,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/UDP_TCP/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/ring_buffer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/UART/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -520,10 +510,5 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/imu_ahrs/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/anotc_client_v4.34/cmake_install.cmake")
 endif()
 

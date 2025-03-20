@@ -1,4 +1,4 @@
-# Install script for directory: /home/micu/esp/mycode/micu_ros_car/components/external_communication/UART
+# Install script for directory: /home/micu/esp/mycode/micu_ros_car/components/protocal/UART
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

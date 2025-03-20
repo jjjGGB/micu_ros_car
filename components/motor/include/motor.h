@@ -17,7 +17,7 @@
 #include "driver/gpio.h"
 #include "proto.h"
 #include "proto_define.h"
-#include "data_proto.h"
+
 
 #define LEDC_HIGH_SPEED_MODE  (0)
 #define DRIVER_USE_TB6612
@@ -49,8 +49,6 @@
 // Maximum motor PWM input value
 #define PWM_MOTOR_MAX_VALUE              (PWM_MOTOR_DUTY_TICK_MAX-PWM_MOTOR_DEAD_ZONE)
 
-
-extern RECEIVE_DATA Receive_Data;
 
 typedef struct
 {

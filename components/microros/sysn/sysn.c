@@ -45,6 +45,10 @@ topic_pub imu_pub_topic = {
     .timer_timeout = 50
 };
 
+topic_pub lidar_pub_topic = {
+    .timer_timeout = 50
+};
+
 // 获取从开机到现在的秒数
 // Gets the number of seconds since boot
 unsigned long get_millisecond(void)
