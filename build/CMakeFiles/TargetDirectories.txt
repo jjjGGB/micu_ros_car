@@ -746,6 +746,13 @@
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/micro_ros_espidf_component/CMakeFiles/install.dir
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/micro_ros_espidf_component/CMakeFiles/install/local.dir
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/micro_ros_espidf_component/CMakeFiles/install/strip.dir
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/CMakeFiles/__idf_lidar_publisher.dir
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/CMakeFiles/edit_cache.dir
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/CMakeFiles/rebuild_cache.dir
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/CMakeFiles/list_install_components.dir
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/CMakeFiles/install.dir
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/CMakeFiles/install/local.dir
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/CMakeFiles/install/strip.dir
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/sysn/CMakeFiles/__idf_sysn.dir
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/sysn/CMakeFiles/edit_cache.dir
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/sysn/CMakeFiles/rebuild_cache.dir

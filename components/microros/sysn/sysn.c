@@ -1,42 +1,15 @@
 #include <sysn.h>
 
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "esp_log.h"
-#include "esp_system.h"
-#include "esp_timer.h"
-#include <uros_network_interfaces.h>
+
 #include "imu_pub.h"
+#include "lidar_pub.h"
 
 static const char *TAG = "MICRO_ROS_INIT";
 
-#define RCCHECK(fn)                                                                      \
-    {                                                                                    \
-        rcl_ret_t temp_rc = fn;                                                          \
-        if ((temp_rc != RCL_RET_OK))                                                     \
-        {                                                                                \
-            printf("Failed status on line %d: %d. Aborting.\n", __LINE__, (int)temp_rc); \
-            vTaskDelete(NULL);                                                           \
-        }                                                                                \
-    }
-#define RCSOFTCHECK(fn)                                                                    \
-    {                                                                                      \
-        rcl_ret_t temp_rc = fn;                                                            \
-        if ((temp_rc != RCL_RET_OK))                                                       \
-        {                                                                                  \
-            printf("Failed status on line %d: %d. Continuing.\n", __LINE__, (int)temp_rc); \
-        }                                                                                  \
-    }
-
-
-#define ROS_NAMESPACE      CONFIG_MICRO_ROS_NAMESPACE
-#define ROS_DOMAIN_ID      CONFIG_MICRO_ROS_DOMAIN_ID
-#define ROS_AGENT_IP       CONFIG_MICRO_ROS_AGENT_IP
-#define ROS_AGENT_PORT     CONFIG_MICRO_ROS_AGENT_PORT
 
 
 unsigned long long time_offset = 0;
-
+int handle_num = 3;
 topic_pub test_pub_topic = {
     .timer_timeout = 100
 };
@@ -46,8 +19,10 @@ topic_pub imu_pub_topic = {
 };
 
 topic_pub lidar_pub_topic = {
-    .timer_timeout = 50
+    .timer_timeout = 90
 };
+
+
 
 // 获取从开机到现在的秒数
 // Gets the number of seconds since boot
@@ -137,6 +112,14 @@ void micro_ros_task(void *arg)
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
         "test_pub"));
 
+        // 创建发布者
+    // create publisher_lidar
+    RCCHECK(rclc_publisher_init_default(
+        &lidar_pub_topic.publisher,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, LaserScan),
+        "scan"));
+
     // 创建定时器，设置发布频率
     // create timer. Set the publish frequency to 20HZ
 
@@ -152,16 +135,24 @@ void micro_ros_task(void *arg)
         RCL_MS_TO_NS(test_pub_topic.timer_timeout),
         timer1_callback));
 
+    RCCHECK(rclc_timer_init_default(
+        &lidar_pub_topic.timer,
+        &support,
+        RCL_MS_TO_NS(lidar_pub_topic.timer_timeout),
+        timer_lidar_callback));
+
     // 创建执行者，其中三个参数为执行者控制的数量，要大于或等于添加到执行者的订阅者和发布者数量。
     // create executor. Three of the parameters are the number of actuators controlled that is greater than or equal to the number of subscribers and publishers added to the executor.
     rclc_executor_t executor;
-    int handle_num = 2;
+
+
     RCCHECK(rclc_executor_init(&executor, &support.context, handle_num, &allocator));
     
     // 添加发布者的定时器到执行者
     // Adds the publisher_imu's timer to the executor
     RCCHECK(rclc_executor_add_timer(&executor, &imu_pub_topic.timer));
     RCCHECK(rclc_executor_add_timer(&executor, &test_pub_topic.timer));
+    RCCHECK(rclc_executor_add_timer(&executor, &lidar_pub_topic.timer));
 
     sync_time();
 
@@ -177,6 +168,7 @@ void micro_ros_task(void *arg)
     // free resources
     RCCHECK(rcl_publisher_fini(&imu_pub_topic.publisher, &node));
     RCCHECK(rcl_publisher_fini(&test_pub_topic.publisher, &node));
+    RCCHECK(rcl_publisher_fini(&lidar_pub_topic.publisher, &node));
     RCCHECK(rcl_node_fini(&node));
 
     vTaskDelete(NULL);

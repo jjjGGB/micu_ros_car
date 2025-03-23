@@ -8,7 +8,7 @@
 #include "motor.h"
 #include "lidar.h"
 #include "UART.h"
-
+#include "lidar_pub.h"
 #include "imu_pub.h"
 #include "sysn.h"
 // 默认的电机数量

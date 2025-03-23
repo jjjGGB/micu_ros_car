@@ -1,0 +1,27 @@
+[0/2] Re-checking globbed directories...
+[1/12] Linking C static library esp-idf/sysn/libsysn.a
+[2/12] Performing build step for 'bootloader'
+[1/1] cd /home/micu/esp/mycode/micu_ros_car/build/bootloader/esp-idf/esptool_py && /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/micu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/micu/esp/mycode/micu_ros_car/build/bootloader/bootloader.bin
+Bootloader binary size 0x51b0 bytes. 0x2e50 bytes (36%) free.
+[3/10] Building C object esp-idf/lidar_publisher/CMakeFiles/__idf_lidar_publisher.dir/lidar_pub.c.obj
+/home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher/lidar_pub.c: In function 'lidar_update_data_task':
+/home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher/lidar_pub.c:70:14: warning: variable 'index' set but not used [-Wunused-but-set-variable]
+   70 |     uint16_t index = 0;
+      |              ^~~~~
+/home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher/lidar_pub.c: At top level:
+/home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher/lidar_pub.c:4:20: warning: 'TAG' defined but not used [-Wunused-variable]
+    4 | static const char *TAG = "LIDAR_PUB";
+      |                    ^~~
+[4/10] Linking C static library esp-idf/lidar_publisher/liblidar_publisher.a
+[5/10] Linking C static library esp-idf/config/libconfig.a
+[6/10] Linking C static library esp-idf/main/libmain.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable micu_ros_car.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car.bin
+[10/10] cd /home/micu/esp/mycode/micu_ros_car/build/esp-idf/esptool_py && /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/micu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/micu/esp/mycode/micu_ros_car/build/partition_table/partition-table.bin /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car.bin
+micu_ros_car.bin binary size 0xd69d0 bytes. Smallest app partition is 0x177000 bytes. 0xa0630 bytes (43%) free.

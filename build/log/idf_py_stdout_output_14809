@@ -1,0 +1,964 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (45) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (45) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (45) boot: Multicore bootloader[0m
+[0;32mI (50) boot: chip revision: v0.2[0m
+[0;32mI (53) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (58) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (63) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (68) boot: Enabling RNG early entropy source...[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (77) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (84) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (91) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (99) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (106) boot: End of partition table[0m
+[0;32mI (111) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (135) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (139) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (146) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (220) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (237) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (237) boot: Disabling RNG early entropy source...[0m
+[0;32mI (249) cpu_start: Multicore app[0m
+[0;32mI (249) cpu_start: Pro cpu up.[0m
+[0;32mI (249) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (267) cpu_start: Pro cpu start user code[0m
+[0;32mI (267) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (267) cpu_start: Application information:[0m
+[0;32mI (270) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (276) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (281) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (287) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (293) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (299) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (304) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (309) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (313) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (321) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (327) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (334) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (340) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (347) spi_flash: detected chip: generic[0m
+[0;32mI (351) spi_flash: flash io: dio[0m
+[0;33mW (355) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (364) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (370) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (378) app_start: Starting scheduler on CPU0[0m
+[0;32mI (382) app_start: Starting scheduler on CPU1[0m
+[0;32mI (382) main_task: Started on CPU0[0m
+[0;32mI (392) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (420) pp: pp rom version: e7ae62f[0m
+[0;32mI (421) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (437) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (472) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1661) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1662) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1664) WIFI: init success![0m
+[0;32mI (1668) IIC: init success![0m
+[0;32mI (1840) OLED: oled init success![0m
+[0;32mI (1844) MPU6050: Device being calibrated.[0m
+[0;31mE (1846) MPU6050: init failed![0m
+[0;32mI ("��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1883) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1884) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1884) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1896) main_task: Returned from app_main()[0m
+[0;32mI (1957) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0). 
+
+Core  0 register dump:
+PC      : 0x4037710b  PS      : 0x00050434  A0      : 0x40377e6e  A1      : 0x3fc9b390  
+A2      : 0x00020000  A3      : 0x3fcd26e0  A4      : 0x0001ffff  A5      : 0x3fc9b350  
+A6      : 0x3fcbdde8  A7      : 0x00000000  A8      : 0x00000000  A9      : 0x4037ff12  
+A10     : 0x3fcad79c  A11     : 0x3fcdbeec  A12     : 0x00000001  A13     : 0x60013000  
+A14     : 0x00000000  A15     : 0xb33fffff  SAR     : 0x00000010  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x40056fc5  LEND    : 0x40056fe7  LCOUNT  : 0xffffffff  
+Core  0 was running in ISR context:
+EPC1    : 0x4209291b  EPC2    : 0x4037712f  EPC3    : 0x00000000  EPC4    : 0x4037710b
+
+
+Backtrace: 0x40377108:0x3fc9b390 0x40377e6b:0x3fcd26e0 0x4037647a:0x3fcd2700 0x4038417d:0x3fcd2720 0x40384b4d:0x3fcd2740 0x4003f3cb:0x3fcd2760 |<-CORRUPTED
+
+
+Core  1 register dump:
+PC      : 0x4037ad4a  PS      : 0x00060634  A0      : 0x820041a1  A1      : 0x3fcaa9e0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x8037fe46  A5      : 0x3fcc3c20  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x82020a9a  A9      : 0x3fcaa9a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x8037fe46  A13     : 0x3fcc3c20  
+A14     : 0x00060023  A15     : 0x00000003  SAR     : 0x00000000  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4037ad47:0x3fcaa9e0 0x4200419e:0x3fcaaa00 0x4037e351:0x3fcaaa20 0x4037fb5d:0x3fcaaa40
+
+
+
+
+ELF file SHA256: 1b358f716bb87634
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375954
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (477) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1626) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1627) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1629) WIFI: init success![0m
+[0;32mI (1633) IIC: init success![0m
+[0;32mI (1805) OLED: oled init success![0m
+[0;32mI (1808) MPU6050: Device being calibrated.[0m
+[0;31mE (1810) MPU6050: init failed![0m
+[0;32mI ("��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1848) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1849) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1850) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1861) main_task: Returned from app_main()[0m
+[0;32mI (1903) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Failed status on line 39: 1. Continuing.
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0). 
+
+Core  0 register dump:
+PC      : 0x4037711e  PS      : 0x00050e34  A0      : 0x40377e6e  A1      : 0x3fc9b390  
+A2      : 0x00000000  A3      : 0x00000011  A4      : 0x0000000e  A5      : 0x3fc9b350  
+A6      : 0x3fcbddf8  A7      : 0x00000000  A8      : 0x00000000  A9      : 0x4037ff12  
+A10     : 0x3fc9de5c  A11     : 0x00000002  A12     : 0x00000001  A13     : 0x60013000  
+A14     : 0xb33fffff  A15     : 0xb33fffff  SAR     : 0x00000020  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x40056f5c  LEND    : 0x40056f72  LCOUNT  : 0xffffffff  
+Core  0 was running in ISR context:
+EPC1    : 0x4209291b  EPC2    : 0x4037710b  EPC3    : 0x00000000  EPC4    : 0x4037711e
+
+
+Backtrace: 0x4037711b:0x3fc9b390 0x40377e6b:0x3fcc3d40 0x4037fe43:0x3fcc3d50 0x4037da51:0x3fcc3d70 0x4201d2d9:0x3fcc3db0 0x4200b52c:0x3fcc3df0 0x4200aa03:0x3fcc3e10 0x4200aaef:0x3fcc3e30 0x4037fb5d:0x3fcc3e90
+
+
+Core  1 register dump:
+PC      : 0x4037ad4a  PS      : 0x00060834  A0      : 0x820041a1  A1      : 0x3fcaa9e0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x8037fe46  A5      : 0x3fcc3c30  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x82020a9a  A9      : 0x3fcaa9a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x8037fe46  A13     : 0x3fcc3c30  
+A14     : 0x00060023  A15     : 0x00000003  SAR     : 0x00000000  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4037ad47:0x3fcaa9e0 0x4200419e:0x3fcaaa00 0x4037e351:0x3fcaaa20 0x4037fb5d:0x3fcaaa40
+
+
+
+
+ELF file SHA256: 1b358f716bb87634
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375954
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (478) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1623) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1624) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1626) WIFI: init success![0m
+[0;32mI (1630) IIC: init success![0m
+[0;32mI (1802) OLED: oled init success![0m
+[0;32mI (1805) MPU6050: Device being calibrated.[0m
+[0;31mE (1807) MPU6050: init failed![0m
+[0;32mI (&"��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1845) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1845) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1846) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1858) main_task: Returned from app_main()[0m
+[0;32mI (1908) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Failed status on line 39: 1. Continuing.
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0). 
+
+Core  0 register dump:
+PC      : 0x403770f8  PS      : 0x00050834  A0      : 0x3fcafef0  A1      : 0x3fc9b390  
+A2      : 0x00021009  A3      : 0x820970c0  A4      : 0x000637ff  A5      : 0x3fc9b350  
+A6      : 0x3fcbdde8  A7      : 0x00000000  A8      : 0x00000000  A9      : 0x4037ff12  
+A10     : 0x0000005f  A11     : 0x3fcb6c38  A12     : 0x00000001  A13     : 0x60013000  
+A14     : 0xb33fffff  A15     : 0xb33fffff  SAR     : 0x00000017  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x40056f5c  LEND    : 0x40056f72  LCOUNT  : 0xffffffff  
+Core  0 was running in ISR context:
+EPC1    : 0x4209291b  EPC2    : 0x40377c53  EPC3    : 0x00000000  EPC4    : 0x403770f8
+
+
+Backtrace: 0x403770f5:0x3fc9b390 0x3fcafeed:0x3fcaffb0 |<-CORRUPTED
+
+
+Core  1 register dump:
+PC      : 0x4037ad4a  PS      : 0x00060434  A0      : 0x820041a1  A1      : 0x3fcaa9e0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x8037fe46  A5      : 0x3fcc3c20  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x82020a9a  A9      : 0x3fcaa9a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x3fc9dc58  A13     : 0x3fcaa458  
+A14     : 0x3fc9dc58  A15     : 0x00000003  SAR     : 0x00000000  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4037ad47:0x3fcaa9e0 0x4200419e:0x3fcaaa00 0x4037e351:0x3fcaaa20 0x4037fb5d:0x3fcaaa40
+
+
+
+
+ELF file SHA256: 1b358f716bb87634
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375954
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (478) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1642) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1643) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1645) WIFI: init success![0m
+[0;32mI (1649) IIC: init success![0m
+[0;32mI (1821) OLED: oled init success![0m
+[0;32mI (1825) MPU6050: Device being calibrated.[0m
+[0;31mE (1827) MPU6050: init failed![0m
+[0;32mI ("��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1865) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1865) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1866) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1878) main_task: Returned from app_main()[0m
+[0;32mI (1913) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0). 
+
+Core  0 register dump:
+PC      : 0x40377c6a  PS      : 0x00050234  A0      : 0x40377138  A1      : 0x3fc9b350  
+A2      : 0x3fcbdde8  A3      : 0x00000000  A4      : 0x00000008  A5      : 0x4037ff12  
+A6      : 0x3fca9e2c  A7      : 0xb33fffff  A8      : 0x3fc99b30  A9      : 0x60013000  
+A10     : 0x00060c23  A11     : 0x00000001  A12     : 0x00000000  A13     : 0x00060023  
+A14     : 0xb33fffff  A15     : 0xb33fffff  SAR     : 0x00000018  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x40056fc5  LEND    : 0x40056fe7  LCOUNT  : 0xffffffff  
+Core  0 was running in ISR context:
+EPC1    : 0x4209291b  EPC2    : 0x40377c67  EPC3    : 0x00000000  EPC4    : 0x40377c6a
+
+
+Backtrace: 0x40377c67:0x3fc9b350 0x40377135:0x3fc9b390 0x40377e6b:0x3fcd27f0 0x42038a71:0x3fcd2810 0x42025bf3:0x3fcd2830 0x4202678e:0x3fcd2870 0x4202680a:0x3fcd28d0 0x420145f1:0x3fcd28f0 0x420143f9:0x3fcd2920 0x4201373c:0x3fcd2950 0x4201391b:0x3fcd29f0 0x4200e743:0x3fcd2a10 0x4200d005:0x3fcd2a70 0x4200bea6:0x3fcd2a90 0x42016971:0x3fcd2ac0 0x4200d4e1:0x3fcd2b00 0x4200dbf0:0x3fcd2b40 0x4200c1ec:0x3fcd2b80 0x4037fb5d:0x3fcd2c90
+
+
+Core  1 register dump:
+PC      : 0x4037ad4a  PS      : 0x00060434  A0      : 0x820041a1  A1      : 0x3fcaa9e0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x8037fe46  A5      : 0x3fcd2630  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x82020a9a  A9      : 0x3fcaa9a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x3fc9dc58  A13     : 0x3fcaa458  
+A14     : 0x3fcaa458  A15     : 0xb33fffff  SAR     : 0x00000000  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4037ad47:0x3fcaa9e0 0x4200419e:0x3fcaaa00 0x4037e351:0x3fcaaa20 0x4037fb5d:0x3fcaaa40
+
+
+
+
+ELF file SHA256: 1b358f716bb87634
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375954
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (477) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1650) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1651) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1653) WIFI: init success![0m
+[0;32mI (1657) IIC: init success![0m
+[0;32mI (1829) OLED: oled init success![0m
+[0;32mI (1832) MPU6050: Device being calibrated.[0m
+[0;31mE (1834) MPU6050: init failed![0m
+[0;32mI ("��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1872) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1873) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1873) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1885) main_task: Returned from app_main()[0m
+[0;32mI (2107) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Failed status on line 39: 1. Continuing.
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0). 
+
+Core  0 register dump:
+PC      : 0x40377c67  PS      : 0x00050634  A0      : 0x40377138  A1      : 0x3fc9b350  
+A2      : 0x3fcbddf8  A3      : 0x00000000  A4      : 0x00000008  A5      : 0x4037ff12  
+A6      : 0x3fcac69c  A7      : 0x00000000  A8      : 0x3fc99b30  A9      : 0x60013000  
+A10     : 0xb33fffff  A11     : 0xb33fffff  A12     : 0x00000000  A13     : 0x00060023  
+A14     : 0xb33fffff  A15     : 0xb33fffff  SAR     : 0x00000010  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x40056f5c  LEND    : 0x40056f72  LCOUNT  : 0xffffffff  
+Core  0 was running in ISR context:
+EPC1    : 0x4209291b  EPC2    : 0x40377100  EPC3    : 0x00000000  EPC4    : 0x40377c67
+
+
+Backtrace: 0x40377c64:0x3fc9b350 0x40377135:0x3fc9b390 0x40377e6b:0x3fcac1a0 0x40379441:0x3fcac1c0 0x40385125:0x3fcac1e0 0x400398b5:0x3fcac210 |<-CORRUPTED
+
+
+Core  1 register dump:
+PC      : 0x4037ad4a  PS      : 0x00060634  A0      : 0x820041a1  A1      : 0x3fcaa9e0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x8037fe46  A5      : 0x3fcc3c30  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x82020a9a  A9      : 0x3fcaa9a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x8037fe46  A13     : 0x3fcc3c10  
+A14     : 0x00060023  A15     : 0x00000003  SAR     : 0x00000000  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4037ad47:0x3fcaa9e0 0x4200419e:0x3fcaaa00 0x4037e351:0x3fcaaa20 0x4037fb5d:0x3fcaaa40
+
+
+
+
+ELF file SHA256: 1b358f716bb87634
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375954
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (478) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1617) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1618) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1620) WIFI: init success![0m
+[0;32mI (1624) IIC: init success![0m
+[0;32mI (1796) OLED: oled init success![0m
+[0;32mI (1800) MPU6050: Device being calibrated.[0m
+[0;31mE (1802) MPU6050: init failed![0m
+[0;32mI ("��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1839) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1840) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1841) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1853) main_task: Returned from app_main()[0m
+[0;32mI (2008) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Failed status on line 39: 1. Continuing.
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0). 
+
+Core  0 register dump:
+PC      : 0x40377c67  PS      : 0x00050c34  A0      : 0x40377138  A1      : 0x3fc9b350  
+A2      : 0x3fcbdde8  A3      : 0x00000000  A4      : 0x00000008  A5      : 0x4037ff12  
+A6      : 0xffffffff  A7      : 0xffffffff  A8      : 0x3fc99b30  A9      : 0x60013000  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x00000000  A13     : 0x00060023  
+A14     : 0xb33fffff  A15     : 0xb33fffff  SAR     : 0x0000001c  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x40056f5c  LEND    : 0x40056f72  LCOUNT  : 0xffffffff  
+Core  0 was running in ISR context:
+EPC1    : 0x4209291b  EPC2    : 0x40377cc0  EPC3    : 0x00000000  EPC4    : 0x40377c67
+
+
+Backtrace: 0x40377c64:0x3fc9b350 0x40377135:0x3fc9b390 0x40377e6b:0x3fcd28d0 0x4200802f:0x3fcd28f0 0x4201436d:0x3fcd2920 0x4201374a:0x3fcd2950 0x4201391b:0x3fcd29f0 0x4200e743:0x3fcd2a10 0x4200d005:0x3fcd2a70 0x4200c3de:0x3fcd2a90 0x42016971:0x3fcd2ac0 0x4200d4e1:0x3fcd2b00 0x4200dbf0:0x3fcd2b40 0x4200c1ec:0x3fcd2b80 0x4037fb5d:0x3fcd2c90
+
+
+Core  1 register dump:
+PC      : 0x4037ad4a  PS      : 0x00060234  A0      : 0x820041a1  A1      : 0x3fcaa9e0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x8037fe46  A5      : 0x3fcc3c20  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x82020a9a  A9      : 0x3fcaa9a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x8037fe46  A13     : 0x3fcc3c00  
+A14     : 0x00060023  A15     : 0x00000003  SAR     : 0x00000000  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4037ad47:0x3fcaa9e0 0x4200419e:0x3fcaaa00 0x4037e351:0x3fcaaa20 0x4037fb5d:0x3fcaaa40
+
+
+
+
+ELF file SHA256: 1b358f716bb87634
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375954
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (484) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1742) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1743) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1745) WIFI: init success![0m
+[0;32mI (1749) IIC: init success![0m
+[0;32mI (1921) OLED: oled init success![0m
+[0;32mI (1924) MPU6050: Device being calibrated.[0m
+[0;31mE (1926) MPU6050: init failed![0m
+[0;32mI (S"��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1963) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1964) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1965) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1977) main_task: Returned from app_main()[0m
+[0;32mI (2048) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Failed status on line 39: 1. Continuing.
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0). 
+
+Core  0 register dump:
+PC      : 0x40377138  PS      : 0x00050c34  A0      : 0x40377e6e  A1      : 0x3fc9b390  
+A2      : 0x3fcbddf8  A3      : 0x3fc997f0  A4      : 0x40377138  A5      : 0x3fc9b350  
+A6      : 0x3fcbddf8  A7      : 0x00000000  A8      : 0x00000000  A9      : 0x4037ff12  
+A10     : 0x00000036  A11     : 0x3fca1238  A12     : 0x00000001  A13     : 0x60013000  
+A14     : 0x00000000  A15     : 0x00000000  SAR     : 0x00000019  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x40056f5c  LEND    : 0x40056f72  LCOUNT  : 0xffffffff  
+Core  0 was running in ISR context:
+EPC1    : 0x4209291b  EPC2    : 0x40377cf8  EPC3    : 0x00000000  EPC4    : 0x40377138
+
+
+Backtrace: 0x40377135:0x3fc9b390 0x40377e6b:0x3fcd28e0 0x420145f1:0x3fcd2900 0x420143f9:0x3fcd2930 0x4201373c:0x3fcd2960 0x4201391b:0x3fcd2a00 0x4200e743:0x3fcd2a20 0x4200d005:0x3fcd2a80 0x4200bea6:0x3fcd2aa0 0x42016971:0x3fcd2ad0 0x4200d4e1:0x3fcd2b10 0x4200dbf0:0x3fcd2b50 0x4200c1ec:0x3fcd2b90 0x4037fb5d:0x3fcd2ca0
+
+
+Core  1 register dump:
+PC      : 0x4037ad4a  PS      : 0x00060434  A0      : 0x820041a1  A1      : 0x3fcaa9e0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x8037fe46  A5      : 0x3fcc3c30  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x82020a9a  A9      : 0x3fcaa9a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x8037fe46  A13     : 0x3fcc3c30  
+A14     : 0x00060023  A15     : 0x00000003  SAR     : 0x00000000  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4037ad47:0x3fcaa9e0 0x4200419e:0x3fcaaa00 0x4037e351:0x3fcaaa20 0x4037fb5d:0x3fcaaa40
+
+
+
+
+ELF file SHA256: 1b358f716bb87634
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375954
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: f8a1e776c00864a6ef13a950017b9a47465a64b301d4e547f13a784b1f74bebd
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 21 2025 22:21:48[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23390h (144272) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333b8 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cdc vaddr=40374000 size=0733ch ( 29500) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df4h (630260) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e1c vaddr=4037b33c size=0cc90h ( 52368) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      3059fc6-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 22 2025 12:35:19[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  1b358f716bb87634...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5EF0 len 00043820 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (479) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1618) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1619) WIFI: got ip:192.168.1.104[0m
+[0;32mI (1621) WIFI: init success![0m
+[0;32mI (1625) IIC: init success![0m
+[0;32mI (1797) OLED: oled init success![0m
+[0;32mI (1801) MPU6050: Device being calibrated.[0m
+[0;31mE (1803) MPU6050: init failed![0m
+[0;32mI ("��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+[0;32mI (1840) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1841) UART: Start Uart0_Rx_Task with core:0[0m
+ Start microROS tasks!!![0;32mI (1842) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1854) main_task: Returned from app_main()[0m
+[0;32mI (1891) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Failed status on line 39: 1. Continuing.

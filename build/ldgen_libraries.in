@@ -79,6 +79,7 @@ $<TARGET_FILE:__idf_ring_buffer>
 $<TARGET_FILE:__idf_UART>
 $<TARGET_FILE:__idf_lidar>
 $<TARGET_FILE:__idf_micro_ros_espidf_component>
+$<TARGET_FILE:__idf_lidar_publisher>
 $<TARGET_FILE:__idf_sysn>
 $<TARGET_FILE:__idf_imu_publisher>
 $<TARGET_FILE:__idf_config>

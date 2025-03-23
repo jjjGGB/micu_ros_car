@@ -26,8 +26,10 @@
 
 #define frame_head_1                0xAA
 #define frame_head_2                0x55
+#define lidar_POINT_MAX  		    360  // 雷达点数，一圈360个点
+#define lidar_POINT_PER_PACK        40   // 每包协议中的点数
 
-
+extern SemaphoreHandle_t lidar_sem;
 
 // 单个点云数据
 typedef struct {
@@ -35,7 +37,7 @@ typedef struct {
     float angle;         // 角度 (度)
 } LidarPoint_t;
 
-// LIDAR 数据帧结构体
+// LIDAR 原始数据包
 typedef struct {
     uint8_t packet_header[2]; // 帧头 (0x55AA)
     uint8_t CT;               // 包类型
@@ -43,8 +45,15 @@ typedef struct {
     uint16_t FSA;             // 起始角
     uint16_t LSA;             // 结束角
     uint16_t CS;              // 校验码
-    LidarPoint_t points[40];  // 采样点云数据 (最多 40 个)
+    LidarPoint_t points[lidar_POINT_PER_PACK];  // 采样点云数据 
 } LidarPackage_t;
+
+// 应用发布的雷达数据 
+typedef struct __attribute__((packed))
+{
+    uint16_t size;
+    LidarPoint_t points[lidar_POINT_MAX];
+} LidarPubData_t;
 
 // 解析状态机
 typedef enum {
@@ -62,6 +71,8 @@ typedef enum {
 } LidarParseState_t;
 
 void  lidar_task(void);
+uint16_t Lidar_Get_Distance(uint16_t point);
+uint16_t Lidar_Get_Size(void);
 
 #endif /* COMPONENTS_SENSOR_HMC5883L_HMC5883L_H_ */
 

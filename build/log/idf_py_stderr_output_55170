@@ -1,8 +1,0 @@
-CMake Error at /home/micu/esp/esp-idf/tools/cmake/project.cmake:349 (message):
-  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
-  /home/micu/esp/mycode/micu_ros_car/components/protocol
-Call Stack (most recent call first):
-  /home/micu/esp/esp-idf/tools/cmake/project.cmake:433 (__project_init)
-  CMakeLists.txt:14 (project)
-
-
