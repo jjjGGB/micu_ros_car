@@ -1,0 +1,711 @@
+[  0%] Built target memory_ld
+[  0%] Built target partition_table_bin
+[  0%] Built target custom_bundle
+[  0%] Built target _project_elf_src
+[35m[1mConsolidate compiler generated dependencies of target __idf_ulp[0m
+[  0%] [34m[1mPerforming build step for 'bootloader'[0m
+[  0%] Built target __idf_ulp
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_https_ota[0m
+[  0%] Built target __idf_esp_https_ota
+[35m[1mConsolidate compiler generated dependencies of target __idf_log[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_http_server[0m
+[  1%] Built target _project_elf_src
+[  4%] Built target __idf_log
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_rom[0m
+[  1%] Built target __idf_esp_http_server
+[ 14%] Built target __idf_esp_rom
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_http_client[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_common[0m
+[  1%] Built target __idf_esp_http_client
+[ 16%] Built target __idf_esp_common
+[35m[1mConsolidate compiler generated dependencies of target __idf_tcp_transport[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_hw_support[0m
+[  2%] Built target __idf_tcp_transport
+[ 25%] Built target __idf_esp_hw_support
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_gdbstub[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_system[0m
+[  3%] Built target __idf_esp_gdbstub
+[ 27%] Built target __idf_esp_system
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_eth[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_efuse[0m
+[  3%] Built target __idf_esp_eth
+[ 36%] Built target __idf_efuse
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_adc[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_bootloader_support[0m
+[  4%] Built target __idf_esp_adc
+[ 57%] Built target __idf_bootloader_support
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp-tls[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_app_format[0m
+[  5%] Built target __idf_esp-tls
+[ 58%] Built target __idf_esp_app_format
+[35m[1mConsolidate compiler generated dependencies of target __idf_http_parser[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_spi_flash[0m
+[  5%] Built target __idf_http_parser
+[ 60%] Built target __idf_spi_flash
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_wifi[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_hal[0m
+[  6%] Built target __idf_esp_wifi
+[ 65%] Built target __idf_hal
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_coex[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_micro-ecc[0m
+[  6%] Built target __idf_esp_coex
+[ 68%] Built target __idf_micro-ecc
+[35m[1mConsolidate compiler generated dependencies of target __idf_soc[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_wpa_supplicant[0m
+[ 91%] Built target __idf_soc
+[35m[1mConsolidate compiler generated dependencies of target __idf_xtensa[0m
+[ 93%] Built target __idf_xtensa
+[35m[1mConsolidate compiler generated dependencies of target __idf_main[0m
+[ 95%] Built target __idf_main
+[ 15%] Built target __idf_wpa_supplicant
+[35m[1mConsolidate compiler generated dependencies of target bootloader.elf[0m
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_netif[0m
+[ 98%] Built target bootloader.elf
+[ 16%] Built target __idf_esp_netif
+[100%] Built target gen_project_binary
+[35m[1mConsolidate compiler generated dependencies of target __idf_lwip[0m
+Bootloader binary size 0x51b0 bytes. 0x2e50 bytes (36%) free.
+[100%] Built target bootloader_check_size
+[100%] Built target app
+[ 25%] Built target __idf_lwip
+[35m[1mConsolidate compiler generated dependencies of target __idf_vfs[0m
+[ 25%] [34m[1mNo install step for 'bootloader'[0m
+[ 26%] Built target __idf_vfs
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_phy[0m
+[ 26%] [34m[1mCompleted 'bootloader'[0m
+[ 26%] Built target __idf_esp_phy
+[35m[1mConsolidate compiler generated dependencies of target __idf_nvs_flash[0m
+[ 27%] Built target bootloader
+[ 28%] Built target __idf_nvs_flash
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_event[0m
+[ 28%] Built target __idf_esp_event
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_timer[0m
+[ 28%] Built target __idf_esp_timer
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_common[0m
+[ 29%] Built target __idf_esp_common
+[35m[1mConsolidate compiler generated dependencies of target __idf_cxx[0m
+[ 29%] Built target __idf_cxx
+[35m[1mConsolidate compiler generated dependencies of target __idf_newlib[0m
+[ 31%] Built target __idf_newlib
+[35m[1mConsolidate compiler generated dependencies of target __idf_freertos[0m
+[ 33%] Built target __idf_freertos
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_hw_support[0m
+[ 37%] Built target __idf_esp_hw_support
+[35m[1mConsolidate compiler generated dependencies of target __idf_soc[0m
+[ 39%] Built target __idf_soc
+[35m[1mConsolidate compiler generated dependencies of target __idf_heap[0m
+[ 40%] Built target __idf_heap
+[35m[1mConsolidate compiler generated dependencies of target __idf_log[0m
+[ 40%] Built target __idf_log
+[35m[1mConsolidate compiler generated dependencies of target __idf_hal[0m
+[ 45%] Built target __idf_hal
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_rom[0m
+[ 46%] Built target __idf_esp_rom
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_system[0m
+[ 50%] Built target __idf_esp_system
+[35m[1mConsolidate compiler generated dependencies of target __idf_pthread[0m
+[ 51%] Built target __idf_pthread
+[35m[1mConsolidate compiler generated dependencies of target __idf_spi_flash[0m
+[ 53%] Built target __idf_spi_flash
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_mm[0m
+[ 53%] Built target __idf_esp_mm
+[35m[1mConsolidate compiler generated dependencies of target __idf_app_update[0m
+[ 54%] Built target __idf_app_update
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_partition[0m
+[ 55%] Built target __idf_esp_partition
+[35m[1mConsolidate compiler generated dependencies of target __idf_bootloader_support[0m
+[ 56%] Built target __idf_bootloader_support
+[35m[1mConsolidate compiler generated dependencies of target __idf_esp_app_format[0m
+[ 56%] Built target __idf_esp_app_format
+[35m[1mConsolidate compiler generated dependencies of target mbedtls[0m
+[ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/micu/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj[0m
+[ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj[0m
+[ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj[0m
+[ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj[0m
+[ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/micu/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj[0m
+[ 56%] [32m[1mLinking CXX static library libmbedtls.a[0m
+[ 58%] Built target mbedtls
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.obj[0m
+[ 59%] [32m[1mLinking CXX static library libmbedx509.a[0m
+[ 59%] Built target mbedx509
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj[0m
+[ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesce.c.obj[0m
+[ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj[0m
+[ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj[0m
+[ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj[0m
+[ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj[0m
+[ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj[0m
+[ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_core.c.obj[0m
+[ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod_raw.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj[0m
+[ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.obj[0m
+[ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hkdf.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lmots.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lms.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md5.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/nist_kw.c.obj[0m
+[ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/oid.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/padlock.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pem.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs12.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs5.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkparse.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkwrite.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform.c.obj[0m
+[ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform_util.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/poly1305.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.obj[0m
+[ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_pake.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_util.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ripemd160.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa.c.obj[0m
+[ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha1.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha512.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/threading.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/timing.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version_features.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj[0m
+[ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.obj[0m
+[ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp32s3/bignum.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/md/esp_md.c.obj[0m
+[ 69%] [32m[1mLinking CXX static library libmbedcrypto.a[0m
+[ 69%] Built target mbedcrypto
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.obj[0m
+[ 69%] [32m[1mLinking CXX static library libp256m.a[0m
+[ 69%] Built target p256m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/everest.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/x25519.c.obj[0m
+[ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj[0m
+[ 69%] [32m[1mLinking CXX static library libeverest.a[0m
+[ 69%] Built target everest
+[ 70%] [34m[1mGenerating x509_crt_bundle[0m
+[ 70%] [34m[1mGenerating ../../x509_crt_bundle.S[0m
+[35m[1mScanning dependencies of target __idf_mbedtls[0m
+[ 70%] [32mBuilding C object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj[0m
+[ 70%] [32mBuilding ASM object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj[0m
+[ 70%] [32m[1mLinking C static library libmbedtls.a[0m
+[ 70%] Built target __idf_mbedtls
+[ 70%] [32mBuilding C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj[0m
+[ 70%] [32mBuilding C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj[0m
+[ 71%] [32mBuilding C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj[0m
+[ 71%] [32m[1mLinking C static library libesp_pm.a[0m
+[ 71%] Built target __idf_esp_pm
+[ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio.c.obj[0m
+[ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/spi_bus_lock.c.obj[0m
+[ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/rtc_io.c.obj[0m
+[ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio_glitch_filter_ops.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/dedic_gpio.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio_pin_glitch_filter.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer/gptimer.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer/gptimer_priv.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_common.c.obj[0m
+[ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_std.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_pdm.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_tdm.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/ledc/ledc.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cap.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cmpr.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_com.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_fault.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_gen.c.obj[0m
+[ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_oper.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_sync.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_timer.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/pcnt/pulse_cnt.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_common.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_encoder.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_rx.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_tx.c.obj[0m
+[ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc/sdmmc_transaction.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc/sdmmc_host.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sigma_delta/sdm.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_common.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_master.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_slave.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_crc.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_host.c.obj[0m
+[ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_transaction.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_slave_hd.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/temperature_sensor/temperature_sensor.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/uart/uart.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/usb_serial_jtag/usb_serial_jtag.c.obj[0m
+[ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/usb_serial_jtag/usb_serial_jtag_connection_monitor.c.obj[0m
+[ 76%] [32m[1mLinking C static library libdriver.a[0m
+[ 76%] Built target __idf_driver
+[ 76%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj[0m
+[ 77%] [32m[1mLinking C static library libefuse.a[0m
+[ 77%] Built target __idf_efuse
+[ 77%] [32mBuilding C object esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj[0m
+[ 77%] [32m[1mLinking C static library libesp_ringbuf.a[0m
+[ 77%] Built target __idf_esp_ringbuf
+[35m[1mScanning dependencies of target __idf_xtensa[0m
+[ 77%] [32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr.c.obj[0m
+[ 77%] [32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj[0m
+[ 78%] [32mBuilding ASM object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj[0m
+[ 78%] [32m[1mLinking C static library libxtensa.a[0m
+[ 78%] Built target __idf_xtensa
+[ 78%] [32mBuilding C object esp-idf/imu_ahrs/CMakeFiles/__idf_imu_ahrs.dir/MadgwickAHRS.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/imu_ahrs/CMakeFiles/__idf_imu_ahrs.dir/MahonyAHRS.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj[0m
+[ 78%] [32m[1mLinking C static library libimu_ahrs.a[0m
+[ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj[0m
+[ 78%] Built target __idf_imu_ahrs
+[ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj[0m
+[ 78%] [32m[1mLinking C static library libapp_trace.a[0m
+[ 78%] [32mBuilding C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj[0m
+[ 78%] Built target __idf_app_trace
+[ 78%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj[0m
+[ 78%] [32mBuilding C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj[0m
+[ 79%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj[0m
+[ 79%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.obj[0m
+[ 79%] [32m[1mLinking C static library libunity.a[0m
+[ 80%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj[0m
+[ 80%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.obj[0m
+[ 80%] [32mBuilding C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj[0m
+[ 80%] Built target __idf_unity
+[ 81%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.obj[0m
+[ 81%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj[0m
+[ 81%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj[0m
+[ 81%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.obj[0m
+[ 82%] [32m[1mLinking C static library libesp_hid.a[0m
+[ 82%] [32mBuilding C object esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj[0m
+[ 82%] Built target __idf_esp_hid
+[ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj[0m
+[ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj[0m
+[ 83%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj[0m
+[ 83%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj[0m
+[ 83%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj[0m
+[ 83%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i80.c.obj[0m
+[ 84%] [32m[1mLinking C static library libprotobuf-c.a[0m
+[ 84%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj[0m
+[ 84%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj[0m
+[ 84%] Built target __idf_protobuf-c
+[ 84%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_rgb.c.obj[0m
+[ 84%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj[0m
+[ 84%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj[0m
+[ 84%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj[0m
+[ 85%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj[0m
+[ 85%] [32m[1mLinking C static library libespcoredump.a[0m
+[ 85%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj[0m
+[ 85%] Built target __idf_espcoredump
+[ 85%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj[0m
+[ 85%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj[0m
+[ 85%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj[0m
+[ 85%] [32m[1mLinking C static library libesp_lcd.a[0m
+[ 85%] [32m[1mLinking C static library libconsole.a[0m
+[ 85%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj[0m
+[ 85%] Built target __idf_esp_lcd
+[ 85%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj[0m
+[ 85%] Built target __idf_console
+[ 85%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj[0m
+[ 86%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj[0m
+[ 86%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj[0m
+[ 86%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj[0m
+[ 86%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj[0m
+[ 86%] [32mBuilding C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj[0m
+[ 87%] [32mBuilding C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj[0m
+[ 87%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj[0m
+[ 87%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj[0m
+[ 87%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj[0m
+[ 88%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj[0m
+[ 88%] [32m[1mLinking C static library libwear_levelling.a[0m
+[ 88%] [32m[1mLinking C static library libjson.a[0m
+[ 88%] Built target __idf_wear_levelling
+[ 88%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj[0m
+[ 88%] Built target __idf_json
+[ 88%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj[0m
+[ 88%] [32m[1mLinking C static library libsdmmc.a[0m
+[ 88%] Built target __idf_sdmmc
+[ 88%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj[0m
+[ 89%] [32mBuilding C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_element.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj[0m
+[ 90%] [32m[1mLinking C static library libmqtt.a[0m
+[ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj[0m
+[ 90%] Built target __idf_mqtt
+[ 90%] [32m[1mLinking C static library libperfmon.a[0m
+[ 90%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/hcd_dwc.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj[0m
+[ 90%] Built target __idf_perfmon
+[ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_button.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/hub.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_slider.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_matrix.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj[0m
+[ 90%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_helpers.c.obj[0m
+[ 91%] [32m[1mLinking C static library libtouch_element.a[0m
+[ 91%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_host.c.obj[0m
+[ 91%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_private.c.obj[0m
+[ 91%] Built target __idf_touch_element
+[ 91%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usbh.c.obj[0m
+[ 92%] [32mBuilding C object esp-idf/espressif__pid_ctrl/CMakeFiles/__idf_espressif__pid_ctrl.dir/src/pid_ctrl.c.obj[0m
+[ 92%] [32m[1mLinking C static library libespressif__pid_ctrl.a[0m
+[ 92%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj[0m
+[ 92%] Built target __idf_espressif__pid_ctrl
+[ 92%] [32mBuilding C object esp-idf/esp32_i2c_rw/CMakeFiles/__idf_esp32_i2c_rw.dir/esp32_i2c_rw.c.obj[0m
+[ 92%] [32mBuilding C object esp-idf/proto_utils/CMakeFiles/__idf_proto_utils.dir/proto_utils.c.obj[0m
+[ 92%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_phy.c.obj[0m
+[ 92%] [32m[1mLinking C static library libesp32_i2c_rw.a[0m
+[ 92%] [32m[1mLinking C static library libproto_utils.a[0m
+[ 92%] Built target __idf_esp32_i2c_rw
+[ 92%] Built target __idf_proto_utils
+[ 92%] [32m[1mLinking C static library libspiffs.a[0m
+[ 92%] [32mBuilding C object esp-idf/rotary_encoder/CMakeFiles/__idf_rotary_encoder.dir/src/rotary_encoder_pcnt_ec11.c.obj[0m
+[ 92%] [32mBuilding C object esp-idf/WP_Math/CMakeFiles/__idf_WP_Math.dir/WP_Math.c.obj[0m
+[ 92%] [32m[1mLinking C static library libusb.a[0m
+In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/rotary_encoder/src/rotary_encoder_pcnt_ec11.c:19[m[K:
+[01m[K/home/micu/esp/esp-idf/components/driver/deprecated/driver/pcnt.h:15:2:[m[K [01;35m[Kwarning: [m[K#warning "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   15 | #[01;35m[Kwarning[m[K "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h"
+      |  [01;35m[K^~~~~~~[m[K
+[ 92%] Built target __idf_spiffs
+[ 92%] [32m[1mLinking C static library librotary_encoder.a[0m
+[ 92%] [32mBuilding C object esp-idf/mcu_dmp/CMakeFiles/__idf_mcu_dmp.dir/mcu_dmp.c.obj[0m
+[ 92%] Built target __idf_usb
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K In function '[01m[Kekf_update[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:370:11:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[KF[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  370 |     float [01;35m[KF[m[K[2][2] = {{1.0f, dt}, {0.0f, 1.0f}};
+      |           [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K In function '[01m[Kimu_get_euler_angles[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:411:18:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Klast_raw_yaw[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  411 |     static float [01;35m[Klast_raw_yaw[m[K = 0.0f;
+      |                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K At top level:
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:103:14:[m[K [01;35m[Kwarning: [m[K'[01m[Kfiltered_yaw_rate[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  103 | static float [01;35m[Kfiltered_yaw_rate[m[K = 0.0f;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 92%] [32m[1mLinking C static library libWP_Math.a[0m
+[ 92%] [32mBuilding C object esp-idf/ring_buffer/CMakeFiles/__idf_ring_buffer.dir/ring_buffer.c.obj[0m
+[ 92%] Built target __idf_rotary_encoder
+[ 92%] [32mBuilding C object esp-idf/micro_ros_espidf_component/CMakeFiles/__idf_micro_ros_espidf_component.dir/network_interfaces/uros_ethernet_netif.c.obj[0m
+[ 92%] [32m[1mLinking C static library libmcu_dmp.a[0m
+[ 92%] Built target __idf_WP_Math
+[ 92%] [32m[1mLinking C static library libring_buffer.a[0m
+[ 93%] [32mBuilding C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj[0m
+[ 93%] Built target __idf_mcu_dmp
+[ 93%] [32mBuilding C object esp-idf/micro_ros_espidf_component/CMakeFiles/__idf_micro_ros_espidf_component.dir/network_interfaces/uros_wlan_netif.c.obj[0m
+[ 93%] Built target __idf_ring_buffer
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns.c.obj[0m
+[ 93%] [32m[1mLinking C static library libcmock.a[0m
+[ 93%] Built target __idf_cmock
+[ 93%] [32m[1mLinking C static library libmicro_ros_espidf_component.a[0m
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj[0m
+[ 93%] Built target __idf_micro_ros_espidf_component
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns_mem_caps.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/proto_define/CMakeFiles/__idf_proto_define.dir/proto.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj[0m
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_potocol_config_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:13:31:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_protocol_config_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_proto_mode_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_proto_mode_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_proto_mode_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   13 |   update_protocol_config_fun_ [01;35m[K=[m[K update_protocol_config_fun;
+      |                               [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_wifi_config_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:30:27:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_wifi_config_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_wifi_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_wifi_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_wifi_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   30 |   update_wifi_config_fun_ [01;35m[K=[m[K update_wifi_config_fun;
+      |                           [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_pid_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:46:26:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_pid_params_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_pid_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_pid_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   46 |   update_pid_params_fun_ [01;35m[K=[m[K update_pid_params_fun;
+      |                          [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_motor_speed_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:58:28:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_speed_params_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_motor_speed_ctrl_data_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_motor_speed_ctrl_data_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_motor_speed_ctrl_data_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   58 |   update_speed_params_fun_ [01;35m[K=[m[K update_motor_speed_ctrl_fun;// 将传入的函数指针保存到全局变量
+      |                            [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_deal_frame_data[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:86:19:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kframe_size[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   86 |   static uint16_t [01;35m[Kframe_size[m[K = 0;
+      |                   [01;35m[K^~~~~~~~~~[m[K
+[ 93%] [32m[1mLinking C static library libproto_define.a[0m
+[ 93%] Built target __idf_proto_define
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns_networking_lwip.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj[0m
+[ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj[0m
+[ 94%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj[0m
+[ 95%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj[0m
+[ 95%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj[0m
+[ 95%] [32mBuilding C object esp-idf/motor/CMakeFiles/__idf_motor.dir/motor.c.obj[0m
+[ 95%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj[0m
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:[m[K In function '[01m[Kupdate_motor_pid_param[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:73:40:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of '[01m[Kpid_update_parameters[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   73 |     pid_update_parameters(pid_motor[0],[01;35m[K&proto_pid_data[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K
+      |                                        [01;35m[Kproto_data_pid_config_t **[m[K
+In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/include/motor.h:12[m[K,
+                 from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:1[m[K:
+[01m[K/home/micu/esp/mycode/micu_ros_car/managed_components/espressif__pid_ctrl/include/pid_ctrl.h:84:90:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kconst pid_ctrl_parameter_t *[m[K' but argument is of type '[01m[Kproto_data_pid_config_t **[m[K'
+   84 | esp_err_t pid_update_parameters(pid_ctrl_block_handle_t pid, [01;36m[Kconst pid_ctrl_parameter_t *params[m[K);
+      |                                                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:[m[K In function '[01m[Kmotor_init[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:136:35:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of '[01m[Kproto_register_update_pid_fun[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+  136 |     proto_register_update_pid_fun([01;35m[Kupdate_motor_pid_param[m[K);
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                   [01;35m[K|[m[K
+      |                                   [01;35m[Kuint8_t (*)(proto_data_pid_config_t *) {aka unsigned char (*)(proto_data_pid_config_t *)}[m[K
+In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/include/motor.h:18[m[K:
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/include/proto.h:200:30:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kuint8_t (**)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_pid_config_t *)[m[K'} but argument is of type '[01m[Kuint8_t (*)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (*)(proto_data_pid_config_t *)[m[K'}
+  200 |     [01;36m[Kupdate_pid_params_fun_t *update_pid_params_fun[m[K);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[ 96%] [32m[1mLinking C static library libmotor.a[0m
+[ 96%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj[0m
+[ 96%] Built target __idf_motor
+[ 96%] [32m[1mLinking C static library libfatfs.a[0m
+[ 96%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns_console.c.obj[0m
+[ 96%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj[0m
+[ 96%] Built target __idf_fatfs
+[ 96%] [32mBuilding C object esp-idf/mpu6050/CMakeFiles/__idf_mpu6050.dir/mpu6050.c.obj[0m
+[ 96%] [32mBuilding C object esp-idf/UART/CMakeFiles/__idf_UART.dir/UART.c.obj[0m
+[ 96%] [32m[1mLinking C static library libprotocomm.a[0m
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[Kmpu6050_madgwick_quaternion_update[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3094:8:[m[K [01;35m[Kwarning: [m[Kusing integer absolute value function '[01m[Kabs[m[K' when argument is of floating-point type '[01m[Kfloat[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value-Wabsolute-value]8;;[m[K]
+ 3094 |     if([01;35m[Kabs[m[K(yaw_buf[9]-yaw_buf[0])<=0.0001)
+      |        [01;35m[K^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kprev_time[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 3020 |     uint64_t now_time = 0, [01;35m[Kprev_time[m[K = 0;
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:14:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Know_time[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 3020 |     uint64_t [01;35m[Know_time[m[K = 0, prev_time = 0;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[KMahonyAHRSupdateIMU[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3199:8:[m[K [01;35m[Kwarning: [m[Kusing integer absolute value function '[01m[Kabs[m[K' when argument is of floating-point type '[01m[Kfloat[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value-Wabsolute-value]8;;[m[K]
+ 3199 |     if([01;35m[Kabs[m[K(yaw_buf[9]-yaw_buf[0])<=0.0001)
+      |        [01;35m[K^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[Kget_mpu6050_euler_angle[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of '[01m[Kmpu6050_get_motion[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+ 3273 |         mpu6050_get_motion([01;35m[Kaccel_[m[K,gyro_);
+      |                            [01;35m[K^~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint16_t * {aka short int *}[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1638:29:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kmpu6050_acceleration_t *[m[K' {aka '[01m[Kstruct _mpu6050_acceleration_t *[m[K'} but argument is of type '[01m[Kint16_t *[m[K' {aka '[01m[Kshort int *[m[K'}
+ 1638 |     [01;36m[Kmpu6050_acceleration_t *data_accel[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:35:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of '[01m[Kmpu6050_get_motion[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+ 3273 |         mpu6050_get_motion(accel_,[01;35m[Kgyro_[m[K);
+      |                                   [01;35m[K^~~~~[m[K
+      |                                   [01;35m[K|[m[K
+      |                                   [01;35m[Kint16_t * {aka short int *}[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1639:25:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kmpu6050_rotation_t *[m[K' {aka '[01m[Kstruct _mpu6050_rotation_t *[m[K'} but argument is of type '[01m[Kint16_t *[m[K' {aka '[01m[Kshort int *[m[K'}
+ 1639 |     [01;36m[Kmpu6050_rotation_t *data_gyro[m[K)
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[ 96%] Built target __idf_protocomm
+[ 96%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj[0m
+[ 96%] [32m[1mLinking C static library libUART.a[0m
+[ 96%] [32m[1mLinking C static library libespressif__mdns.a[0m
+[ 96%] Built target __idf_UART
+[ 96%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj[0m
+[ 96%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_ctrl.c.obj[0m
+[ 96%] Built target __idf_espressif__mdns
+[ 96%] [32mBuilding C object esp-idf/oled/CMakeFiles/__idf_oled.dir/oled.c.obj[0m
+[ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj[0m
+[ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj[0m
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:[m[K In function '[01m[Koled_ascii[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:150:63:[m[K [01;35m[Kwarning: [m[Kiteration 6 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+  150 |       esp32_i2c_write_byte(OLED_ADDR, 0x40, [01;35m[Kascii[str[i] - 32][j][m[K);
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:149:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+  149 |     for (int j = 0; [01;36m[Kj < 8[m[K; j++) {
+      |                     [01;36m[K~~^~~[m[K
+[ 97%] [32m[1mLinking C static library liboled.a[0m
+[ 97%] [32m[1mLinking C static library libmpu6050.a[0m
+[ 97%] Built target __idf_oled
+[ 97%] Built target __idf_mpu6050
+[ 97%] [32mBuilding C object esp-idf/lidar/CMakeFiles/__idf_lidar.dir/lidar.c.obj[0m
+[ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj[0m
+[ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj[0m
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:[m[K In function '[01m[Kparse_lidar_byte[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:108:34:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Ksimilar_flag[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  108 |                   static uint8_t [01;35m[Ksimilar_flag[m[K = 0;  // 记录是否是相同角度的标志位
+      |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:107:32:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Klast_angle[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  107 |                   static float [01;35m[Klast_angle[m[K = -1;  // 记录上一个点的角度
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:[m[K At top level:
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:3:20:[m[K [01;35m[Kwarning: [m[K'[01m[KTAG[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    3 | static const char *[01;35m[KTAG[m[K = "lidar";
+      |                    [01;35m[K^~~[m[K
+[ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj[0m
+[ 98%] [32m[1mLinking C static library liblidar.a[0m
+[ 98%] [32mBuilding C object esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj[0m
+[ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj[0m
+[ 98%] Built target __idf_lidar
+[ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_ctrl.pb-c.c.obj[0m
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kevent_handler[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:60:47:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kevent[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   60 |                 wifi_event_ap_staconnected_t *[01;35m[Kevent[m[K =
+      |                                               [01;35m[K^~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:69:50:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kevent[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   69 |                 wifi_event_ap_stadisconnected_t *[01;35m[Kevent[m[K =
+      |                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kset_wifi_config[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:104:18:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kproto_data_wifi_config_t *[m[K' from incompatible pointer type '[01m[Kwifi_config_t *[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+  104 |     wifi_config_ [01;35m[K=[m[K wifi_config;
+      |                  [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kwifi_set_ap[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:111:21:[m[K [01;35m[Kwarning: [m[Kinitialization of '[01m[Kesp_err_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kchar *[m[K' makes integer from pointer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+  111 |     esp_err_t ret = [01;35m[K"ESP-OK"[m[K;
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kwifi_set_sta[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:214:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kbits[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  214 |     EventBits_t [01;35m[Kbits[m[K = xEventGroupWaitBits(
+      |                 [01;35m[K^~~~[m[K
+[ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj[0m
+[ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj[0m
+[ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj[0m
+[ 98%] [32m[1mLinking C static library libwifi.a[0m
+[ 98%] [32mBuilding C object esp-idf/imu_publisher/CMakeFiles/__idf_imu_publisher.dir/imu_pub.c.obj[0m
+[ 98%] Built target __idf_wifi
+[ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj[0m
+[ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj[0m
+[ 98%] [32m[1mLinking C static library libwifi_provisioning.a[0m
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] [32m[1mLinking C static library libesp_local_ctrl.a[0m
+[ 98%] Built target __idf_esp_local_ctrl
+[ 98%] [32m[1mLinking C static library libimu_publisher.a[0m
+[ 98%] Built target __idf_imu_publisher
+[ 98%] [32mBuilding C object esp-idf/sysn/CMakeFiles/__idf_sysn.dir/sysn.c.obj[0m
+[ 98%] [32m[1mLinking C static library libsysn.a[0m
+[ 98%] Built target __idf_sysn
+[ 98%] [32mBuilding C object esp-idf/lidar_publisher/CMakeFiles/__idf_lidar_publisher.dir/lidar_pub.c.obj[0m
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher/lidar_pub.c:4:20:[m[K [01;35m[Kwarning: [m[K'[01m[KTAG[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    4 | static const char *[01;35m[KTAG[m[K = "LIDAR_PUB";
+      |                    [01;35m[K^~~[m[K
+[ 98%] [32m[1mLinking C static library liblidar_publisher.a[0m
+[ 98%] Built target __idf_lidar_publisher
+[ 98%] [32mBuilding C object esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj[0m
+[ 98%] [32m[1mLinking C static library libconfig.a[0m
+[ 98%] Built target __idf_config
+[ 98%] [32mBuilding C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj[0m
+[ 98%] [32m[1mLinking C static library libmain.a[0m
+[ 98%] Built target __idf_main
+[ 98%] [34m[1mGenerating ld/sections.ld[0m
+[ 98%] Built target __ldgen_output_sections.ld
+[ 98%] [32mBuilding C object CMakeFiles/micu_ros_car.elf.dir/project_elf_src_esp32s3.c.obj[0m
+[ 98%] [32m[1mLinking CXX executable micu_ros_car.elf[0m
+/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/ld: final link failed: No space left on device
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/micu_ros_car.elf.dir/build.make:581: micu_ros_car.elf] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:2375: CMakeFiles/micu_ros_car.elf.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

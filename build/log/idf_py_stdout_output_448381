@@ -1,0 +1,650 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (45) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (45) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (45) boot: Multicore bootloader[0m
+[0;32mI (50) boot: chip revision: v0.2[0m
+[0;32mI (53) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (58) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (63) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (68) boot: Enabling RNG early entropy source...[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (77) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (84) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (91) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (99) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (106) boot: End of partition table[0m
+[0;32mI (111) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23338h (144184) map[0m
+[0;32mI (135) esp_image: segment 1: paddr=00033360 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (139) esp_image: segment 2: paddr=00038c84 vaddr=40374000 size=07394h ( 29588) load[0m
+[0;32mI (146) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df0h (630256) map[0m
+[0;32mI (220) esp_image: segment 4: paddr=000d9e18 vaddr=4037b394 size=0cc38h ( 52280) load[0m
+[0;32mI (237) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (237) boot: Disabling RNG early entropy source...[0m
+[0;32mI (249) cpu_start: Multicore app[0m
+[0;32mI (249) cpu_start: Pro cpu up.[0m
+[0;32mI (249) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (267) cpu_start: Pro cpu start user code[0m
+[0;32mI (267) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (267) cpu_start: Application information:[0m
+[0;32mI (270) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (276) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (281) cpu_start: Compile time:     Mar 24 2025 13:26:48[0m
+[0;32mI (287) cpu_start: ELF file SHA256:  c431cbd5fbed47f5...[0m
+[0;32mI (293) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (299) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (304) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (309) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (313) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (321) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (327) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (334) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (340) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (347) spi_flash: detected chip: generic[0m
+[0;32mI (351) spi_flash: flash io: dio[0m
+[0;33mW (355) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (364) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (370) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (378) app_start: Starting scheduler on CPU0[0m
+[0;32mI (382) app_start: Starting scheduler on CPU1[0m
+[0;32mI (382) main_task: Started on CPU0[0m
+[0;32mI (392) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (420) pp: pp rom version: e7ae62f[0m
+[0;32mI (421) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (437) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (474) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1655) esp_netif_handlers: sta ip: 192.168.1.100, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1656) WIFI: got ip:192.168.1.100[0m
+[0;32mI (1657) WIFI: init success![0m
+[0;32mI (1662) IIC: init success![0m
+[0;32mI (1835) OLED: oled init success![0m
+[0;32mI (1839) MPU6050: Device being calibrated.[0m
+[0;31mE (1841) MPU6050: init failed![0m
+[0;32mI (	"��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+ Start microROS tasks!!![0;32mI (1878) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+[0;32mI (1878) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1878) UART: Start Uart0_Rx_Task with core:0[0m
+[0;32mI (1886) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1896) LIDAR_PUB: 发布0个点云数据[0m
+[0;32mI (1899) main_task: Returned from app_main()[0m
+[0;32mI (1903) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1912) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1917) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1921) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1925) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1929) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1934) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1938) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1942) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1946) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1951) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1955) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1959) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1964) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1968) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1972) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1977) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1983) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1986) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1990) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1995) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1999) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2003) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2010) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2013) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2016) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2020) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2025) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2029) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2034) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2038) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2042) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2046) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2051) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2055) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2059) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2064) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2068) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2072) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2077) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2082) LIDAR_PUB: Distance: 0.000 m[0m
+
+***ERROR*** A stack overflow in task lidar_update_da has been detected.
+
+
+Backtrace: 0x40375ad2:0x3fce3c60 0x4037d111:0x3fce3c80 0x4037fe8e:0x3fce3ca0 0x4037e84b:0x3fce3d20 0x4037ff9c:0x3fce3d40 0x4037ff92:0x3fce3d60 0x7ffffffc:0x00000000 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: c431cbd5fbed47f5
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037fcf8
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23338h (144184) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=00033360 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038c84 vaddr=40374000 size=07394h ( 29588) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df0h (630256) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e18 vaddr=4037b394 size=0cc38h ( 52280) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 24 2025 13:26:48[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  c431cbd5fbed47f5...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (486) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1629) esp_netif_handlers: sta ip: 192.168.1.100, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1630) WIFI: got ip:192.168.1.100[0m
+[0;32mI (1631) WIFI: init success![0m
+[0;32mI (1636) IIC: init success![0m
+[0;32mI (1809) OLED: oled init success![0m
+[0;32mI (1814) MPU6050: Device being calibrated.[0m
+[0;31mE (1816) MPU6050: init failed![0m
+[0;32mI (1�&�+��0��数���置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+ Start microROS tasks!!![0;32mI (1853) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+[0;32mI (1853) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1853) UART: Start Uart0_Rx_Task with core:0[0m
+[0;32mI (1860) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1873) main_task: Returned from app_main()[0m
+[0;32mI (1871) LIDAR_PUB: 发布0个点云数据[0m
+[0;32mI (1883) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1887) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1891) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1895) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1900) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1905) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1908) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1913) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1917) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1921) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1927) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1930) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1934) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1939) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1943) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1947) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1952) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1956) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1961) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1965) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1970) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1974) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1978) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1982) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1987) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1991) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1997) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2000) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2004) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2009) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2013) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2017) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2022) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2026) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2030) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2035) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2039) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2043) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2047) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2052) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2056) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI 
+***ERROR*** A stack overflow in task lidar_update_da has been detected.
+
+
+Backtrace: 0x40375ad2:0x3fce3b20 0x4037d111:0x3fce3b40 0x4037fe8e:0x3fce3b60 0x4037e84b:0x3fce3be0 0x4037ff9c:0x3fce3c00 0x4037ff92:0x01d418d6 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: c431cbd5fbed47f5
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037ac60
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23338h (144184) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=00033360 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038c84 vaddr=40374000 size=07394h ( 29588) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df0h (630256) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e18 vaddr=4037b394 size=0cc38h ( 52280) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 24 2025 13:26:48[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  c431cbd5fbed47f5...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (489) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1632) esp_netif_handlers: sta ip: 192.168.1.100, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1633) WIFI: got ip:192.168.1.100[0m
+[0;32mI (1635) WIFI: init success![0m
+[0;32mI (1639) IIC: init success![0m
+[0;32mI (1813) OLED: oled init success![0m
+[0;32mI (1816) MPU6050: Device being calibrated.[0m
+[0;31mE (1818) MPU6050: init failed![0m
+[0;32mI ($"��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+ Start microROS tasks!!![0;32mI (1856) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+[0;32mI (1856) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1857) UART: Start Uart0_Rx_Task with core:0[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1868) LIDAR_PUB: 发布0个点云数据[0m
+[0;32mI (1874) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1878) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1883) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1887) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1892) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1896) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1900) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1905) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1909) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1913) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1918) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1922) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1926) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1931) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1935) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1939) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1944) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1948) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1952) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1957) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1961) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1965) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1970) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1974) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1978) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1983) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1873) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+[0;32mI (1987) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1869) main_task: Returned from app_main()[0m
+[0;32mI (1998) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2008) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2011) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2016) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2020) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2025) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2029) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2034) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2037) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2042) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2047) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2050) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2055) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2059) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI
+***ERROR*** A stack overflow in task lidar_update_da has been detected.
+
+
+Backtrace: 0x40375ad2:0x3fce3a80 0x4037d111:0x3fce3aa0 0x4037fe8e:0x3fce3ac0 0x4037e84b:0x3fce3b40 0x4037ff9c:0x3fce3b60 0x4037ff92:0x01f06adc |<-CORRUPTED
+
+
+
+
+ELF file SHA256: c431cbd5fbed47f5
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037fcec
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23338h (144184) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=00033360 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038c84 vaddr=40374000 size=07394h ( 29588) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df0h (630256) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e18 vaddr=4037b394 size=0cc38h ( 52280) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 24 2025 13:26:48[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  c431cbd5fbed47f5...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (490) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1674) esp_netif_handlers: sta ip: 192.168.1.100, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1675) WIFI: got ip:192.168.1.100[0m
+[0;32mI (1676) WIFI: init success![0m
+[0;32mI (1681) IIC: init success![0m
+[0;32mI (1856) OLED: oled init success![0m
+[0;32mI (1860) MPU6050: Device being calibrated.[0m
+[0;31mE (1862) MPU6050: init failed![0m
+[0;32mI ("��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+ Start microROS tasks!!![0;32mI (1899) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+[0;32mI (1899) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1899) UART: Start Uart0_Rx_Task with core:0[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1912) main_task: Returned from app_main()[0m
+[0;32mI (1912) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+[0;32mI (1910) LIDAR_PUB: 发布0个点云数据[0m
+[0;32mI (1928) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1933) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1937) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1941) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1945) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1950) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1954) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1958) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1963) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1967) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1971) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1976) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1980) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1985) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1989) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1993) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (1998) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2002) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2006) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2011) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2015) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2019) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2024) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2028) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2032) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2037) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2041) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2045) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2050) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2054) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2059) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2063) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2067) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2071) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2076) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2081) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2084) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2089) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2093) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2098) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (2102) LIDAR_PUB: Distance: 0.000 m[0m
+[0;32mI (21
+***ERROR*** A stack overflow in task lidar_update_da has been detected.
+
+
+Backtrace: 0x40375ad2:0x3fce3b10 0x4037d111:0x3fce3b30 0x4037fe8e:0x3fce3b50 0x4037e84b:0x3fce3bd0 0x4037ff9c:0x3fce3bf0 0x4037ff92:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: c431cbd5fbed47f5
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037fcf5
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23338h (144184) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=00033360 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038c84 vaddr=40374000 size=07394h ( 29588) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99df0h (630256) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e18 vaddr=4037b394 size=0cc38h ( 52280) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 24 2025 13:26:48[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  c431cbd5fbed47f5...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (477) WIFI: wifi_init_sta finished.[0m

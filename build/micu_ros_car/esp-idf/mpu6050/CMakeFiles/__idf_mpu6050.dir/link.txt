@@ -1,0 +1,2 @@
+/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ar qc libmpu6050.a CMakeFiles/__idf_mpu6050.dir/mpu6050.c.obj
+/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ranlib libmpu6050.a

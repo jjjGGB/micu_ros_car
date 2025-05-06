@@ -61,5 +61,5 @@ bool wifi_init(void);
  * @return wifi_status_t
  */
 wifi_status_t get_wifi_ip(char *ip_address);
-
+esp_err_t start_mdns_service(void);
 #endif

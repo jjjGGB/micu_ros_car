@@ -45,7 +45,7 @@ void imu_ros_init(void)
 // IMU update data task
 void imu_update_data_task(void *arg)
 {
-
+    ESP_LOGI(TAG, "imu_update_data_task started on core %d", xPortGetCoreID());
     while (1)
     {
         imu_pub_topic.msg.Imu.angular_velocity.x = proto_imu_data.gyro[0];
@@ -66,6 +66,7 @@ void imu_update_data_task(void *arg)
 // Timer callback function
 void timer_imu_callback(rcl_timer_t *timer, int64_t last_call_time)
 {
+    
     RCLC_UNUSED(last_call_time);
     if (timer != NULL)
     {

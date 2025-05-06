@@ -9,6 +9,7 @@ static LidarParseState_t parse_state = WAIT_HEADER_1;
 static uint8_t data_index = 0;
 LidarPubData_t lidar_pub_data = {0};
 uint8_t parse_flag = 0;
+uint8_t scan_full_flag = 0;
 
 // 添加信号量句柄
 SemaphoreHandle_t lidar_sem = NULL;
@@ -19,8 +20,6 @@ float calculate_angle_correction(uint16_t distance) {
     return atanf(21.8f * (155.3f - distance) / (155.3f * distance));
 }
 
-
-// 逐字节解析 LIDAR 数据
 int parse_lidar_byte(uint8_t byte)
  {
     static uint8_t buffer[10];  // 存储帧头信息
@@ -114,7 +113,8 @@ int parse_lidar_byte(uint8_t byte)
                   //角度二级解析，基于距离进行角度校正
                   float angle_correction = calculate_angle_correction(raw_distance);
                   mid_angle += angle_correction;
-                  
+                  if(mid_angle >= 360) 
+                        mid_angle -= 360;
                   //解析完成，将数据存入点云数据结构体
                   lidar_frame.points[i].distance = raw_distance / 4;
                   lidar_frame.points[i].angle = mid_angle;
@@ -149,25 +149,30 @@ int parse_lidar_byte(uint8_t byte)
 
 void get_pub_Data(LidarPubData_t* pub_data)
 {
+    uint16_t angle = 0;
     if(xSemaphoreTake(lidar_sem, pdMS_TO_TICKS(100)) == pdTRUE)//如果在100ms内获取到信号量，则获取数据
     {
-        memset(pub_data->points, 0, sizeof(LidarPoint_t) * lidar_frame.LSN);  // 清空旧数据
         pub_data->size = lidar_frame.LSN;
-        memcpy(pub_data->points, lidar_frame.points, sizeof(LidarPoint_t) * lidar_frame.LSN);
+        for (int i = 0; i < pub_data->size ; i++)
+        {
+            angle = lidar_frame.points[i].angle;
+            pub_data->points[angle].distance = lidar_frame.points[i].distance;
+            ESP_LOGI(TAG, "");
+            // if (pub_data->last_angle < angle)// 检测是否完成一圈
+            // {
+            //     xSemaphoreGive(lidar_sem);//释放信号量
+            //     ESP_LOGI(TAG, "完成完整一圈数据检测,释放信号量");
+            // }
+            // pub_data->last_angle = angle;
+        }
         xSemaphoreGive(lidar_sem);//释放信号量
-    // ESP_LOGI(TAG, "发布: %d 个点云数据", pub_data->size);
-    // for (int i = 0; i < pub_data->size; i++) 
-    // {
-    // ESP_LOGI(TAG, "发布点云数据: Angle: %.2f°, Distance: %d mm", 
-    //         pub_data->points[i].angle, 
-    //         pub_data->points[i].distance);
-    // }
+        ESP_LOGI(TAG, "完成完整一圈数据检测,释放信号量");
     }
 }
 
 uint16_t Lidar_Get_Distance(uint16_t point)
 {
-    if (point < lidar_pub_data.size)
+    if (point <lidar_POINT_MAX)
     {
         return lidar_pub_data.points[point].distance;
     }
@@ -194,7 +199,7 @@ void lidar_data_Task(void *pvParameter)
         }
         if (parse_flag == 1)
         {
-            ESP_LOGI(TAG, "解析完成,抽取发布数据");
+            //ESP_LOGI(TAG, "解析完成,抽取发布数据");
             get_pub_Data(&lidar_pub_data);
             parse_flag = 0;  
         }
@@ -207,9 +212,9 @@ void lidar_data_Task(void *pvParameter)
 
 void  lidar_task(void)
 {
-    lidar_sem = xSemaphoreCreateBinary();//创建二值信号量
-    xSemaphoreGive(lidar_sem); // 初始状态可用
-    xTaskCreatePinnedToCore(lidar_data_Task, "lidar_data_Task", 4096 * 8, NULL, 4, NULL, 1);
+    lidar_sem = xSemaphoreCreateBinary();
+    xSemaphoreGive(lidar_sem); 
+    xTaskCreatePinnedToCore(lidar_data_Task, "lidar_data_Task", 4096 * 16, NULL, 10, NULL, 0);
 }
 
 

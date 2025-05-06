@@ -1,0 +1,33 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40375588: call_start_cpu1 at /home/micu/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m--- 0x4200cb20: RingBuffer_Pop at /home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer/ring_buffer.c:105
+[0m
+[0;33m--- 0x40056fc5: memcpy in ROM
+0x40056fe7: memcpy in ROM
+[0m
+[0;33m--- 0x4200cb1d: RingBuffer_Pop at /home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer/ring_buffer.c:105
+0x4200ca18: Uart_Read at /home/micu/esp/mycode/micu_ros_car/components/protocal/UART/UART.c:273
+0x4200c76f: lidar_data_Task at /home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:192 (discriminator 3)
+0x4037fb5d: vPortTaskWrapper at /home/micu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40375954: esp_restart_noos_dig at /home/micu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m--- 0x40375588: call_start_cpu1 at /home/micu/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m--- 0x4200cb20: RingBuffer_Pop at /home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer/ring_buffer.c:105
+[0m
+[0;33m--- 0x40056fc5: memcpy in ROM
+0x40056fe7: memcpy in ROM
+[0m
+[0;33m--- 0x4200cb1d: RingBuffer_Pop at /home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer/ring_buffer.c:105
+0x4200ca18: Uart_Read at /home/micu/esp/mycode/micu_ros_car/components/protocal/UART/UART.c:273
+0x4200c76f: lidar_data_Task at /home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:192 (discriminator 3)
+0x4037fb5d: vPortTaskWrapper at /home/micu/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40375954: esp_restart_noos_dig at /home/micu/esp/esp-idf/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m--- 0x40375588: call_start_cpu1 at /home/micu/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0m

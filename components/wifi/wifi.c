@@ -244,6 +244,7 @@ bool wifi_set_sta()
     return false;
 }
 
+
 bool wifi_init()
 {
     //NVS初始化（WIFI底层驱动有用到NVS，所以这里要初始化）
@@ -255,8 +256,7 @@ bool wifi_init()
     #else
     wifi_set_ap();
     #endif
-        
-    ESP_LOGI(TAG, "init success!");
+    ESP_LOGI(TAG, "wifi init success!");
     return true;
 }
 

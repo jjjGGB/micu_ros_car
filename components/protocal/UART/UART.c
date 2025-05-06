@@ -229,8 +229,8 @@ void Uart1_Rx_Task(void *arg)
 void  uart_task(void)
 {
     //xTaskCreate(uart1_send_imu, "uart1_send_Task", 4096 , NULL, 5, NULL);
-    xTaskCreate(Uart1_Rx_Task, "Uart1_Rx_Task", 5*1024, NULL, 5, NULL);
-	xTaskCreate(Uart0_Rx_Task, "Uart0_Rx_Task", 5*1024, NULL, 5, NULL);
+    //xTaskCreatePinnedToCore(Uart1_Rx_Task, "Uart1_Rx_Task", 5*1024, NULL, 10, NULL, 0);
+	xTaskCreatePinnedToCore(Uart0_Rx_Task, "Uart0_Rx_Task", 5*1024, NULL, 10, NULL, 0);
 	//xTaskCreate(uart0_send_motor, "Uart0_Tx_Task", 5*1024, NULL, 6, NULL);
 }
 

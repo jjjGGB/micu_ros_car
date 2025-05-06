@@ -1,0 +1,659 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (45) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (45) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (45) boot: Multicore bootloader[0m
+[0;32mI (50) boot: chip revision: v0.2[0m
+[0;32mI (53) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (58) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (63) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (68) boot: Enabling RNG early entropy source...[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (77) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (84) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (91) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (99) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (106) boot: End of partition table[0m
+[0;32mI (111) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23378h (144248) map[0m
+[0;32mI (135) esp_image: segment 1: paddr=000333a0 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (139) esp_image: segment 2: paddr=00038cc4 vaddr=40374000 size=07354h ( 29524) load[0m
+[0;32mI (146) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99e0ch (630284) map[0m
+[0;32mI (220) esp_image: segment 4: paddr=000d9e34 vaddr=4037b354 size=0cc78h ( 52344) load[0m
+[0;32mI (237) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (237) boot: Disabling RNG early entropy source...[0m
+[0;32mI (249) cpu_start: Multicore app[0m
+[0;32mI (249) cpu_start: Pro cpu up.[0m
+[0;32mI (249) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (267) cpu_start: Pro cpu start user code[0m
+[0;32mI (267) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (267) cpu_start: Application information:[0m
+[0;32mI (270) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (276) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (281) cpu_start: Compile time:     Mar 30 2025 11:08:45[0m
+[0;32mI (287) cpu_start: ELF file SHA256:  545247850f4e504a...[0m
+[0;32mI (293) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (299) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (304) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (309) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (313) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (321) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (327) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (334) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (340) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (347) spi_flash: detected chip: generic[0m
+[0;32mI (351) spi_flash: flash io: dio[0m
+[0;33mW (355) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (364) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (370) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (378) app_start: Starting scheduler on CPU0[0m
+[0;32mI (382) app_start: Starting scheduler on CPU1[0m
+[0;32mI (382) main_task: Started on CPU0[0m
+[0;32mI (392) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (420) pp: pp rom version: e7ae62f[0m
+[0;32mI (421) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (438) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (474) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1619) esp_netif_handlers: sta ip: 192.168.1.100, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1620) WIFI: got ip:192.168.1.100[0m
+[0;32mI (1622) WIFI: init success![0m
+[0;32mI (1626) IIC: init success![0m
+[0;32mI (1797) OLED: oled init success![0m
+[0;32mI (1800) MPU6050: Device being calibrated.[0m
+[0;31mE (1802) MPU6050: init failed![0m
+[0;32mI (	"��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+ Start microROS tasks!!![0;32mI (1839) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+[0;32mI (1839) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1839) UART: Start Uart0_Rx_Task with core:0[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (1852) main_task: Returned from app_main()[0m
+[0;32mI (1860) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (1867) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+[0;32mI (1883) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (1906) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (1928) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (1949) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (1970) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (1991) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2011) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2032) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2054) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2075) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2096) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2117) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2138) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2159) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2181) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2202) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2224) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2244) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2265) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2286) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2307) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2328) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2349) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2370) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2391) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2411) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2431) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2451) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2472) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2492) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2514) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2534) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2554) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2575) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2615) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2636) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2656) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2677) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2697) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2718) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2740) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2761) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2782) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2802) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2822) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2842) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2862) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2883) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2904) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2925) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2945) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2965) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2986) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3006) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3027) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3047) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3068) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3090) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3110) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3130) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3150) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3171) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3191) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3211) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3233) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3254) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3274) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3295) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3316) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3336) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3356) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3376) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3396) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3417) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3438) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3458) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3478) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3498) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3518) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3539) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3559) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3579) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3601) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3622) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3642) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3662) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3682) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3703) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3723) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3744) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3764) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3784) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3805) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3826) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3846) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3868) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3888) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3908) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3928) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3949) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3970) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (3990) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4010) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4030) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4051) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4072) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4092) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4112) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4132) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4154) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4174) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4194) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4214) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4234) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4256) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4296) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4318) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4339) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4359) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4379) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4400) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4421) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4441) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4462) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4484) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4504) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4525) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4545) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4565) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4586) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4606) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4627) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4647) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4669) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4690) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4731) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4751) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4772) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4793) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4813) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4835) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4875) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4897) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4918) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4940) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4961) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (4982) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5002) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5023) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5045) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5066) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5086) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5106) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5126) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5147) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5169) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5189) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5209) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5230) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5251) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5271) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5291) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5312) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5333) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5354) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5375) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5396) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5418) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5439) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5459) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5480) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5501) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5521) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5541) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5561) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5583) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5604) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5624) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5644) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5664) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5685) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5707) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5727) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5747) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5767) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5788) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5809) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5830) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5850) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5871) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5891) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5911) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5931) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5952) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5973) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (5993) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6013) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6034) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6055) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6075) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6096) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6117) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6138) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6158) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6178) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6199) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6220) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6240) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6260) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6280) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6300) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6321) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6361) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6381) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6402) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6423) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6443) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6464) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6485) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6509) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6531) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6551) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6571) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6592) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6615) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6637) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6657) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6678) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6698) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6719) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6740) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6761) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6781) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6803) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6824) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6845) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6866) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6886) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6906) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6927) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6948) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6968) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (6989) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7009) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7030) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7050) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7071) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7092) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7113) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7134) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7154) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7175) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7197) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7218) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7239) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7259) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7280) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7301) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7323) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7345) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7365) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7387) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7408) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7430) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7451) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7471) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7491) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7513) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7534) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7554) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7574) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7594) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7635) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7655) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7675) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7695) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7715) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7737) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7758) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7779) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7799) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7819) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7839) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7859) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7879) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7899) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7919) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7940) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7961) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (7982) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8003) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8024) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8045) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8065) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8085) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8106) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8126) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8147) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8168) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8188) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8210) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8230) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8251) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8272) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8292) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8313) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8333) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8353) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8374) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8394) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8414) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8435) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8455) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8475) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8496) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8517) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8537) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8558) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8578) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8599) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8620) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8640) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8661) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8681) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8701) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8722) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8743) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8763) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8783) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8803) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8824) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8845) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8865) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8886) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8908) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (8929) lidar: 解析完成,抽取发布数据[0m
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x42019628  PS      : 0x00060430  A0      : 0x8201757c  A1      : 0x3fcd0f00  
+A2      : 0x3fcafb94  A3      : 0x3fce8fe8  A4      : 0x00000002  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00beefb4  A9      : 0x00000000  
+A10     : 0x00000001  A11     : 0x00000000  A12     : 0x000021e2  A13     : 0x00000000  
+A14     : 0x25c17d04  A15     : 0x00060021  SAR     : 0x00000014  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00beefc4  LBEG    : 0x40056f08  LEND    : 0x40056f12  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x42019625:0x3fcd0f00 0x42017579:0x3fcd0f50 0x4200d9c9:0x3fcd0fc0 0x4200c258:0x3fcd1000 0x4037fb5d:0x3fcd1110
+
+
+
+
+ELF file SHA256: 545247850f4e504a
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4038028d
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23378h (144248) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333a0 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cc4 vaddr=40374000 size=07354h ( 29524) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99e0ch (630284) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e34 vaddr=4037b354 size=0cc78h ( 52344) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 30 2025 11:08:45[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  545247850f4e504a...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (443) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (499) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1768) esp_netif_handlers: sta ip: 192.168.1.100, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1769) WIFI: got ip:192.168.1.100[0m
+[0;32mI (1771) WIFI: init success![0m
+[0;32mI (1775) IIC: init success![0m
+[0;32mI (1947) OLED: oled init success![0m
+[0;32mI (1951) MPU6050: Device being calibrated.[0m
+[0;31mE (1953) MPU6050: init failed![0m
+[0;32mI ()F��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+ Start microROS tasks!!![0;32mI (1990) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+[0;32mI (1991) UART: Start Uart1_Rx_Task with core:0[0m
+[0;32mI (1991) UART: Start Uart0_Rx_Task with core:0[0m
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (2004) main_task: Returned from app_main()[0m
+[0;32mI (2011) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2029) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+[0;32mI (2034) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2056) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2076) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2096) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2116) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2137) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2158) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2180) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2201) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2221) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2242) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2263) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2284) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2304) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2325) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2345) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2366) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2387) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2407) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2427) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2447) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2467) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2490) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2510) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2531) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2551) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2572) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2593) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2614) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2635) lidar: 解析完成,抽取发布数据[0m
+[0;32mI (2655) lidar: 解析完成,抽取发布数据[0m
+Guru Meditation Error: Core  1 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x4201aae5  PS      : 0x00060430  A0      : 0x8201a7d7  A1      : 0x3fcd0ea0  
+A2      : 0x3fce83e4  A3      : 0x00c0efb4  A4      : 0x4200dde4  A5      : 0x3fcd0df0  
+A6      : 0x00060023  A7      : 0x00000003  A8      : 0x00000000  A9      : 0x3fcd0e80  
+A10     : 0x3fc9efb4  A11     : 0x4200ddd4  A12     : 0x4200dde4  A13     : 0x3fc9dcbc  
+A14     : 0x3fc9dcbc  A15     : 0x00060021  SAR     : 0x00000016  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00c0efc4  LBEG    : 0x40056f5c  LEND    : 0x40056f72  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x4201aae2:0x3fcd0ea0 0x4201a7d4:0x3fcd0ec0 0x42016771:0x3fcd0f00 0x4200dd9a:0x3fcd0fd0 0x4200c173:0x3fcd1010 0x4037fb5d:0x3fcd1120
+
+
+
+
+ELF file SHA256: 545247850f4e504a
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40380287
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (49) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (54) boot: chip revision: v0.2[0m
+[0;32mI (58) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (63) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (67) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (72) boot: Enabling RNG early entropy source...[0m
+[0;32mI (78) boot: Partition Table:[0m
+[0;32mI (81) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (88) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (96) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (111) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23378h (144248) map[0m
+[0;32mI (140) esp_image: segment 1: paddr=000333a0 vaddr=3fc98000 size=0591ch ( 22812) load[0m
+[0;32mI (143) esp_image: segment 2: paddr=00038cc4 vaddr=40374000 size=07354h ( 29524) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99e0ch (630284) map[0m
+[0;32mI (225) esp_image: segment 4: paddr=000d9e34 vaddr=4037b354 size=0cc78h ( 52344) load[0m
+[0;32mI (241) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (253) cpu_start: Multicore app[0m
+[0;32mI (253) cpu_start: Pro cpu up.[0m
+[0;32mI (254) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (272) cpu_start: Pro cpu start user code[0m
+[0;32mI (272) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (272) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (280) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (286) cpu_start: Compile time:     Mar 30 2025 11:08:45[0m
+[0;32mI (292) cpu_start: ELF file SHA256:  545247850f4e504a...[0m
+[0;32mI (298) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (304) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (308) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (313) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (318) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (325) heap_init: At 3FCA5F00 len 00043810 (270 KiB): DRAM[0m
+[0;32mI (331) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (338) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (344) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (351) spi_flash: detected chip: generic[0m
+[0;32mI (355) spi_flash: flash io: dio[0m
+[0;33mW (359) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (368) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (375) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (382) app_start: Starting scheduler on CPU0[0m
+[0;32mI (387) app_start: Starting scheduler on CPU1[0m
+[0;32mI (387) main_task: Started on CPU0[0m
+[0;32mI (397) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (425) pp: pp rom version: e7ae62f[0m
+[0;32mI (426) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (442) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (484) WIFI: wifi_init_sta finished.[0m

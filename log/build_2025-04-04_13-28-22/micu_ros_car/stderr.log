@@ -1,0 +1,17 @@
+[0mCompiler supported targets: xtensa-esp32s3-elf
+[0m
+[0mCompiler supported targets: xtensa-esp32s3-elf
+[0m
+[01m[K/home/micu/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c:9540:1:[m[K [01;31m[Kfatal error: [m[Kerror writing to /tmp/cctGxDV1.s: No space left on device
+ 9540 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/micu/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c:23:[m[K [01;31m[Kfatal error: [m[Kerror closing /tmp/ccPaI0lC.s: No space left on device
+   23 | 
+      | 
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make:286: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make:216: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:3105: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

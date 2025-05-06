@@ -52,6 +52,7 @@ typedef struct {
 typedef struct __attribute__((packed))
 {
     uint16_t size;
+    uint16_t last_angle;   // 记录上一次角度
     LidarPoint_t points[lidar_POINT_MAX];
 } LidarPubData_t;
 

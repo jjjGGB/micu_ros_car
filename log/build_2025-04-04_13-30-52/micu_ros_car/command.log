@@ -1,0 +1,2 @@
+Invoking command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car': /usr/bin/cmake --build /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car -- -j4 -l4
+Invoked command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car' returned '2': /usr/bin/cmake --build /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car -- -j4 -l4

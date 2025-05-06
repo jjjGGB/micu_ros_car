@@ -26,7 +26,7 @@ static const char *TAG = "IIC";
 #define I2C_MASTER_NUM 0			/*!< I2C master i2c port number, the number of i2c peripheral interfaces available will depend on the chip */
 #define I2C_MASTER_TX_BUF_DISABLE 0 /*!< I2C master doesn't need buffer */
 #define I2C_MASTER_RX_BUF_DISABLE 0 /*!< I2C master doesn't need buffer */
-#define I2C_MASTER_TIMEOUT_MS 1000
+#define I2C_MASTER_TIMEOUT_MS 3000
 
 static i2c_device_config_t *i2c_device_config_;
 

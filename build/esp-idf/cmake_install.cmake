@@ -509,6 +509,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/udp_tcp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/micu/esp/mycode/micu_ros_car/build/esp-idf/config/cmake_install.cmake")
 endif()
 

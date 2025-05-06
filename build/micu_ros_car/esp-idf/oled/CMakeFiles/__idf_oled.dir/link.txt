@@ -1,0 +1,2 @@
+/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ar qc liboled.a CMakeFiles/__idf_oled.dir/oled.c.obj
+/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ranlib liboled.a

@@ -1,0 +1,6 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40375588: call_start_cpu1 at /home/micu/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 13a562a5c14fd11a5b8b6a706581a01e616c6b17ee1043d2786b5d5d349c9dcf[0m
+[0m

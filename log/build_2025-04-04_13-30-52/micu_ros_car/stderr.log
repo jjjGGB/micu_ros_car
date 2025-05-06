@@ -1,0 +1,133 @@
+In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/rotary_encoder/src/rotary_encoder_pcnt_ec11.c:19[m[K:
+[01m[K/home/micu/esp/esp-idf/components/driver/deprecated/driver/pcnt.h:15:2:[m[K [01;35m[Kwarning: [m[K#warning "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   15 | #[01;35m[Kwarning[m[K "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h"
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K In function '[01m[Kekf_update[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:370:11:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[KF[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  370 |     float [01;35m[KF[m[K[2][2] = {{1.0f, dt}, {0.0f, 1.0f}};
+      |           [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K In function '[01m[Kimu_get_euler_angles[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:411:18:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Klast_raw_yaw[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  411 |     static float [01;35m[Klast_raw_yaw[m[K = 0.0f;
+      |                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K At top level:
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:103:14:[m[K [01;35m[Kwarning: [m[K'[01m[Kfiltered_yaw_rate[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  103 | static float [01;35m[Kfiltered_yaw_rate[m[K = 0.0f;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_potocol_config_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:13:31:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_protocol_config_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_proto_mode_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_proto_mode_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_proto_mode_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   13 |   update_protocol_config_fun_ [01;35m[K=[m[K update_protocol_config_fun;
+      |                               [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_wifi_config_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:30:27:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_wifi_config_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_wifi_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_wifi_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_wifi_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   30 |   update_wifi_config_fun_ [01;35m[K=[m[K update_wifi_config_fun;
+      |                           [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_pid_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:46:26:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_pid_params_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_pid_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_pid_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   46 |   update_pid_params_fun_ [01;35m[K=[m[K update_pid_params_fun;
+      |                          [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_motor_speed_fun[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:58:28:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_speed_params_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_motor_speed_ctrl_data_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_motor_speed_ctrl_data_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_motor_speed_ctrl_data_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   58 |   update_speed_params_fun_ [01;35m[K=[m[K update_motor_speed_ctrl_fun;// 将传入的函数指针保存到全局变量
+      |                            [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_deal_frame_data[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:86:19:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kframe_size[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   86 |   static uint16_t [01;35m[Kframe_size[m[K = 0;
+      |                   [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:[m[K In function '[01m[Kupdate_motor_pid_param[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:73:40:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of '[01m[Kpid_update_parameters[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   73 |     pid_update_parameters(pid_motor[0],[01;35m[K&proto_pid_data[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K
+      |                                        [01;35m[Kproto_data_pid_config_t **[m[K
+In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/include/motor.h:12[m[K,
+                 from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:1[m[K:
+[01m[K/home/micu/esp/mycode/micu_ros_car/managed_components/espressif__pid_ctrl/include/pid_ctrl.h:84:90:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kconst pid_ctrl_parameter_t *[m[K' but argument is of type '[01m[Kproto_data_pid_config_t **[m[K'
+   84 | esp_err_t pid_update_parameters(pid_ctrl_block_handle_t pid, [01;36m[Kconst pid_ctrl_parameter_t *params[m[K);
+      |                                                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:[m[K In function '[01m[Kmotor_init[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:136:35:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of '[01m[Kproto_register_update_pid_fun[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+  136 |     proto_register_update_pid_fun([01;35m[Kupdate_motor_pid_param[m[K);
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                   [01;35m[K|[m[K
+      |                                   [01;35m[Kuint8_t (*)(proto_data_pid_config_t *) {aka unsigned char (*)(proto_data_pid_config_t *)}[m[K
+In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/include/motor.h:18[m[K:
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/include/proto.h:200:30:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kuint8_t (**)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_pid_config_t *)[m[K'} but argument is of type '[01m[Kuint8_t (*)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (*)(proto_data_pid_config_t *)[m[K'}
+  200 |     [01;36m[Kupdate_pid_params_fun_t *update_pid_params_fun[m[K);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[Kmpu6050_madgwick_quaternion_update[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3094:8:[m[K [01;35m[Kwarning: [m[Kusing integer absolute value function '[01m[Kabs[m[K' when argument is of floating-point type '[01m[Kfloat[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value-Wabsolute-value]8;;[m[K]
+ 3094 |     if([01;35m[Kabs[m[K(yaw_buf[9]-yaw_buf[0])<=0.0001)
+      |        [01;35m[K^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kprev_time[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 3020 |     uint64_t now_time = 0, [01;35m[Kprev_time[m[K = 0;
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:14:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Know_time[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 3020 |     uint64_t [01;35m[Know_time[m[K = 0, prev_time = 0;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[KMahonyAHRSupdateIMU[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3199:8:[m[K [01;35m[Kwarning: [m[Kusing integer absolute value function '[01m[Kabs[m[K' when argument is of floating-point type '[01m[Kfloat[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value-Wabsolute-value]8;;[m[K]
+ 3199 |     if([01;35m[Kabs[m[K(yaw_buf[9]-yaw_buf[0])<=0.0001)
+      |        [01;35m[K^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[Kget_mpu6050_euler_angle[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of '[01m[Kmpu6050_get_motion[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+ 3273 |         mpu6050_get_motion([01;35m[Kaccel_[m[K,gyro_);
+      |                            [01;35m[K^~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint16_t * {aka short int *}[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1638:29:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kmpu6050_acceleration_t *[m[K' {aka '[01m[Kstruct _mpu6050_acceleration_t *[m[K'} but argument is of type '[01m[Kint16_t *[m[K' {aka '[01m[Kshort int *[m[K'}
+ 1638 |     [01;36m[Kmpu6050_acceleration_t *data_accel[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:35:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of '[01m[Kmpu6050_get_motion[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+ 3273 |         mpu6050_get_motion(accel_,[01;35m[Kgyro_[m[K);
+      |                                   [01;35m[K^~~~~[m[K
+      |                                   [01;35m[K|[m[K
+      |                                   [01;35m[Kint16_t * {aka short int *}[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1639:25:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kmpu6050_rotation_t *[m[K' {aka '[01m[Kstruct _mpu6050_rotation_t *[m[K'} but argument is of type '[01m[Kint16_t *[m[K' {aka '[01m[Kshort int *[m[K'}
+ 1639 |     [01;36m[Kmpu6050_rotation_t *data_gyro[m[K)
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:[m[K In function '[01m[Koled_ascii[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:150:63:[m[K [01;35m[Kwarning: [m[Kiteration 6 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+  150 |       esp32_i2c_write_byte(OLED_ADDR, 0x40, [01;35m[Kascii[str[i] - 32][j][m[K);
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:149:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+  149 |     for (int j = 0; [01;36m[Kj < 8[m[K; j++) {
+      |                     [01;36m[K~~^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:[m[K In function '[01m[Kparse_lidar_byte[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:108:34:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Ksimilar_flag[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  108 |                   static uint8_t [01;35m[Ksimilar_flag[m[K = 0;  // 记录是否是相同角度的标志位
+      |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:107:32:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Klast_angle[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  107 |                   static float [01;35m[Klast_angle[m[K = -1;  // 记录上一个点的角度
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:[m[K At top level:
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:3:20:[m[K [01;35m[Kwarning: [m[K'[01m[KTAG[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    3 | static const char *[01;35m[KTAG[m[K = "lidar";
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kevent_handler[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:60:47:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kevent[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   60 |                 wifi_event_ap_staconnected_t *[01;35m[Kevent[m[K =
+      |                                               [01;35m[K^~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:69:50:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kevent[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   69 |                 wifi_event_ap_stadisconnected_t *[01;35m[Kevent[m[K =
+      |                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kset_wifi_config[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:104:18:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kproto_data_wifi_config_t *[m[K' from incompatible pointer type '[01m[Kwifi_config_t *[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+  104 |     wifi_config_ [01;35m[K=[m[K wifi_config;
+      |                  [01;35m[K^[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kwifi_set_ap[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:111:21:[m[K [01;35m[Kwarning: [m[Kinitialization of '[01m[Kesp_err_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kchar *[m[K' makes integer from pointer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+  111 |     esp_err_t ret = [01;35m[K"ESP-OK"[m[K;
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kwifi_set_sta[m[K':
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:214:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kbits[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  214 |     EventBits_t [01;35m[Kbits[m[K = xEventGroupWaitBits(
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher/lidar_pub.c:4:20:[m[K [01;35m[Kwarning: [m[K'[01m[KTAG[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    4 | static const char *[01;35m[KTAG[m[K = "LIDAR_PUB";
+      |                    [01;35m[K^~~[m[K
+/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/ld: final link failed: No space left on device
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/micu_ros_car.elf.dir/build.make:581: micu_ros_car.elf] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:2375: CMakeFiles/micu_ros_car.elf.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

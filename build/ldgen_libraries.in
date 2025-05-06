@@ -82,5 +82,6 @@ $<TARGET_FILE:__idf_micro_ros_espidf_component>
 $<TARGET_FILE:__idf_lidar_publisher>
 $<TARGET_FILE:__idf_sysn>
 $<TARGET_FILE:__idf_imu_publisher>
+$<TARGET_FILE:__idf_udp_tcp>
 $<TARGET_FILE:__idf_config>
 $<TARGET_FILE:__idf_imu_ahrs>

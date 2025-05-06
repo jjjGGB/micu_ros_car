@@ -3318,5 +3318,5 @@ void get_mpu6050_euler_angle(void *param)
 }
 void mpu6050_task(void)
 {
-    xTaskCreate(get_mpu6050_euler_angle, "get_mpu6050_euler_angle", 8 * 1024, NULL, 5, NULL);
+    xTaskCreatePinnedToCore(get_mpu6050_euler_angle, "get_mpu6050_euler_angle", 8 * 1024, NULL, 10, NULL, 0);
 }

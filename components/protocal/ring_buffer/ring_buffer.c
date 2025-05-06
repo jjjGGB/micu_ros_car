@@ -19,12 +19,19 @@ void RingBuffer_Reset(Ring_Buffer_t *ringBuf)
 // 创建队列
 void RingBuffer_Init(Ring_Buffer_t *ringBuf, uint16_t capacity)
 {
+    if (ringBuf == NULL || capacity == 0) {
+    return;
+    }
     // 尺寸size需要比容量capacity大一
     ringBuf->size = capacity + 1;
 
     // Buffer内存申请
     ringBuf->buffer = (uint8_t *)malloc(ringBuf->size);
-    
+    if (ringBuf->buffer == NULL) {
+        // 内存分配失败处理
+        ringBuf->size = 0;
+        return;
+    }
     // 重置队列数据
     RingBuffer_Reset(ringBuf);
     // printf("[RingBuffer_Init] ring buffer init pbuffer=%p\n", ringBuf->buffer);
@@ -33,8 +40,14 @@ void RingBuffer_Init(Ring_Buffer_t *ringBuf, uint16_t capacity)
 // 销毁队列
 void RingBuffer_Destory(Ring_Buffer_t *ringBuf)
 {
-	free(ringBuf->buffer);
-	free(ringBuf);
+    if (ringBuf != NULL) {
+    if (ringBuf->buffer != NULL) {
+        free(ringBuf->buffer);
+        ringBuf->buffer = NULL;
+         }
+        free(ringBuf->buffer);
+        free(ringBuf);
+    }
 }
 
 // 获得环形队列的容量
@@ -99,12 +112,21 @@ void RingBuffer_Clean_Queue(Ring_Buffer_t *ringBuf)
 uint8_t RingBuffer_Pop(Ring_Buffer_t *ringBuf)
 {
     uint8_t temp = 0;
+
+    // 添加参数检查
+    if (ringBuf == NULL || ringBuf->buffer == NULL) {
+        return temp;
+    }
+
     if (!RingBuffer_IsEmpty(ringBuf))
     {
-        ringBuf->head = (ringBuf->head + 1) % ringBuf->size;
-        temp = ringBuf->buffer[ringBuf->head];
-        // 弹出首元素后清零
-        ringBuf->buffer[ringBuf->head] = 0;
+        uint16_t next_head = (ringBuf->head + 1) % ringBuf->size;
+        // 确保不会越界
+        if (next_head < ringBuf->size) {
+            temp = ringBuf->buffer[next_head];
+            ringBuf->buffer[next_head] = 0;
+            ringBuf->head = next_head;
+        }
     }
     return temp;
 }

@@ -1,0 +1,441 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x28 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1760
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+SHA-256 comparison failed:
+Calculated: 719712192b3f727fb52cef9732e492f019f354b5b2519bee0b1b9bb59fbd64be
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9908
+[0;32mI (45) boot: ESP-IDF v5.1.2-1-g3b62af741a 2nd stage bootloader[0m
+[0;32mI (45) boot: compile time Mar 24 2025 13:26:49[0m
+[0;32mI (45) boot: Multicore bootloader[0m
+[0;32mI (50) boot: chip revision: v0.2[0m
+[0;32mI (53) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (58) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (63) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (68) boot: Enabling RNG early entropy source...[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (77) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (84) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (91) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (99) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (106) boot: End of partition table[0m
+[0;32mI (111) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=23370h (144240) map[0m
+[0;32mI (135) esp_image: segment 1: paddr=00033398 vaddr=3fc98000 size=058dch ( 22748) load[0m
+[0;32mI (139) esp_image: segment 2: paddr=00038c7c vaddr=40374000 size=0739ch ( 29596) load[0m
+[0;32mI (146) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99388h (627592) map[0m
+[0;32mI (220) esp_image: segment 4: paddr=000d93b0 vaddr=4037b39c size=0cc30h ( 52272) load[0m
+[0;32mI (237) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (237) boot: Disabling RNG early entropy source...[0m
+[0;32mI (248) cpu_start: Multicore app[0m
+[0;32mI (249) cpu_start: Pro cpu up.[0m
+[0;32mI (249) cpu_start: Starting app cpu, entry point is 0x40375588[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (267) cpu_start: Pro cpu start user code[0m
+[0;32mI (267) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (267) cpu_start: Application information:[0m
+[0;32mI (270) cpu_start: Project name:     micu_ros_car[0m
+[0;32mI (275) cpu_start: App version:      40565bf-dirty[0m
+[0;32mI (281) cpu_start: Compile time:     Mar 30 2025 11:08:45[0m
+[0;32mI (287) cpu_start: ELF file SHA256:  27236a01154a80dd...[0m
+[0;32mI (293) cpu_start: ESP-IDF:          v5.1.2-1-g3b62af741a[0m
+[0;32mI (299) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (304) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (308) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (313) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (320) heap_init: At 3FCA53A0 len 00044370 (272 KiB): DRAM[0m
+[0;32mI (327) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (333) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (339) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (347) spi_flash: detected chip: generic[0m
+[0;32mI (350) spi_flash: flash io: dio[0m
+[0;33mW (354) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;32mI (363) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (370) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (377) app_start: Starting scheduler on CPU0[0m
+[0;32mI (382) app_start: Starting scheduler on CPU1[0m
+[0;32mI (382) main_task: Started on CPU0[0m
+[0;32mI (392) main_task: Calling app_main()[0m
+Hello 米醋!
+1.参数配置初始化完成
+[0;32mI (420) pp: pp rom version: e7ae62f[0m
+[0;32mI (421) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (437) phy_init: phy_version 620,ec7ec30,Sep  5 2023,13:49:13[0m
+[0;32mI (483) WIFI: wifi_init_sta finished.[0m
+[0;32mI (1786) esp_netif_handlers: sta ip: 192.168.1.101, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (1787) WIFI: got ip:192.168.1.101[0m
+[0;32mI (1788) WIFI: init success![0m
+[0;32mI (1793) IIC: init success![0m
+[0;32mI (1966) OLED: oled init success![0m
+[0;32mI (1970) MPU6050: Device being calibrated.[0m
+[0;31mE (1972) MPU6050: init failed![0m
+[0;32mI (S"��口0参数配置 成功
+串口0引脚设置 成功
+串口1驱动安装 成功
+串口1参数配置 成功
+串口1引脚设置 成功
+2.硬件初始化完成
+ Start microROS tasks!!![0;32mI (2009) MICRO_ROS_INIT: Connecting agent: 192.168.1.102:8888[0m
+[0;32mI (2009) UART: Start Uart0_Rx_Task with core:0[0m
+start lidar pub!!!
+start imu pub!!!
+3.任务初始化完成
+[0;32mI (2018) main_task: Returned from app_main()[0m
+[0;32mI (4641) MICRO_ROS_INIT: Connected agent: 192.168.1.102:8888[0m
+Failed status on line 39: 1. Continuing.
+[0;32mI (6999) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (7564) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (7953) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (8224) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (8382) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (8441) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (8497) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (8521) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (8603) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (8916) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9018) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9101) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9160) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9186) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9220) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9529) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9627) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9922) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (9988) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10023) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10065) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10090) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (10104) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10169) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10206) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10273) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10310) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10377) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10416) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10458) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (10490) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10501) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10622) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10691) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10714) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (10766) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10798) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10853) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (10883) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10898) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10927) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (10955) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (11002) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11062) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11092) LIDAR_PUB: 发布10个数据[0m
+[0;32mI (11103) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11151) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11198) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11213) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11265) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11277) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11295) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11335) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11351) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11379) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11405) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11451) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (11497) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11512) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11560) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11603) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11643) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11664) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11684) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11704) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (11741) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11773) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11789) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11831) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11848) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11884) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11898) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11946) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (11964) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (11993) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12053) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12105) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12148) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12170) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12215) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12300) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (12343) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12357) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12584) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (12643) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12685) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12709) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12752) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12784) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12804) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12848) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12857) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12891) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12913) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12954) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (12989) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13009) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13051) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (13077) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13105) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13159) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13223) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13279) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13333) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13427) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13526) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13586) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13628) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13677) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (13768) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (13839) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (13966) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14073) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (14121) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14217) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14276) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14391) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14423) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (14542) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14640) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14715) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14791) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (14803) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (14906) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (15064) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (15698) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (15781) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (15840) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (15890) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (16218) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (16321) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (16366) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (16414) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (16551) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (16609) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (16651) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (16798) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (16861) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (16885) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (16901) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (17210) LIDAR_PUB: 发布12个数据[0m
+[0;32mI (17597) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (17808) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (17850) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (17865) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (17918) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (17972) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18069) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18177) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18217) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18285) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18297) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18352) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18383) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18399) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18445) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18463) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18486) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (18501) LIDAR_PUB: 发布0个数据[0m
+[0;32mI (18562) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18602) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18648) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18693) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18704) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18773) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18856) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18985) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (18998) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19043) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19054) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19095) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19111) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (19161) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19188) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19204) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19261) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19298) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19339) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19361) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (19399) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19408) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19500) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (19528) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19544) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19563) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19600) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19658) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19711) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19805) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19920) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (19978) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (20011) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20057) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20082) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20110) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (20143) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20159) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20208) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20260) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20304) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20365) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (20420) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20532) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20592) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20640) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20693) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20734) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20792) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20819) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20857) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20888) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (20899) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (21006) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (21107) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (21165) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (21267) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (21364) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (21563) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (22046) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (22190) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (22311) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (22437) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (22601) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (22801) LIDAR_PUB: 发布128个数据[0m
+[0;32mI (23028) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (23413) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (23615) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (23954) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (24644) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (25020) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (25787) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (26464) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (27512) LIDAR_PUB: 发布90个数据[0m
+Failed status on line 151: 1. Continuing.
+[0;32mI (29185) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (30723) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (31476) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (32222) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (33496) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (33853) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (34315) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (35111) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (35498) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (36099) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (36816) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (37231) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (38163) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (39189) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (39672) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (40215) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (40789) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (41543) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (42405) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (42851) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (43281) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (43884) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (44721) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (45317) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (46428) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (46660) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (47175) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (47729) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (48681) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (49397) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (49732) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (50057) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (50760) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (51415) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (51902) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (52381) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (52872) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (53473) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (54233) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (55813) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (58331) LIDAR_PUB: 发布128个数据[0m
+Failed status on line 151: 1. Continuing.
+[0;32mI (60825) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (61351) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (62812) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (63452) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (63929) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (64855) LIDAR_PUB: 发布90个数据[0m
+Failed status on line 87: 1. Continuing.
+[0;32mI (67350) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (69296) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (70829) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (72951) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (73677) LIDAR_PUB: 发布90个数据[0m
+Failed status on line 87: 1. Continuing.
+Failed status on line 151: 1. Continuing.
+[0;32mI (76459) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (77983) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (79003) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (79861) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (80478) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (80987) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (81477) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (81733) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (82732) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (84143) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (85078) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (85677) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (86434) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (87216) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (87627) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (88444) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (88894) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (89545) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (90593) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (91193) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (91631) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (92431) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (92748) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (93238) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (94580) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (94776) LIDAR_PUB: 发布132个数据[0m
+[0;32mI (96327) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (96935) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (97751) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (99080) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (99811) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (100308) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (100976) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (102425) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (103070) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (103409) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (104253) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (104825) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (105610) LIDAR_PUB: 发布90个数据[0m
+Failed status on line 87: 1. Continuing.
+[0;32mI (107895) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (109411) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (110966) LIDAR_PUB: 发布120个数据[0m
+[0;32mI (111570) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (111868) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (112869) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (113616) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (113722) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (113855) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (113918) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (114168) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (114866) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (115567) LIDAR_PUB: 发布130个数据[0m
+[0;32mI (115988) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (116949) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (117620) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (118138) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (119162) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (119671) LIDAR_PUB: 发布90个数据[0m
+[0;32mI (120392) LIDAR_PUB: 发布90个数据[0m

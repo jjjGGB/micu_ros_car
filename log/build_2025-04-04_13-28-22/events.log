@@ -1,0 +1,1232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (micu_ros_car) JobQueued: {'identifier': 'micu_ros_car', 'dependencies': OrderedDict()}
+[0.000174] (micu_ros_car) JobStarted: {'identifier': 'micu_ros_car'}
+[0.060396] (micu_ros_car) JobProgress: {'identifier': 'micu_ros_car', 'progress': 'cmake'}
+[0.061718] (micu_ros_car) Command: {'cmd': ['/usr/bin/cmake', '/home/micu/esp/mycode/micu_ros_car', '-DCMAKE_INSTALL_PREFIX=/home/micu/esp/mycode/micu_ros_car/install/micu_ros_car'], 'cwd': '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'micu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IDF_TOOLS_INSTALL_CMD', '/home/micu/esp/esp-idf/install.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/micu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1843'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4607'), ('OPENOCD_SCRIPTS', '/home/micu/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/micu/ydlidar_ros2_ws/install:/home/micu/micu_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'micu'), ('JOURNAL_STREAM', '8:26140'), ('_', '/home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'micu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('IDF_DEACTIVATE_FILE_PATH', '/tmp/tmpf52hm9sbidf_1920'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/micu/esp/esp-idf'), ('PATH', '/opt/ros/humble/bin:/home/micu/esp/esp-idf/components/espcoredump:/home/micu/esp/esp-idf/components/partition_table:/home/micu/esp/esp-idf/components/app_update:/home/micu/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/home/micu/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/home/micu/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/micu/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/micu/.espressif/python_env/idf5.1_py3.10_env/bin:/home/micu/esp/esp-idf/tools:/home/micu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2204:@/tmp/.ICE-unix/2077,unix/ubuntu2204:/tmp/.ICE-unix/2077'), ('INVOCATION_ID', 'a4a933d47dda4a97995d106d6f0c1756'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRV532'), ('ESP_IDF_VERSION', '5.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/micu/micu_ws/install/demo_pkg_cpp:/home/micu/micu_ws/install/demo_pkg_c:/home/micu/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de492147-9f79-4ebf-a491-ffc15053a577'), ('QT_ACCESSIBILITY', '1'), ('IDF_PYTHON_ENV_PATH', '/home/micu/.espressif/python_env/idf5.1_py3.10_env'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IDF_TOOLS_EXPORT_CMD', '/home/micu/esp/esp-idf/export.sh'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ESP_ROM_ELF_DIR', '/home/micu/.espressif/tools/esp-rom-elfs/20230320/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/micu/micu_ws/install/demo_pkg_cpp:/home/micu/micu_ws/install/demo_pkg_c:/home/micu/ydlidar_ros2_ws/install/ydlidar_ros2_driver')]), 'shell': False}
+[0.082112] (micu_ros_car) StdoutLine: {'line': b"-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig '/home/micu/esp/mycode/micu_ros_car/sdkconfig'\n"}
+[0.097129] (micu_ros_car) StdoutLine: {'line': b'-- Found Git: /usr/bin/git (found version "2.34.1") \n'}
+[0.099377] (-) TimerEvent: {}
+[0.199789] (-) TimerEvent: {}
+[0.300449] (-) TimerEvent: {}
+[0.400959] (-) TimerEvent: {}
+[0.501495] (-) TimerEvent: {}
+[0.602033] (-) TimerEvent: {}
+[0.702428] (-) TimerEvent: {}
+[0.803041] (-) TimerEvent: {}
+[0.903791] (-) TimerEvent: {}
+[1.004666] (-) TimerEvent: {}
+[1.105363] (-) TimerEvent: {}
+[1.205745] (-) TimerEvent: {}
+[1.306289] (-) TimerEvent: {}
+[1.406683] (-) TimerEvent: {}
+[1.482821] (micu_ros_car) StdoutLine: {'line': b'-- Component directory /home/micu/esp/mycode/micu_ros_car/components/lib does not contain a CMakeLists.txt file. No component will be added\n'}
+[1.483231] (micu_ros_car) StdoutLine: {'line': b'-- Component directory /home/micu/esp/mycode/micu_ros_car/components/microros does not contain a CMakeLists.txt file. No component will be added\n'}
+[1.484828] (micu_ros_car) StdoutLine: {'line': b'-- Component directory /home/micu/esp/mycode/micu_ros_car/components/protocal does not contain a CMakeLists.txt file. No component will be added\n'}
+[1.494793] (micu_ros_car) StdoutLine: {'line': b'-- Component directory /home/micu/esp/mycode/micu_ros_car/components/lib does not contain a CMakeLists.txt file. No component will be added\n'}
+[1.495153] (micu_ros_car) StdoutLine: {'line': b'-- Component directory /home/micu/esp/mycode/micu_ros_car/components/microros does not contain a CMakeLists.txt file. No component will be added\n'}
+[1.496320] (micu_ros_car) StdoutLine: {'line': b'-- Component directory /home/micu/esp/mycode/micu_ros_car/components/protocal does not contain a CMakeLists.txt file. No component will be added\n'}
+[1.507028] (-) TimerEvent: {}
+[1.607386] (-) TimerEvent: {}
+[1.667838] (micu_ros_car) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.2.0\n'}
+[1.707626] (-) TimerEvent: {}
+[1.800121] (micu_ros_car) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.2.0\n'}
+[1.808137] (-) TimerEvent: {}
+[1.817485] (micu_ros_car) StdoutLine: {'line': b'-- The ASM compiler identification is GNU\n'}
+[1.818980] (micu_ros_car) StdoutLine: {'line': b'-- Found assembler: /home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc\n'}
+[1.827473] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.898127] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.903552] (micu_ros_car) StdoutLine: {'line': b'-- Check for working C compiler: /home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc - skipped\n'}
+[1.903948] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.904572] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.908287] (-) TimerEvent: {}
+[1.908551] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.988617] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.994797] (micu_ros_car) StdoutLine: {'line': b'-- Check for working CXX compiler: /home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ - skipped\n'}
+[1.995110] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.995175] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.008654] (-) TimerEvent: {}
+[2.091560] (micu_ros_car) StdoutLine: {'line': b'-- Building ESP-IDF components for target esp32s3\n'}
+[2.092945] (micu_ros_car) StdoutLine: {'line': b'-- Checking Python dependencies...\n'}
+[2.108766] (-) TimerEvent: {}
+[2.209292] (-) TimerEvent: {}
+[2.310355] (-) TimerEvent: {}
+[2.406684] (micu_ros_car) StdoutLine: {'line': b'Python requirements are satisfied.\n'}
+[2.410324] (-) TimerEvent: {}
+[2.416675] (micu_ros_car) StdoutLine: {'line': b'Constraint file: /home/micu/.espressif/espidf.constraints.v5.1.txt\n'}
+[2.416827] (micu_ros_car) StdoutLine: {'line': b'Requirement files:\n'}
+[2.416870] (micu_ros_car) StdoutLine: {'line': b' - /home/micu/esp/esp-idf/tools/requirements/requirements.core.txt\n'}
+[2.416908] (micu_ros_car) StdoutLine: {'line': b'Python being checked: /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python\n'}
+[2.510667] (-) TimerEvent: {}
+[2.611079] (-) TimerEvent: {}
+[2.711594] (-) TimerEvent: {}
+[2.812509] (-) TimerEvent: {}
+[2.913364] (-) TimerEvent: {}
+[3.014226] (-) TimerEvent: {}
+[3.114660] (-) TimerEvent: {}
+[3.215115] (-) TimerEvent: {}
+[3.315590] (-) TimerEvent: {}
+[3.415849] (-) TimerEvent: {}
+[3.516375] (-) TimerEvent: {}
+[3.616872] (-) TimerEvent: {}
+[3.717581] (-) TimerEvent: {}
+[3.818301] (-) TimerEvent: {}
+[3.918793] (-) TimerEvent: {}
+[4.019325] (-) TimerEvent: {}
+[4.120169] (-) TimerEvent: {}
+[4.220571] (-) TimerEvent: {}
+[4.321209] (-) TimerEvent: {}
+[4.421860] (-) TimerEvent: {}
+[4.522366] (-) TimerEvent: {}
+[4.622932] (-) TimerEvent: {}
+[4.723316] (-) TimerEvent: {}
+[4.824090] (-) TimerEvent: {}
+[4.924663] (-) TimerEvent: {}
+[5.025622] (-) TimerEvent: {}
+[5.126622] (-) TimerEvent: {}
+[5.227697] (-) TimerEvent: {}
+[5.328583] (-) TimerEvent: {}
+[5.429140] (-) TimerEvent: {}
+[5.529716] (-) TimerEvent: {}
+[5.630649] (-) TimerEvent: {}
+[5.731784] (-) TimerEvent: {}
+[5.765534] (micu_ros_car) StdoutLine: {'line': b'NOTICE: \n'}
+[5.765679] (micu_ros_car) StdoutLine: {'line': b'Following dependencies have new versions available:\n'}
+[5.765732] (micu_ros_car) StdoutLine: {'line': b'Dependency "espressif/mdns": "1.8.1" -> "1.8.2"\n'}
+[5.765771] (micu_ros_car) StdoutLine: {'line': b'Consider running "idf.py update-dependencies" to update your lock file.\n'}
+[5.770546] (micu_ros_car) StdoutLine: {'line': b'NOTICE: Processing 3 dependencies:\n'}
+[5.770655] (micu_ros_car) StdoutLine: {'line': b'NOTICE: [1/3] espressif/mdns (1.8.1)\n'}
+[5.772668] (micu_ros_car) StdoutLine: {'line': b'NOTICE: [2/3] espressif/pid_ctrl (0.2.0)\n'}
+[5.774110] (micu_ros_car) StdoutLine: {'line': b'NOTICE: [3/3] idf (5.1.2)\n'}
+[5.832168] (-) TimerEvent: {}
+[5.932569] (-) TimerEvent: {}
+[6.033492] (-) TimerEvent: {}
+[6.134206] (-) TimerEvent: {}
+[6.234747] (-) TimerEvent: {}
+[6.335245] (-) TimerEvent: {}
+[6.435772] (-) TimerEvent: {}
+[6.536223] (-) TimerEvent: {}
+[6.581315] (micu_ros_car) StdoutLine: {'line': b'-- Project sdkconfig file /home/micu/esp/mycode/micu_ros_car/sdkconfig\n'}
+[6.636599] (-) TimerEvent: {}
+[6.737286] (-) TimerEvent: {}
+[6.837688] (-) TimerEvent: {}
+[6.851516] (micu_ros_car) StderrLine: {'line': b'\x1b[0mCompiler supported targets: xtensa-esp32s3-elf\n'}
+[6.851666] (micu_ros_car) StderrLine: {'line': b'\x1b[0m\n'}
+[6.938752] (-) TimerEvent: {}
+[6.955239] (micu_ros_car) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[7.038724] (micu_ros_car) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[7.038941] (-) TimerEvent: {}
+[7.039194] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[7.114534] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[7.115191] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[7.139101] (-) TimerEvent: {}
+[7.184436] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[7.184631] (micu_ros_car) StdoutLine: {'line': b'-- Check size of time_t\n'}
+[7.240453] (-) TimerEvent: {}
+[7.258480] (micu_ros_car) StdoutLine: {'line': b'-- Check size of time_t - done\n'}
+[7.340841] (-) TimerEvent: {}
+[7.441438] (-) TimerEvent: {}
+[7.488042] (micu_ros_car) StdoutLine: {'line': b'-- Found Python3: /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[7.534472] (micu_ros_car) StdoutLine: {'line': b'-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS\n'}
+[7.541808] (-) TimerEvent: {}
+[7.602914] (micu_ros_car) StdoutLine: {'line': b'-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success\n'}
+[7.625593] (micu_ros_car) StdoutLine: {'line': b'-- App "micu_ros_car" version: 40565bf-dirty\n'}
+[7.642752] (-) TimerEvent: {}
+[7.743607] (-) TimerEvent: {}
+[7.837755] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car/esp-idf/esp_system/ld/memory.ld\n'}
+[7.838259] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in\n'}
+[7.843095] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld\n'}
+[7.843596] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld\n'}
+[7.843744] (-) TimerEvent: {}
+[7.843869] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld\n'}
+[7.843950] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld\n'}
+[7.844009] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld\n'}
+[7.854049] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld\n'}
+[7.944099] (-) TimerEvent: {}
+[8.033716] (micu_ros_car) StdoutLine: {'line': b'-- Using Micro XRCE-DDS middleware\n'}
+[8.044301] (-) TimerEvent: {}
+[8.135668] (micu_ros_car) StdoutLine: {'line': b'-- Components: UART WP_Math app_trace app_update bootloader bootloader_support bt cmock config console cxx driver efuse esp-tls esp32_i2c_rw esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__mdns espressif__pid_ctrl esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 imu_ahrs imu_publisher json lidar lidar_publisher log lwip main mbedtls mcu_dmp micro_ros_espidf_component motor mpu6050 mqtt newlib nvs_flash oled openthread partition_table perfmon proto_define proto_utils protobuf-c protocomm pthread ring_buffer rotary_encoder sdmmc soc spi_flash spiffs sysn tcp_transport touch_element ulp unity usb vfs wear_levelling wifi wifi_provisioning wpa_supplicant xtensa\n'}
+[8.135858] (micu_ros_car) StdoutLine: {'line': b'-- Component paths: /home/micu/esp/mycode/micu_ros_car/components/protocal/UART /home/micu/esp/mycode/micu_ros_car/components/lib/WP_Math /home/micu/esp/esp-idf/components/app_trace /home/micu/esp/esp-idf/components/app_update /home/micu/esp/esp-idf/components/bootloader /home/micu/esp/esp-idf/components/bootloader_support /home/micu/esp/esp-idf/components/bt /home/micu/esp/esp-idf/components/cmock /home/micu/esp/mycode/micu_ros_car/components/config /home/micu/esp/esp-idf/components/console /home/micu/esp/esp-idf/components/cxx /home/micu/esp/esp-idf/components/driver /home/micu/esp/esp-idf/components/efuse /home/micu/esp/esp-idf/components/esp-tls /home/micu/esp/mycode/micu_ros_car/components/lib/esp32_i2c_rw /home/micu/esp/esp-idf/components/esp_adc /home/micu/esp/esp-idf/components/esp_app_format /home/micu/esp/esp-idf/components/esp_coex /home/micu/esp/esp-idf/components/esp_common /home/micu/esp/esp-idf/components/esp_eth /home/micu/esp/esp-idf/components/esp_event /home/micu/esp/esp-idf/components/esp_gdbstub /home/micu/esp/esp-idf/components/esp_hid /home/micu/esp/esp-idf/components/esp_http_client /home/micu/esp/esp-idf/components/esp_http_server /home/micu/esp/esp-idf/components/esp_https_ota /home/micu/esp/esp-idf/components/esp_https_server /home/micu/esp/esp-idf/components/esp_hw_support /home/micu/esp/esp-idf/components/esp_lcd /home/micu/esp/esp-idf/components/esp_local_ctrl /home/micu/esp/esp-idf/components/esp_mm /home/micu/esp/esp-idf/components/esp_netif /home/micu/esp/esp-idf/components/esp_netif_stack /home/micu/esp/esp-idf/components/esp_partition /home/micu/esp/esp-idf/components/esp_phy /home/micu/esp/esp-idf/components/esp_pm /home/micu/esp/esp-idf/components/esp_psram /home/micu/esp/esp-idf/components/esp_ringbuf /home/micu/esp/esp-idf/components/esp_rom /home/micu/esp/esp-idf/components/esp_system /home/micu/esp/esp-idf/components/esp_timer /home/micu/esp/esp-idf/components/esp_wifi /home/micu/esp/esp-idf/components/espcoredump /home/micu/esp/mycode/micu_ros_car/managed_components/espressif__mdns /home/micu/esp/mycode/micu_ros_car/managed_components/espressif__pid_ctrl /home/micu/esp/esp-idf/components/esptool_py /home/micu/esp/esp-idf/components/fatfs /home/micu/esp/esp-idf/components/freertos /home/micu/esp/esp-idf/components/hal /home/micu/esp/esp-idf/components/heap /home/micu/esp/esp-idf/components/http_parser /home/micu/esp/esp-idf/components/idf_test /home/micu/esp/esp-idf/components/ieee802154 /home/micu/esp/mycode/micu_ros_car/components/lib/imu_ahrs /home/micu/esp/mycode/micu_ros_car/components/microros/imu_publisher /home/micu/esp/esp-idf/components/json /home/micu/esp/mycode/micu_ros_car/components/lidar /home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher /home/micu/esp/esp-idf/components/log /home/micu/esp/esp-idf/components/lwip /home/micu/esp/mycode/micu_ros_car/main /home/micu/esp/esp-idf/components/mbedtls /home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp /home/micu/esp/mycode/extra_components/micro_ros_espidf_component /home/micu/esp/mycode/micu_ros_car/components/motor /home/micu/esp/mycode/micu_ros_car/components/mpu6050 /home/micu/esp/esp-idf/components/mqtt /home/micu/esp/esp-idf/components/newlib /home/micu/esp/esp-idf/components/nvs_flash /home/micu/esp/mycode/micu_ros_car/components/oled /home/micu/esp/esp-idf/components/openthread /home/micu/esp/esp-idf/components/partition_table /home/micu/esp/esp-idf/components/perfmon /home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define /home/micu/esp/mycode/micu_ros_car/components/protocal/proto_utils /home/micu/esp/esp-idf/components/protobuf-c /home/micu/esp/esp-idf/components/protocomm /home/micu/esp/esp-idf/components/pthread /home/micu/esp/mycode/micu_ros_car/components/protocal/ring_buffer /home/micu/esp/mycode/micu_ros_car/components/lib/rotary_encoder /home/micu/esp/esp-idf/components/sdmmc /home/micu/esp/esp-idf/components/soc /home/micu/esp/esp-idf/components/spi_flash /home/micu/esp/esp-idf/components/spiffs /home/micu/esp/mycode/micu_ros_car/components/microros/sysn /home/micu/esp/esp-idf/components/tcp_transport /home/micu/esp/esp-idf/components/touch_element /home/micu/esp/esp-idf/components/ulp /home/micu/esp/esp-idf/components/unity /home/micu/esp/esp-idf/components/usb /home/micu/esp/esp-idf/components/vfs /home/micu/esp/esp-idf/components/wear_levelling /home/micu/esp/mycode/micu_ros_car/components/wifi /home/micu/esp/esp-idf/components/wifi_provisioning /home/micu/esp/esp-idf/components/wpa_supplicant /home/micu/esp/esp-idf/components/xtensa\n'}
+[8.139851] (micu_ros_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.145183] (-) TimerEvent: {}
+[8.245559] (-) TimerEvent: {}
+[8.346189] (-) TimerEvent: {}
+[8.446864] (-) TimerEvent: {}
+[8.547506] (-) TimerEvent: {}
+[8.648199] (-) TimerEvent: {}
+[8.668037] (micu_ros_car) StdoutLine: {'line': b'-- Generating done\n'}
+[8.686405] (micu_ros_car) StdoutLine: {'line': b'-- Build files have been written to: /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car\n'}
+[8.726897] (micu_ros_car) CommandEnded: {'returncode': 0}
+[8.729067] (micu_ros_car) JobProgress: {'identifier': 'micu_ros_car', 'progress': 'build'}
+[8.729120] (micu_ros_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car', '--', '-j4', '-l4'], 'cwd': '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'micu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IDF_TOOLS_INSTALL_CMD', '/home/micu/esp/esp-idf/install.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/micu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1843'), ('SYSTEMD_EXEC_PID', '2105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4607'), ('OPENOCD_SCRIPTS', '/home/micu/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/micu/ydlidar_ros2_ws/install:/home/micu/micu_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'micu'), ('JOURNAL_STREAM', '8:26140'), ('_', '/home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'micu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('IDF_DEACTIVATE_FILE_PATH', '/tmp/tmpf52hm9sbidf_1920'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/micu/esp/esp-idf'), ('PATH', '/opt/ros/humble/bin:/home/micu/esp/esp-idf/components/espcoredump:/home/micu/esp/esp-idf/components/partition_table:/home/micu/esp/esp-idf/components/app_update:/home/micu/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/home/micu/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/home/micu/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/micu/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/micu/.espressif/python_env/idf5.1_py3.10_env/bin:/home/micu/esp/esp-idf/tools:/home/micu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2204:@/tmp/.ICE-unix/2077,unix/ubuntu2204:/tmp/.ICE-unix/2077'), ('INVOCATION_ID', 'a4a933d47dda4a97995d106d6f0c1756'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRV532'), ('ESP_IDF_VERSION', '5.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/micu/micu_ws/install/demo_pkg_cpp:/home/micu/micu_ws/install/demo_pkg_c:/home/micu/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de492147-9f79-4ebf-a491-ffc15053a577'), ('QT_ACCESSIBILITY', '1'), ('IDF_PYTHON_ENV_PATH', '/home/micu/.espressif/python_env/idf5.1_py3.10_env'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IDF_TOOLS_EXPORT_CMD', '/home/micu/esp/esp-idf/export.sh'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ESP_ROM_ELF_DIR', '/home/micu/.espressif/tools/esp-rom-elfs/20230320/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/micu/micu_ws/install/demo_pkg_cpp:/home/micu/micu_ws/install/demo_pkg_c:/home/micu/ydlidar_ros2_ws/install/ydlidar_ros2_driver')]), 'shell': False}
+[8.749163] (-) TimerEvent: {}
+[8.803522] (micu_ros_car) StdoutLine: {'line': b'[  0%] Built target custom_bundle\n'}
+[8.803865] (micu_ros_car) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating ../../partition_table/partition-table.bin\x1b[0m\n'}
+[8.805397] (micu_ros_car) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating memory.ld linker script...\x1b[0m\n'}
+[8.806981] (micu_ros_car) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating project_elf_src_esp32s3.c\x1b[0m\n'}
+[8.836499] (micu_ros_car) StdoutLine: {'line': b'[  0%] Built target memory_ld\n'}
+[8.839268] (micu_ros_car) StdoutLine: {'line': b'[  0%] Built target _project_elf_src\n'}
+[8.849322] (-) TimerEvent: {}
+[8.852875] (micu_ros_car) StdoutLine: {'line': b'Partition table binary generated. Contents:\n'}
+[8.863725] (micu_ros_car) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding C object esp-idf/ulp/CMakeFiles/__idf_ulp.dir/ulp_common/ulp_adc.c.obj\x1b[0m\n'}
+[8.868156] (micu_ros_car) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding C object esp-idf/ulp/CMakeFiles/__idf_ulp.dir/ulp_common/ulp_common.c.obj\x1b[0m\n'}
+[8.876613] (micu_ros_car) StdoutLine: {'line': b'*******************************************************************************\n'}
+[8.904597] (micu_ros_car) StdoutLine: {'line': b'# ESP-IDF Partition Table\n'}
+[8.904757] (micu_ros_car) StdoutLine: {'line': b'# Name, Type, SubType, Offset, Size, Flags\n'}
+[8.904797] (micu_ros_car) StdoutLine: {'line': b'nvs,data,nvs,0x9000,24K,\n'}
+[8.904833] (micu_ros_car) StdoutLine: {'line': b'phy_init,data,phy,0xf000,4K,\n'}
+[8.904867] (micu_ros_car) StdoutLine: {'line': b'factory,app,factory,0x10000,1500K,\n'}
+[8.916066] (micu_ros_car) StdoutLine: {'line': b'*******************************************************************************\n'}
+[8.928162] (micu_ros_car) StdoutLine: {'line': b'[  0%] Built target partition_table_bin\n'}
+[8.949502] (micu_ros_car) StdoutLine: {'line': b'[  0%] \x1b[32m\x1b[1mLinking C static library libulp.a\x1b[0m\n'}
+[8.949654] (-) TimerEvent: {}
+[8.953545] (micu_ros_car) StdoutLine: {'line': b"[  0%] \x1b[34m\x1b[1mCreating directories for 'bootloader'\x1b[0m\n"}
+[8.999414] (micu_ros_car) StdoutLine: {'line': b'[  0%] Built target __idf_ulp\n'}
+[9.023207] (micu_ros_car) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding C object esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj\x1b[0m\n'}
+[9.029091] (micu_ros_car) StdoutLine: {'line': b"[  0%] \x1b[34m\x1b[1mNo download step for 'bootloader'\x1b[0m\n"}
+[9.049907] (-) TimerEvent: {}
+[9.056005] (micu_ros_car) StdoutLine: {'line': b"[  0%] \x1b[34m\x1b[1mNo update step for 'bootloader'\x1b[0m\n"}
+[9.083569] (micu_ros_car) StdoutLine: {'line': b"[  1%] \x1b[34m\x1b[1mNo patch step for 'bootloader'\x1b[0m\n"}
+[9.110307] (micu_ros_car) StdoutLine: {'line': b"[  1%] \x1b[34m\x1b[1mPerforming configure step for 'bootloader'\x1b[0m\n"}
+[9.132020] (micu_ros_car) StdoutLine: {'line': b'-- Found Git: /usr/bin/git (found version "2.34.1") \n'}
+[9.150794] (-) TimerEvent: {}
+[9.216421] (micu_ros_car) StdoutLine: {'line': b'[  1%] \x1b[32m\x1b[1mLinking C static library libesp_https_ota.a\x1b[0m\n'}
+[9.250990] (-) TimerEvent: {}
+[9.263895] (micu_ros_car) StdoutLine: {'line': b'[  1%] Built target __idf_esp_https_ota\n'}
+[9.292305] (micu_ros_car) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_sess.c.obj\x1b[0m\n'}
+[9.294023] (micu_ros_car) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.obj\x1b[0m\n'}
+[9.294123] (micu_ros_car) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj\x1b[0m\n'}
+[9.351774] (-) TimerEvent: {}
+[9.432327] (micu_ros_car) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_txrx.c.obj\x1b[0m\n'}
+[9.453450] (-) TimerEvent: {}
+[9.460075] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_uri.c.obj\x1b[0m\n'}
+[9.490162] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj\x1b[0m\n'}
+[9.553732] (-) TimerEvent: {}
+[9.588726] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.c.obj\x1b[0m\n'}
+[9.654385] (-) TimerEvent: {}
+[9.663796] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32m\x1b[1mLinking C static library libesp_http_server.a\x1b[0m\n'}
+[9.708166] (micu_ros_car) StdoutLine: {'line': b'[  2%] Built target __idf_esp_http_server\n'}
+[9.735160] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj\x1b[0m\n'}
+[9.735399] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj\x1b[0m\n'}
+[9.735597] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj\x1b[0m\n'}
+[9.754722] (-) TimerEvent: {}
+[9.819091] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj\x1b[0m\n'}
+[9.821729] (micu_ros_car) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.2.0\n'}
+[9.855432] (-) TimerEvent: {}
+[9.866434] (micu_ros_car) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.2.0\n'}
+[9.885935] (micu_ros_car) StdoutLine: {'line': b'-- The ASM compiler identification is GNU\n'}
+[9.887462] (micu_ros_car) StdoutLine: {'line': b'-- Found assembler: /home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc\n'}
+[9.891115] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.955684] (-) TimerEvent: {}
+[9.968433] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.976812] (micu_ros_car) StdoutLine: {'line': b'-- Check for working C compiler: /home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc - skipped\n'}
+[9.977680] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.979427] (micu_ros_car) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.984130] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.056209] (-) TimerEvent: {}
+[10.065568] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.070558] (micu_ros_car) StdoutLine: {'line': b'-- Check for working CXX compiler: /home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ - skipped\n'}
+[10.070853] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.071609] (micu_ros_car) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.080253] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32m\x1b[1mLinking C static library libesp_http_client.a\x1b[0m\n'}
+[10.134129] (micu_ros_car) StdoutLine: {'line': b'[  2%] Built target __idf_esp_http_client\n'}
+[10.156475] (-) TimerEvent: {}
+[10.161450] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj\x1b[0m\n'}
+[10.161622] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj\x1b[0m\n'}
+[10.162022] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj\x1b[0m\n'}
+[10.221792] (micu_ros_car) StdoutLine: {'line': b'-- Building ESP-IDF components for target esp32s3\n'}
+[10.256694] (-) TimerEvent: {}
+[10.277933] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c.obj\x1b[0m\n'}
+[10.332981] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj\x1b[0m\n'}
+[10.358743] (-) TimerEvent: {}
+[10.459592] (-) TimerEvent: {}
+[10.532968] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking C static library libtcp_transport.a\x1b[0m\n'}
+[10.560044] (-) TimerEvent: {}
+[10.578168] (micu_ros_car) StdoutLine: {'line': b'[  3%] Built target __idf_tcp_transport\n'}
+[10.590132] (micu_ros_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target __idf_esp_gdbstub\x1b[0m\n'}
+[10.615224] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj\x1b[0m\n'}
+[10.615440] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj\x1b[0m\n'}
+[10.616223] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj\x1b[0m\n'}
+[10.669126] (-) TimerEvent: {}
+[10.693145] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub_xtensa.c.obj\x1b[0m\n'}
+[10.712615] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj\x1b[0m\n'}
+[10.748207] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj\x1b[0m\n'}
+[10.769562] (-) TimerEvent: {}
+[10.781070] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking C static library libesp_gdbstub.a\x1b[0m\n'}
+[10.825852] (micu_ros_car) StdoutLine: {'line': b'[  4%] Built target __idf_esp_gdbstub\n'}
+[10.851650] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj\x1b[0m\n'}
+[10.851804] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_802_3.c.obj\x1b[0m\n'}
+[10.851846] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj\x1b[0m\n'}
+[10.870602] (-) TimerEvent: {}
+[10.971578] (-) TimerEvent: {}
+[11.024244] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking C static library libesp_eth.a\x1b[0m\n'}
+[11.070961] (micu_ros_car) StdoutLine: {'line': b'[  4%] Built target __idf_esp_eth\n'}
+[11.071806] (-) TimerEvent: {}
+[11.098732] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj\x1b[0m\n'}
+[11.101857] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj\x1b[0m\n'}
+[11.102019] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj\x1b[0m\n'}
+[11.130397] (micu_ros_car) StdoutLine: {'line': b'-- Project sdkconfig file /home/micu/esp/mycode/micu_ros_car/sdkconfig\n'}
+[11.160220] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj\x1b[0m\n'}
+[11.172338] (-) TimerEvent: {}
+[11.183410] (micu_ros_car) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj\x1b[0m\n'}
+[11.254891] (micu_ros_car) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj\x1b[0m\n'}
+[11.255047] (micu_ros_car) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_filter.c.obj\x1b[0m\n'}
+[11.273356] (-) TimerEvent: {}
+[11.285024] (micu_ros_car) StderrLine: {'line': b'\x1b[0mCompiler supported targets: xtensa-esp32s3-elf\n'}
+[11.285216] (micu_ros_car) StderrLine: {'line': b'\x1b[0m\n'}
+[11.288190] (micu_ros_car) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32s3/curve_fitting_coefficients.c.obj\x1b[0m\n'}
+[11.345472] (micu_ros_car) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32s3/esp_adc_cal_legacy.c.obj\x1b[0m\n'}
+[11.374480] (-) TimerEvent: {}
+[11.389470] (micu_ros_car) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[11.408694] (micu_ros_car) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking C static library libesp_adc.a\x1b[0m\n'}
+[11.454756] (micu_ros_car) StdoutLine: {'line': b'[  5%] Built target __idf_esp_adc\n'}
+[11.460525] (micu_ros_car) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[11.460749] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[11.475453] (-) TimerEvent: {}
+[11.487098] (micu_ros_car) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls.c.obj\x1b[0m\n'}
+[11.498549] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto/esp_tls_crypto.c.obj\x1b[0m\n'}
+[11.498765] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_error_capture.c.obj\x1b[0m\n'}
+[11.552171] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj\x1b[0m\n'}
+[11.554122] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[11.554581] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[11.576541] (-) TimerEvent: {}
+[11.642517] (micu_ros_car) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[11.642673] (micu_ros_car) StdoutLine: {'line': b'-- Check size of time_t\n'}
+[11.677408] (-) TimerEvent: {}
+[11.722473] (micu_ros_car) StdoutLine: {'line': b'-- Check size of time_t - done\n'}
+[11.728568] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld\n'}
+[11.733565] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32m\x1b[1mLinking C static library libesp-tls.a\x1b[0m\n'}
+[11.735891] (micu_ros_car) StdoutLine: {'line': b'-- App "bootloader" version: v5.1.2-1-g3b62af741a\n'}
+[11.748718] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld\n'}
+[11.748888] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld\n'}
+[11.750809] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld\n'}
+[11.751044] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld\n'}
+[11.759702] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld\n'}
+[11.759804] (micu_ros_car) StdoutLine: {'line': b'-- Adding linker script /home/micu/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld\n'}
+[11.774681] (micu_ros_car) StdoutLine: {'line': b'-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa\n'}
+[11.774865] (micu_ros_car) StdoutLine: {'line': b'-- Component paths: /home/micu/esp/esp-idf/components/bootloader /home/micu/esp/esp-idf/components/bootloader_support /home/micu/esp/esp-idf/components/efuse /home/micu/esp/esp-idf/components/esp_app_format /home/micu/esp/esp-idf/components/esp_common /home/micu/esp/esp-idf/components/esp_hw_support /home/micu/esp/esp-idf/components/esp_rom /home/micu/esp/esp-idf/components/esp_system /home/micu/esp/esp-idf/components/esptool_py /home/micu/esp/esp-idf/components/freertos /home/micu/esp/esp-idf/components/hal /home/micu/esp/esp-idf/components/log /home/micu/esp/esp-idf/components/bootloader/subproject/main /home/micu/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/micu/esp/esp-idf/components/newlib /home/micu/esp/esp-idf/components/partition_table /home/micu/esp/esp-idf/components/soc /home/micu/esp/esp-idf/components/spi_flash /home/micu/esp/esp-idf/components/xtensa\n'}
+[11.774932] (micu_ros_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.775594] (micu_ros_car) StdoutLine: {'line': b'[  6%] Built target __idf_esp-tls\n'}
+[11.777594] (-) TimerEvent: {}
+[11.805202] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj\x1b[0m\n'}
+[11.834507] (micu_ros_car) StdoutLine: {'line': b'-- Generating done\n'}
+[11.839988] (micu_ros_car) StdoutLine: {'line': b'-- Build files have been written to: /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car/bootloader\n'}
+[11.872163] (micu_ros_car) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mPerforming build step for 'bootloader'\x1b[0m\n"}
+[11.878334] (-) TimerEvent: {}
+[11.928468] (micu_ros_car) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj\x1b[0m\n'}
+[11.929665] (micu_ros_car) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj\x1b[0m\n'}
+[11.935655] (micu_ros_car) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating project_elf_src_esp32s3.c\x1b[0m\n'}
+[11.959847] (micu_ros_car) StdoutLine: {'line': b'[  3%] Built target _project_elf_src\n'}
+[11.970807] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj\x1b[0m\n'}
+[11.978708] (-) TimerEvent: {}
+[12.041673] (micu_ros_car) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking C static library liblog.a\x1b[0m\n'}
+[12.079674] (-) TimerEvent: {}
+[12.085903] (micu_ros_car) StdoutLine: {'line': b'[  4%] Built target __idf_log\n'}
+[12.099903] (micu_ros_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target __idf_esp_rom\x1b[0m\n'}
+[12.118926] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj\x1b[0m\n'}
+[12.119200] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj\x1b[0m\n'}
+[12.124137] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj\x1b[0m\n'}
+[12.151454] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj\x1b[0m\n'}
+[12.158013] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj\x1b[0m\n'}
+[12.164107] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32m\x1b[1mLinking C static library libhttp_parser.a\x1b[0m\n'}
+[12.180539] (-) TimerEvent: {}
+[12.193655] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj\x1b[0m\n'}
+[12.209084] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.obj\x1b[0m\n'}
+[12.210864] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.obj\x1b[0m\n'}
+[12.216391] (micu_ros_car) StdoutLine: {'line': b'[  6%] Built target __idf_http_parser\n'}
+[12.225785] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj\x1b[0m\n'}
+[12.230769] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj\x1b[0m\n'}
+[12.265130] (micu_ros_car) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj\x1b[0m\n'}
+[12.267158] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj\x1b[0m\n'}
+[12.267403] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj\x1b[0m\n'}
+[12.281505] (-) TimerEvent: {}
+[12.286896] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C static library libesp_rom.a\x1b[0m\n'}
+[12.337512] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj\x1b[0m\n'}
+[12.346637] (micu_ros_car) StdoutLine: {'line': b'[ 14%] Built target __idf_esp_rom\n'}
+[12.348107] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj\x1b[0m\n'}
+[12.365123] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default_ap.c.obj\x1b[0m\n'}
+[12.378574] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj\x1b[0m\n'}
+[12.382428] (-) TimerEvent: {}
+[12.425876] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32s3/esp_adapter.c.obj\x1b[0m\n'}
+[12.442571] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.obj\x1b[0m\n'}
+[12.450253] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C static library libesp_common.a\x1b[0m\n'}
+[12.482721] (-) TimerEvent: {}
+[12.494087] (micu_ros_car) StdoutLine: {'line': b'[ 16%] Built target __idf_esp_common\n'}
+[12.522974] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj\x1b[0m\n'}
+[12.523155] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj\x1b[0m\n'}
+[12.547317] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/cpu_region_protect.c.obj\x1b[0m\n'}
+[12.552130] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking C static library libesp_wifi.a\x1b[0m\n'}
+[12.569772] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk.c.obj\x1b[0m\n'}
+[12.583786] (-) TimerEvent: {}
+[12.596633] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_init.c.obj\x1b[0m\n'}
+[12.596937] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk_init.c.obj\x1b[0m\n'}
+[12.602867] (micu_ros_car) StdoutLine: {'line': b'[  7%] Built target __idf_esp_wifi\n'}
+[12.639636] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj\x1b[0m\n'}
+[12.674423] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_sleep.c.obj\x1b[0m\n'}
+[12.684596] (-) TimerEvent: {}
+[12.735225] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_time.c.obj\x1b[0m\n'}
+[12.738307] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking C static library libesp_coex.a\x1b[0m\n'}
+[12.753424] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/chip_info.c.obj\x1b[0m\n'}
+[12.783371] (micu_ros_car) StdoutLine: {'line': b'[  7%] Built target __idf_esp_coex\n'}
+[12.785694] (-) TimerEvent: {}
+[12.817810] (micu_ros_car) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj\x1b[0m\n'}
+[12.819791] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj\x1b[0m\n'}
+[12.820644] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj\x1b[0m\n'}
+[12.834399] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C static library libesp_hw_support.a\x1b[0m\n'}
+[12.887068] (-) TimerEvent: {}
+[12.894173] (micu_ros_car) StdoutLine: {'line': b'[ 25%] Built target __idf_esp_hw_support\n'}
+[12.910817] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj\x1b[0m\n'}
+[12.925417] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj\x1b[0m\n'}
+[12.930951] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj\x1b[0m\n'}
+[12.945780] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj\x1b[0m\n'}
+[12.981439] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C static library libesp_system.a\x1b[0m\n'}
+[12.987712] (-) TimerEvent: {}
+[13.028464] (micu_ros_car) StdoutLine: {'line': b'[ 27%] Built target __idf_esp_system\n'}
+[13.029803] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_auth.c.obj\x1b[0m\n'}
+[13.057005] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj\x1b[0m\n'}
+[13.078001] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj\x1b[0m\n'}
+[13.087924] (-) TimerEvent: {}
+[13.116802] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj\x1b[0m\n'}
+[13.141345] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj\x1b[0m\n'}
+[13.157141] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj\x1b[0m\n'}
+[13.188725] (-) TimerEvent: {}
+[13.200369] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj\x1b[0m\n'}
+[13.219381] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj\x1b[0m\n'}
+[13.231246] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.obj\x1b[0m\n'}
+[13.274578] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token.c.obj\x1b[0m\n'}
+[13.276489] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj\x1b[0m\n'}
+[13.289725] (-) TimerEvent: {}
+[13.311355] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj\x1b[0m\n'}
+[13.371774] (micu_ros_car) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj\x1b[0m\n'}
+[13.373975] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.c.obj\x1b[0m\n'}
+[13.390836] (-) TimerEvent: {}
+[13.441905] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj\x1b[0m\n'}
+[13.454926] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking C static library libefuse.a\x1b[0m\n'}
+[13.480034] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.obj\x1b[0m\n'}
+[13.491495] (-) TimerEvent: {}
+[13.515409] (micu_ros_car) StdoutLine: {'line': b'[ 36%] Built target __idf_efuse\n'}
+[13.550831] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj\x1b[0m\n'}
+[13.572299] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj\x1b[0m\n'}
+[13.592197] (-) TimerEvent: {}
+[13.619406] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj\x1b[0m\n'}
+[13.680376] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj\x1b[0m\n'}
+[13.684845] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.obj\x1b[0m\n'}
+[13.687593] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj\x1b[0m\n'}
+[13.692409] (-) TimerEvent: {}
+[13.716759] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj\x1b[0m\n'}
+[13.733519] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj\x1b[0m\n'}
+[13.781571] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj\x1b[0m\n'}
+[13.785382] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.obj\x1b[0m\n'}
+[13.793402] (-) TimerEvent: {}
+[13.794036] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj\x1b[0m\n'}
+[13.844383] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops.c.obj\x1b[0m\n'}
+[13.851056] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj\x1b[0m\n'}
+[13.853030] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.c.obj\x1b[0m\n'}
+[13.893780] (-) TimerEvent: {}
+[13.901925] (micu_ros_car) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.c.obj\x1b[0m\n'}
+[13.929476] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj\x1b[0m\n'}
+[13.933418] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlsprf.c.obj\x1b[0m\n'}
+[13.935170] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj\x1b[0m\n'}
+[13.994480] (-) TimerEvent: {}
+[13.996498] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj\x1b[0m\n'}
+[14.006150] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj\x1b[0m\n'}
+[14.023804] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj\x1b[0m\n'}
+[14.061943] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tlsprf.c.obj\x1b[0m\n'}
+[14.099102] (-) TimerEvent: {}
+[14.112812] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj\x1b[0m\n'}
+[14.122690] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tlsprf.c.obj\x1b[0m\n'}
+[14.167364] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj\x1b[0m\n'}
+[14.192249] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj\x1b[0m\n'}
+[14.199284] (-) TimerEvent: {}
+[14.208172] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf.c.obj\x1b[0m\n'}
+[14.232135] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj\x1b[0m\n'}
+[14.299739] (-) TimerEvent: {}
+[14.303711] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c.obj\x1b[0m\n'}
+[14.328764] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf.c.obj\x1b[0m\n'}
+[14.338421] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-internal.c.obj\x1b[0m\n'}
+[14.389943] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.c.obj\x1b[0m\n'}
+[14.400615] (-) TimerEvent: {}
+[14.433000] (micu_ros_car) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_wsc_common.c.obj\x1b[0m\n'}
+[14.442445] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11_common.c.obj\x1b[0m\n'}
+[14.462479] (micu_ros_car) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj\x1b[0m\n'}
+[14.483470] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.obj\x1b[0m\n'}
+[14.500804] (-) TimerEvent: {}
+[14.509010] (micu_ros_car) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj\x1b[0m\n'}
+[14.517806] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj\x1b[0m\n'}
+[14.557472] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_sha.c.obj\x1b[0m\n'}
+[14.571825] (micu_ros_car) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_soc.c.obj\x1b[0m\n'}
+[14.571979] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.obj\x1b[0m\n'}
+[14.577793] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_esp32s3.c.obj\x1b[0m\n'}
+[14.601136] (-) TimerEvent: {}
+[14.614792] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_common.c.obj\x1b[0m\n'}
+[14.618037] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj\x1b[0m\n'}
+[14.686050] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj\x1b[0m\n'}
+[14.701558] (-) TimerEvent: {}
+[14.714939] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap.c.obj\x1b[0m\n'}
+[14.746741] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap_common.c.obj\x1b[0m\n'}
+[14.757634] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C static library libbootloader_support.a\x1b[0m\n'}
+[14.769805] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.c.obj\x1b[0m\n'}
+[14.801954] (-) TimerEvent: {}
+[14.820906] (micu_ros_car) StdoutLine: {'line': b'[ 57%] Built target __idf_bootloader_support\n'}
+[14.840708] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_common.c.obj\x1b[0m\n'}
+[14.856392] (micu_ros_car) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj\x1b[0m\n'}
+[14.873835] (micu_ros_car) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls.c.obj\x1b[0m\n'}
+[14.906478] (-) TimerEvent: {}
+[14.916911] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2.c.obj\x1b[0m\n'}
+[14.918605] (micu_ros_car) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C static library libesp_app_format.a\x1b[0m\n'}
+[14.974769] (micu_ros_car) StdoutLine: {'line': b'[ 58%] Built target __idf_esp_app_format\n'}
+[15.007512] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast.c.obj\x1b[0m\n'}
+[15.007906] (-) TimerEvent: {}
+[15.008849] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_common.c.obj\x1b[0m\n'}
+[15.012953] (micu_ros_car) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj\x1b[0m\n'}
+[15.082150] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_pac.c.obj\x1b[0m\n'}
+[15.101359] (micu_ros_car) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C static library libspi_flash.a\x1b[0m\n'}
+[15.104769] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj\x1b[0m\n'}
+[15.108705] (-) TimerEvent: {}
+[15.157131] (micu_ros_car) StdoutLine: {'line': b'[ 60%] Built target __idf_spi_flash\n'}
+[15.193835] (micu_ros_car) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj\x1b[0m\n'}
+[15.209149] (-) TimerEvent: {}
+[15.239564] (micu_ros_car) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj\x1b[0m\n'}
+[15.250761] (micu_ros_car) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj\x1b[0m\n'}
+[15.269973] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.obj\x1b[0m\n'}
+[15.303911] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj\x1b[0m\n'}
+[15.309506] (-) TimerEvent: {}
+[15.338575] (micu_ros_car) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj\x1b[0m\n'}
+[15.339713] (micu_ros_car) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj\x1b[0m\n'}
+[15.410573] (-) TimerEvent: {}
+[15.416367] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.obj\x1b[0m\n'}
+[15.433493] (micu_ros_car) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C static library libhal.a\x1b[0m\n'}
+[15.434053] (micu_ros_car) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.obj\x1b[0m\n'}
+[15.490552] (micu_ros_car) StdoutLine: {'line': b'[ 65%] Built target __idf_hal\n'}
+[15.511828] (-) TimerEvent: {}
+[15.523664] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_password.c.obj\x1b[0m\n'}
+[15.524268] (micu_ros_car) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj\x1b[0m\n'}
+[15.594513] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.obj\x1b[0m\n'}
+[15.594742] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj\x1b[0m\n'}
+[15.610657] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c.obj\x1b[0m\n'}
+[15.613406] (-) TimerEvent: {}
+[15.679573] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj\x1b[0m\n'}
+[15.685798] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj\x1b[0m\n'}
+[15.686370] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj\x1b[0m\n'}
+[15.713791] (-) TimerEvent: {}
+[15.806168] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj\x1b[0m\n'}
+[15.815523] (-) TimerEvent: {}
+[15.815756] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj\x1b[0m\n'}
+[15.830194] (micu_ros_car) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.obj\x1b[0m\n'}
+[15.916393] (-) TimerEvent: {}
+[15.929902] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj\x1b[0m\n'}
+[15.930773] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj\x1b[0m\n'}
+[15.982488] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.obj\x1b[0m\n'}
+[15.982802] (micu_ros_car) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C static library libmicro-ecc.a\x1b[0m\n'}
+[16.017391] (-) TimerEvent: {}
+[16.048204] (micu_ros_car) StdoutLine: {'line': b'[ 68%] Built target __idf_micro-ecc\n'}
+[16.072812] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/bss.c.obj\x1b[0m\n'}
+[16.078218] (micu_ros_car) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj\x1b[0m\n'}
+[16.117980] (-) TimerEvent: {}
+[16.136835] (micu_ros_car) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj\x1b[0m\n'}
+[16.150101] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/scan.c.obj\x1b[0m\n'}
+[16.158625] (micu_ros_car) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj\x1b[0m\n'}
+[16.172164] (micu_ros_car) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj\x1b[0m\n'}
+[16.198042] (micu_ros_car) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj\x1b[0m\n'}
+[16.214513] (micu_ros_car) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj\x1b[0m\n'}
+[16.214990] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_scan.c.obj\x1b[0m\n'}
+[16.218773] (-) TimerEvent: {}
+[16.240838] (micu_ros_car) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj\x1b[0m\n'}
+[16.244775] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_eap_client.c.obj\x1b[0m\n'}
+[16.253923] (micu_ros_car) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj\x1b[0m\n'}
+[16.283452] (micu_ros_car) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj\x1b[0m\n'}
+[16.286299] (micu_ros_car) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj\x1b[0m\n'}
+[16.319358] (-) TimerEvent: {}
+[16.325425] (micu_ros_car) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj\x1b[0m\n'}
+[16.325614] (micu_ros_car) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj\x1b[0m\n'}
+[16.331479] (micu_ros_car) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj\x1b[0m\n'}
+[16.361768] (micu_ros_car) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj\x1b[0m\n'}
+[16.362081] (micu_ros_car) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj\x1b[0m\n'}
+[16.365955] (micu_ros_car) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj\x1b[0m\n'}
+[16.397471] (micu_ros_car) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj\x1b[0m\n'}
+[16.397686] (micu_ros_car) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj\x1b[0m\n'}
+[16.401740] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2_api_port.c.obj\x1b[0m\n'}
+[16.420277] (-) TimerEvent: {}
+[16.437240] (micu_ros_car) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj\x1b[0m\n'}
+[16.443270] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa_main.c.obj\x1b[0m\n'}
+[16.468971] (micu_ros_car) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpas_glue.c.obj\x1b[0m\n'}
+[16.473806] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.obj\x1b[0m\n'}
+[16.480793] (micu_ros_car) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj\x1b[0m\n'}
+[16.520862] (-) TimerEvent: {}
+[16.523528] (micu_ros_car) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj\x1b[0m\n'}
+[16.575261] (micu_ros_car) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj\x1b[0m\n'}
+[16.576768] (micu_ros_car) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_periph.c.obj\x1b[0m\n'}
+[16.578834] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wps.c.obj\x1b[0m\n'}
+[16.581436] (micu_ros_car) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_otg_periph.c.obj\x1b[0m\n'}
+[16.608325] (micu_ros_car) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj\x1b[0m\n'}
+[16.612877] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa3.c.obj\x1b[0m\n'}
+[16.623844] (-) TimerEvent: {}
+[16.624211] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_owe.c.obj\x1b[0m\n'}
+[16.656120] (micu_ros_car) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C static library libsoc.a\x1b[0m\n'}
+[16.715214] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_hostap.c.obj\x1b[0m\n'}
+[16.722576] (micu_ros_car) StdoutLine: {'line': b'[ 91%] Built target __idf_soc\n'}
+[16.724418] (-) TimerEvent: {}
+[16.754808] (micu_ros_car) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj\x1b[0m\n'}
+[16.776539] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/tls_mbedtls.c.obj\x1b[0m\n'}
+[16.792814] (micu_ros_car) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj\x1b[0m\n'}
+[16.825068] (-) TimerEvent: {}
+[16.838216] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpbkdf2.c.obj\x1b[0m\n'}
+[16.848908] (micu_ros_car) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C static library libxtensa.a\x1b[0m\n'}
+[16.880801] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls.c.obj\x1b[0m\n'}
+[16.899123] (micu_ros_car) StdoutLine: {'line': b'[ 93%] Built target __idf_xtensa\n'}
+[16.925684] (-) TimerEvent: {}
+[16.928215] (micu_ros_car) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj\x1b[0m\n'}
+[16.933669] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c.obj\x1b[0m\n'}
+[16.966999] (micu_ros_car) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c.obj\x1b[0m\n'}
+[16.981833] (micu_ros_car) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C static library libmain.a\x1b[0m\n'}
+[17.025846] (-) TimerEvent: {}
+[17.029420] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-ec.c.obj\x1b[0m\n'}
+[17.030368] (micu_ros_car) StdoutLine: {'line': b'[ 95%] Built target __idf_main\n'}
+[17.059566] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj\x1b[0m\n'}
+[17.066053] (micu_ros_car) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj\x1b[0m\n'}
+[17.087326] (micu_ros_car) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C executable bootloader.elf\x1b[0m\n'}
+[17.108437] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-internal.c.obj\x1b[0m\n'}
+[17.126092] (-) TimerEvent: {}
+[17.148053] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c.obj\x1b[0m\n'}
+[17.219977] (micu_ros_car) StdoutLine: {'line': b'[ 98%] Built target bootloader.elf\n'}
+[17.226814] (-) TimerEvent: {}
+[17.237968] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj\x1b[0m\n'}
+[17.238177] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.obj\x1b[0m\n'}
+[17.245724] (micu_ros_car) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerating binary image from built executable\x1b[0m\n'}
+[17.327482] (-) TimerEvent: {}
+[17.329792] (micu_ros_car) StdoutLine: {'line': b'esptool.py v4.8.1\n'}
+[17.330005] (micu_ros_car) StdoutLine: {'line': b'Creating esp32s3 image...\n'}
+[17.330115] (micu_ros_car) StdoutLine: {'line': b'Merged 1 ELF section\n'}
+[17.331075] (micu_ros_car) StdoutLine: {'line': b'Successfully created esp32s3 image.\n'}
+[17.334883] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C static library libwpa_supplicant.a\x1b[0m\n'}
+[17.348399] (micu_ros_car) StdoutLine: {'line': b'Generated /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car/bootloader/bootloader.bin\n'}
+[17.372209] (micu_ros_car) StdoutLine: {'line': b'[100%] Built target gen_project_binary\n'}
+[17.419504] (micu_ros_car) StdoutLine: {'line': b'Bootloader binary size 0x51b0 bytes. 0x2e50 bytes (36%) free.\n'}
+[17.427650] (-) TimerEvent: {}
+[17.433504] (micu_ros_car) StdoutLine: {'line': b'[100%] Built target bootloader_check_size\n'}
+[17.455185] (micu_ros_car) StdoutLine: {'line': b'[ 16%] Built target __idf_wpa_supplicant\n'}
+[17.465152] (micu_ros_car) StdoutLine: {'line': b'[100%] Built target app\n'}
+[17.489518] (micu_ros_car) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj\x1b[0m\n'}
+[17.495343] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj\x1b[0m\n'}
+[17.497679] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj\x1b[0m\n'}
+[17.497861] (micu_ros_car) StdoutLine: {'line': b"[ 17%] \x1b[34m\x1b[1mNo install step for 'bootloader'\x1b[0m\n"}
+[17.528036] (-) TimerEvent: {}
+[17.537007] (micu_ros_car) StdoutLine: {'line': b"[ 17%] \x1b[34m\x1b[1mCompleted 'bootloader'\x1b[0m\n"}
+[17.564996] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj\x1b[0m\n'}
+[17.584130] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj\x1b[0m\n'}
+[17.585066] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj\x1b[0m\n'}
+[17.596309] (micu_ros_car) StdoutLine: {'line': b'[ 17%] Built target bootloader\n'}
+[17.612518] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj\x1b[0m\n'}
+[17.628576] (-) TimerEvent: {}
+[17.676315] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj\x1b[0m\n'}
+[17.694901] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj\x1b[0m\n'}
+[17.728832] (-) TimerEvent: {}
+[17.829436] (-) TimerEvent: {}
+[17.886424] (micu_ros_car) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C static library libesp_netif.a\x1b[0m\n'}
+[17.929946] (-) TimerEvent: {}
+[17.935150] (micu_ros_car) StdoutLine: {'line': b'[ 17%] Built target __idf_esp_netif\n'}
+[17.970111] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp/sntp.c.obj\x1b[0m\n'}
+[17.970478] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_msg.c.obj\x1b[0m\n'}
+[17.970634] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_lib.c.obj\x1b[0m\n'}
+[17.971284] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/err.c.obj\x1b[0m\n'}
+[18.031536] (-) TimerEvent: {}
+[18.068277] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/if_api.c.obj\x1b[0m\n'}
+[18.081284] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netbuf.c.obj\x1b[0m\n'}
+[18.131667] (-) TimerEvent: {}
+[18.138663] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netdb.c.obj\x1b[0m\n'}
+[18.153239] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netifapi.c.obj\x1b[0m\n'}
+[18.166374] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/sockets.c.obj\x1b[0m\n'}
+[18.232051] (-) TimerEvent: {}
+[18.234668] (micu_ros_car) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/tcpip.c.obj\x1b[0m\n'}
+[18.240395] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/sntp/sntp.c.obj\x1b[0m\n'}
+[18.244966] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/netbiosns/netbiosns.c.obj\x1b[0m\n'}
+[18.332483] (-) TimerEvent: {}
+[18.343828] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/def.c.obj\x1b[0m\n'}
+[18.349843] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/dns.c.obj\x1b[0m\n'}
+[18.359889] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/inet_chksum.c.obj\x1b[0m\n'}
+[18.430690] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/init.c.obj\x1b[0m\n'}
+[18.450325] (-) TimerEvent: {}
+[18.512388] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ip.c.obj\x1b[0m\n'}
+[18.532696] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/mem.c.obj\x1b[0m\n'}
+[18.550662] (-) TimerEvent: {}
+[18.556011] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/memp.c.obj\x1b[0m\n'}
+[18.571335] (micu_ros_car) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/netif.c.obj\x1b[0m\n'}
+[18.612586] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/pbuf.c.obj\x1b[0m\n'}
+[18.616779] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/raw.c.obj\x1b[0m\n'}
+[18.651511] (-) TimerEvent: {}
+[18.659299] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/stats.c.obj\x1b[0m\n'}
+[18.741033] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/sys.c.obj\x1b[0m\n'}
+[18.742962] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp.c.obj\x1b[0m\n'}
+[18.752168] (-) TimerEvent: {}
+[18.764352] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_in.c.obj\x1b[0m\n'}
+[18.771735] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_out.c.obj\x1b[0m\n'}
+[18.820491] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/timeouts.c.obj\x1b[0m\n'}
+[18.854471] (-) TimerEvent: {}
+[18.931446] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/udp.c.obj\x1b[0m\n'}
+[18.954731] (-) TimerEvent: {}
+[18.972791] (micu_ros_car) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/autoip.c.obj\x1b[0m\n'}
+[19.004189] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/dhcp.c.obj\x1b[0m\n'}
+[19.007179] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/etharp.c.obj\x1b[0m\n'}
+[19.050479] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/icmp.c.obj\x1b[0m\n'}
+[19.055425] (-) TimerEvent: {}
+[19.129985] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/igmp.c.obj\x1b[0m\n'}
+[19.156396] (-) TimerEvent: {}
+[19.156963] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4.c.obj\x1b[0m\n'}
+[19.169920] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_napt.c.obj\x1b[0m\n'}
+[19.236475] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_addr.c.obj\x1b[0m\n'}
+[19.256878] (-) TimerEvent: {}
+[19.258498] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4/ip4_frag.c.obj\x1b[0m\n'}
+[19.258897] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/dhcp6.c.obj\x1b[0m\n'}
+[19.313930] (micu_ros_car) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ethip6.c.obj\x1b[0m\n'}
+[19.339925] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/icmp6.c.obj\x1b[0m\n'}
+[19.340131] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/inet6.c.obj\x1b[0m\n'}
+[19.357517] (-) TimerEvent: {}
+[19.357771] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6.c.obj\x1b[0m\n'}
+[19.397293] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6_addr.c.obj\x1b[0m\n'}
+[19.428490] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/ip6_frag.c.obj\x1b[0m\n'}
+[19.445477] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/mld6.c.obj\x1b[0m\n'}
+[19.458484] (-) TimerEvent: {}
+[19.500380] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6/nd6.c.obj\x1b[0m\n'}
+[19.533767] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ethernet.c.obj\x1b[0m\n'}
+[19.539395] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/bridgeif.c.obj\x1b[0m\n'}
+[19.558739] (-) TimerEvent: {}
+[19.574699] (micu_ros_car) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/bridgeif_fdb.c.obj\x1b[0m\n'}
+[19.618302] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/slipif.c.obj\x1b[0m\n'}
+[19.629900] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/auth.c.obj\x1b[0m\n'}
+[19.659382] (-) TimerEvent: {}
+[19.671179] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ccp.c.obj\x1b[0m\n'}
+[19.703399] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap-md5.c.obj\x1b[0m\n'}
+[19.711613] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap-new.c.obj\x1b[0m\n'}
+[19.742510] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/chap_ms.c.obj\x1b[0m\n'}
+[19.762434] (-) TimerEvent: {}
+[19.775504] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/demand.c.obj\x1b[0m\n'}
+[19.779870] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/eap.c.obj\x1b[0m\n'}
+[19.798438] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ecp.c.obj\x1b[0m\n'}
+[19.829764] (micu_ros_car) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/eui64.c.obj\x1b[0m\n'}
+[19.854812] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/fsm.c.obj\x1b[0m\n'}
+[19.856026] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ipcp.c.obj\x1b[0m\n'}
+[19.859190] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ipv6cp.c.obj\x1b[0m\n'}
+[19.863429] (-) TimerEvent: {}
+[19.906881] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/lcp.c.obj\x1b[0m\n'}
+[19.930699] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/magic.c.obj\x1b[0m\n'}
+[19.933559] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/mppe.c.obj\x1b[0m\n'}
+[19.938113] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/multilink.c.obj\x1b[0m\n'}
+[19.963554] (-) TimerEvent: {}
+[19.995035] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/ppp.c.obj\x1b[0m\n'}
+[20.007924] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppapi.c.obj\x1b[0m\n'}
+[20.016380] (micu_ros_car) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppcrypt.c.obj\x1b[0m\n'}
+[20.020379] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppoe.c.obj\x1b[0m\n'}
+[20.066577] (-) TimerEvent: {}
+[20.076693] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppol2tp.c.obj\x1b[0m\n'}
+[20.100792] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/pppos.c.obj\x1b[0m\n'}
+[20.112329] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/upap.c.obj\x1b[0m\n'}
+[20.116881] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/utils.c.obj\x1b[0m\n'}
+[20.162655] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/vj.c.obj\x1b[0m\n'}
+[20.167429] (-) TimerEvent: {}
+[20.172639] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/hooks/tcp_isn_default.c.obj\x1b[0m\n'}
+[20.190394] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/hooks/lwip_default_hooks.c.obj\x1b[0m\n'}
+[20.217404] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/debug/lwip_debug.c.obj\x1b[0m\n'}
+[20.244224] (micu_ros_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/sockets_ext.c.obj\x1b[0m\n'}
+[20.267962] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/freertos/sys_arch.c.obj\x1b[0m\n'}
+[20.268151] (-) TimerEvent: {}
+[20.303529] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32xx/vfs_lwip.c.obj\x1b[0m\n'}
+[20.343568] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/esp_ping.c.obj\x1b[0m\n'}
+[20.349687] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping.c.obj\x1b[0m\n'}
+[20.370491] (-) TimerEvent: {}
+[20.386661] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping_sock.c.obj\x1b[0m\n'}
+[20.409212] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/dhcpserver/dhcpserver.c.obj\x1b[0m\n'}
+[20.470648] (-) TimerEvent: {}
+[20.569007] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C static library liblwip.a\x1b[0m\n'}
+[20.570830] (-) TimerEvent: {}
+[20.666363] (micu_ros_car) StdoutLine: {'line': b'[ 26%] Built target __idf_lwip\n'}
+[20.672130] (-) TimerEvent: {}
+[20.695298] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj\x1b[0m\n'}
+[20.695584] (micu_ros_car) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_uart.c.obj\x1b[0m\n'}
+[20.696875] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj\x1b[0m\n'}
+[20.697106] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj\x1b[0m\n'}
+[20.772815] (-) TimerEvent: {}
+[20.826966] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_console.c.obj\x1b[0m\n'}
+[20.873360] (-) TimerEvent: {}
+[20.880927] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_usb_serial_jtag.c.obj\x1b[0m\n'}
+[20.974395] (-) TimerEvent: {}
+[20.983894] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C static library libvfs.a\x1b[0m\n'}
+[21.037437] (micu_ros_car) StdoutLine: {'line': b'[ 27%] Built target __idf_vfs\n'}
+[21.066991] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj\x1b[0m\n'}
+[21.067206] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj\x1b[0m\n'}
+[21.067359] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_override.c.obj\x1b[0m\n'}
+[21.069776] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.obj\x1b[0m\n'}
+[21.075371] (-) TimerEvent: {}
+[21.127049] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.obj\x1b[0m\n'}
+[21.176342] (-) TimerEvent: {}
+[21.209757] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C static library libesp_phy.a\x1b[0m\n'}
+[21.255774] (micu_ros_car) StdoutLine: {'line': b'[ 27%] Built target __idf_esp_phy\n'}
+[21.278433] (-) TimerEvent: {}
+[21.286438] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_page.cpp.obj\x1b[0m\n'}
+[21.286651] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj\x1b[0m\n'}
+[21.286743] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj\x1b[0m\n'}
+[21.286856] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj\x1b[0m\n'}
+[21.378663] (-) TimerEvent: {}
+[21.479466] (-) TimerEvent: {}
+[21.581532] (-) TimerEvent: {}
+[21.682548] (-) TimerEvent: {}
+[21.783755] (-) TimerEvent: {}
+[21.884739] (-) TimerEvent: {}
+[21.985432] (-) TimerEvent: {}
+[22.024600] (micu_ros_car) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_pagemanager.cpp.obj\x1b[0m\n'}
+[22.085767] (-) TimerEvent: {}
+[22.188441] (-) TimerEvent: {}
+[22.225572] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_storage.cpp.obj\x1b[0m\n'}
+[22.251493] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_simple.cpp.obj\x1b[0m\n'}
+[22.289500] (-) TimerEvent: {}
+[22.391762] (-) TimerEvent: {}
+[22.493407] (-) TimerEvent: {}
+[22.503787] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_locked.cpp.obj\x1b[0m\n'}
+[22.593608] (-) TimerEvent: {}
+[22.694625] (-) TimerEvent: {}
+[22.797635] (-) TimerEvent: {}
+[22.898553] (-) TimerEvent: {}
+[22.909260] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj\x1b[0m\n'}
+[22.999337] (-) TimerEvent: {}
+[23.064940] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_lookup.cpp.obj\x1b[0m\n'}
+[23.099740] (-) TimerEvent: {}
+[23.193522] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.obj\x1b[0m\n'}
+[23.200526] (-) TimerEvent: {}
+[23.252228] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj\x1b[0m\n'}
+[23.300773] (-) TimerEvent: {}
+[23.401921] (-) TimerEvent: {}
+[23.503481] (-) TimerEvent: {}
+[23.604449] (-) TimerEvent: {}
+[23.704954] (-) TimerEvent: {}
+[23.805728] (-) TimerEvent: {}
+[23.890431] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C static library libnvs_flash.a\x1b[0m\n'}
+[23.906726] (-) TimerEvent: {}
+[23.948961] (micu_ros_car) StdoutLine: {'line': b'[ 28%] Built target __idf_nvs_flash\n'}
+[23.974671] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.obj\x1b[0m\n'}
+[23.974900] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj\x1b[0m\n'}
+[23.977570] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj\x1b[0m\n'}
+[24.006840] (-) TimerEvent: {}
+[24.108426] (-) TimerEvent: {}
+[24.120728] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C static library libesp_event.a\x1b[0m\n'}
+[24.161352] (micu_ros_car) StdoutLine: {'line': b'[ 28%] Built target __idf_esp_event\n'}
+[24.190270] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/system_time.c.obj\x1b[0m\n'}
+[24.191091] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer.c.obj\x1b[0m\n'}
+[24.191227] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_common.c.obj\x1b[0m\n'}
+[24.193884] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/ets_timer_legacy.c.obj\x1b[0m\n'}
+[24.208777] (-) TimerEvent: {}
+[24.254529] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_systimer.c.obj\x1b[0m\n'}
+[24.309712] (-) TimerEvent: {}
+[24.330821] (micu_ros_car) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C static library libesp_timer.a\x1b[0m\n'}
+[24.372807] (micu_ros_car) StdoutLine: {'line': b'[ 28%] Built target __idf_esp_timer\n'}
+[24.398635] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj\x1b[0m\n'}
+[24.410136] (-) TimerEvent: {}
+[24.510464] (-) TimerEvent: {}
+[24.511057] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C static library libesp_common.a\x1b[0m\n'}
+[24.552383] (micu_ros_car) StdoutLine: {'line': b'[ 29%] Built target __idf_esp_common\n'}
+[24.575589] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj\x1b[0m\n'}
+[24.576000] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj\x1b[0m\n'}
+[24.613865] (-) TimerEvent: {}
+[24.714410] (-) TimerEvent: {}
+[24.800113] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C static library libcxx.a\x1b[0m\n'}
+[24.814727] (-) TimerEvent: {}
+[24.843094] (micu_ros_car) StdoutLine: {'line': b'[ 29%] Built target __idf_cxx\n'}
+[24.869906] (micu_ros_car) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/assert.c.obj\x1b[0m\n'}
+[24.870058] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/heap.c.obj\x1b[0m\n'}
+[24.870392] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/abort.c.obj\x1b[0m\n'}
+[24.870463] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/locks.c.obj\x1b[0m\n'}
+[24.917536] (-) TimerEvent: {}
+[24.926863] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.obj\x1b[0m\n'}
+[24.931362] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.obj\x1b[0m\n'}
+[24.937177] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.obj\x1b[0m\n'}
+[24.966125] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/reent_init.c.obj\x1b[0m\n'}
+[24.978690] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.obj\x1b[0m\n'}
+[24.982550] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/syscalls.c.obj\x1b[0m\n'}
+[24.985206] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/termios.c.obj\x1b[0m\n'}
+[25.017865] (-) TimerEvent: {}
+[25.019060] (micu_ros_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/stdatomic.c.obj\x1b[0m\n'}
+[25.028964] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/time.c.obj\x1b[0m\n'}
+[25.029334] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/sysconf.c.obj\x1b[0m\n'}
+[25.046191] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.obj\x1b[0m\n'}
+[25.079752] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj\x1b[0m\n'}
+[25.118751] (-) TimerEvent: {}
+[25.145972] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking C static library libnewlib.a\x1b[0m\n'}
+[25.193827] (micu_ros_car) StdoutLine: {'line': b'[ 31%] Built target __idf_newlib\n'}
+[25.207276] (micu_ros_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target __idf_freertos\x1b[0m\n'}
+[25.219103] (-) TimerEvent: {}
+[25.231849] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj\x1b[0m\n'}
+[25.232015] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.obj\x1b[0m\n'}
+[25.233273] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj\x1b[0m\n'}
+[25.233491] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj\x1b[0m\n'}
+[25.298169] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj\x1b[0m\n'}
+[25.303076] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj\x1b[0m\n'}
+[25.320734] (-) TimerEvent: {}
+[25.329234] (micu_ros_car) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/croutine.c.obj\x1b[0m\n'}
+[25.400747] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.obj\x1b[0m\n'}
+[25.418532] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj\x1b[0m\n'}
+[25.420960] (-) TimerEvent: {}
+[25.432012] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/port.c.obj\x1b[0m\n'}
+[25.506451] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj\x1b[0m\n'}
+[25.521395] (-) TimerEvent: {}
+[25.561635] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.obj\x1b[0m\n'}
+[25.565159] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.obj\x1b[0m\n'}
+[25.579219] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/portasm.S.obj\x1b[0m\n'}
+[25.617826] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_v8_compat.c.obj\x1b[0m\n'}
+[25.619065] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_systick.c.obj\x1b[0m\n'}
+[25.622351] (-) TimerEvent: {}
+[25.636030] (micu_ros_car) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_context.S.obj\x1b[0m\n'}
+[25.660479] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c.obj\x1b[0m\n'}
+[25.673105] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c.obj\x1b[0m\n'}
+[25.683092] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S.obj\x1b[0m\n'}
+[25.723440] (-) TimerEvent: {}
+[25.730218] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking C static library libfreertos.a\x1b[0m\n'}
+[25.785600] (micu_ros_car) StdoutLine: {'line': b'[ 33%] Built target __idf_freertos\n'}
+[25.813930] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj\x1b[0m\n'}
+[25.814087] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj\x1b[0m\n'}
+[25.814129] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/cpu_region_protect.c.obj\x1b[0m\n'}
+[25.814166] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj\x1b[0m\n'}
+[25.824734] (-) TimerEvent: {}
+[25.859367] (micu_ros_car) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/hw_random.c.obj\x1b[0m\n'}
+[25.860469] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj\x1b[0m\n'}
+[25.896637] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj\x1b[0m\n'}
+[25.920503] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj\x1b[0m\n'}
+[25.920859] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj\x1b[0m\n'}
+[25.925302] (-) TimerEvent: {}
+[25.946245] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/revision.c.obj\x1b[0m\n'}
+[25.998725] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj\x1b[0m\n'}
+[26.013072] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj\x1b[0m\n'}
+[26.025668] (-) TimerEvent: {}
+[26.032120] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj\x1b[0m\n'}
+[26.071320] (micu_ros_car) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modem.c.obj\x1b[0m\n'}
+[26.110330] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj\x1b[0m\n'}
+[26.127684] (-) TimerEvent: {}
+[26.142708] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.obj\x1b[0m\n'}
+[26.158103] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_common.c.obj\x1b[0m\n'}
+[26.177554] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/io_mux.c.obj\x1b[0m\n'}
+[26.208279] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_clk_tree.c.obj\x1b[0m\n'}
+[26.222893] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_clk_tree_common.c.obj\x1b[0m\n'}
+[26.228659] (-) TimerEvent: {}
+[26.244562] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.obj\x1b[0m\n'}
+[26.284182] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_cpu.c.obj\x1b[0m\n'}
+[26.296420] (micu_ros_car) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma/gdma.c.obj\x1b[0m\n'}
+[26.313509] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma/async_memcpy_impl_gdma.c.obj\x1b[0m\n'}
+[26.329401] (-) TimerEvent: {}
+[26.354303] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma/esp_async_memcpy.c.obj\x1b[0m\n'}
+[26.397913] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/systimer.c.obj\x1b[0m\n'}
+[26.404127] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_hmac.c.obj\x1b[0m\n'}
+[26.430376] (-) TimerEvent: {}
+[26.432594] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_ds.c.obj\x1b[0m\n'}
+[26.461492] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning.c.obj\x1b[0m\n'}
+[26.482216] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/mspi_timing_config.c.obj\x1b[0m\n'}
+[26.498450] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_wake_stub.c.obj\x1b[0m\n'}
+[26.519303] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk.c.obj\x1b[0m\n'}
+[26.530491] (-) TimerEvent: {}
+[26.554822] (micu_ros_car) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk_init.c.obj\x1b[0m\n'}
+[26.569908] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_init.c.obj\x1b[0m\n'}
+[26.578754] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_sleep.c.obj\x1b[0m\n'}
+[26.627732] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_time.c.obj\x1b[0m\n'}
+[26.631507] (-) TimerEvent: {}
+[26.650663] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/chip_info.c.obj\x1b[0m\n'}
+[26.661097] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_crypto_lock.c.obj\x1b[0m\n'}
+[26.696499] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_memprot.c.obj\x1b[0m\n'}
+[26.696671] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/sar_periph_ctrl.c.obj\x1b[0m\n'}
+[26.706892] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_memprot_conv.c.obj\x1b[0m\n'}
+[26.733340] (-) TimerEvent: {}
+[26.834108] (-) TimerEvent: {}
+[26.934557] (-) TimerEvent: {}
+[26.975232] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking C static library libesp_hw_support.a\x1b[0m\n'}
+[27.034648] (-) TimerEvent: {}
+[27.045580] (micu_ros_car) StdoutLine: {'line': b'[ 37%] Built target __idf_esp_hw_support\n'}
+[27.076078] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj\x1b[0m\n'}
+[27.076736] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj\x1b[0m\n'}
+[27.076882] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj\x1b[0m\n'}
+[27.077557] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj\x1b[0m\n'}
+[27.117535] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj\x1b[0m\n'}
+[27.123949] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj\x1b[0m\n'}
+[27.127019] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj\x1b[0m\n'}
+[27.127837] (micu_ros_car) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj\x1b[0m\n'}
+[27.136600] (-) TimerEvent: {}
+[27.158816] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj\x1b[0m\n'}
+[27.161046] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj\x1b[0m\n'}
+[27.167192] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj\x1b[0m\n'}
+[27.172504] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj\x1b[0m\n'}
+[27.203636] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj\x1b[0m\n'}
+[27.205719] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj\x1b[0m\n'}
+[27.211868] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj\x1b[0m\n'}
+[27.213290] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj\x1b[0m\n'}
+[27.232772] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj\x1b[0m\n'}
+[27.236694] (-) TimerEvent: {}
+[27.238337] (micu_ros_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj\x1b[0m\n'}
+[27.243821] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj\x1b[0m\n'}
+[27.249965] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj\x1b[0m\n'}
+[27.268927] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj\x1b[0m\n'}
+[27.274424] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj\x1b[0m\n'}
+[27.287448] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_periph.c.obj\x1b[0m\n'}
+[27.291963] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_otg_periph.c.obj\x1b[0m\n'}
+[27.315239] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj\x1b[0m\n'}
+[27.337432] (-) TimerEvent: {}
+[27.357927] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking C static library libsoc.a\x1b[0m\n'}
+[27.409468] (micu_ros_car) StdoutLine: {'line': b'[ 39%] Built target __idf_soc\n'}
+[27.437437] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps.c.obj\x1b[0m\n'}
+[27.437667] (-) TimerEvent: {}
+[27.437766] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/heap/CMakeFiles/__idf_heap.dir/multi_heap.c.obj\x1b[0m\n'}
+[27.437817] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_init.c.obj\x1b[0m\n'}
+[27.437933] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/heap/CMakeFiles/__idf_heap.dir/tlsf/tlsf.c.obj\x1b[0m\n'}
+[27.536636] (micu_ros_car) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/memory_layout_utils.c.obj\x1b[0m\n'}
+[27.537728] (-) TimerEvent: {}
+[27.539390] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/esp32s3/memory_layout.c.obj\x1b[0m\n'}
+[27.638334] (-) TimerEvent: {}
+[27.683928] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C static library libheap.a\x1b[0m\n'}
+[27.731589] (micu_ros_car) StdoutLine: {'line': b'[ 40%] Built target __idf_heap\n'}
+[27.738385] (-) TimerEvent: {}
+[27.757222] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj\x1b[0m\n'}
+[27.757376] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj\x1b[0m\n'}
+[27.757556] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj\x1b[0m\n'}
+[27.835096] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C static library liblog.a\x1b[0m\n'}
+[27.838968] (-) TimerEvent: {}
+[27.878405] (micu_ros_car) StdoutLine: {'line': b'[ 40%] Built target __idf_log\n'}
+[27.907207] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj\x1b[0m\n'}
+[27.907363] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj\x1b[0m\n'}
+[27.908211] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj\x1b[0m\n'}
+[27.908875] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj\x1b[0m\n'}
+[27.940579] (-) TimerEvent: {}
+[27.956753] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj\x1b[0m\n'}
+[27.961571] (micu_ros_car) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.obj\x1b[0m\n'}
+[27.973771] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj\x1b[0m\n'}
+[27.987467] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.obj\x1b[0m\n'}
+[28.034594] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj\x1b[0m\n'}
+[28.039983] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj\x1b[0m\n'}
+[28.041546] (-) TimerEvent: {}
+[28.042542] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj\x1b[0m\n'}
+[28.094257] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/clk_tree_hal.c.obj\x1b[0m\n'}
+[28.101980] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj\x1b[0m\n'}
+[28.137829] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj\x1b[0m\n'}
+[28.145217] (-) TimerEvent: {}
+[28.145570] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj\x1b[0m\n'}
+[28.168233] (micu_ros_car) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.obj\x1b[0m\n'}
+[28.195703] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj\x1b[0m\n'}
+[28.197843] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.obj\x1b[0m\n'}
+[28.238005] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj\x1b[0m\n'}
+[28.245629] (-) TimerEvent: {}
+[28.255253] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj\x1b[0m\n'}
+[28.256272] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj\x1b[0m\n'}
+[28.257835] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.obj\x1b[0m\n'}
+[28.303751] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj\x1b[0m\n'}
+[28.316580] (micu_ros_car) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.obj\x1b[0m\n'}
+[28.332276] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.obj\x1b[0m\n'}
+[28.332431] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.obj\x1b[0m\n'}
+[28.347815] (-) TimerEvent: {}
+[28.351650] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal.c.obj\x1b[0m\n'}
+[28.388930] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj\x1b[0m\n'}
+[28.395801] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj\x1b[0m\n'}
+[28.402835] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.obj\x1b[0m\n'}
+[28.407738] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.obj\x1b[0m\n'}
+[28.445197] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj\x1b[0m\n'}
+[28.448432] (-) TimerEvent: {}
+[28.475171] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.obj\x1b[0m\n'}
+[28.516261] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj\x1b[0m\n'}
+[28.516658] (micu_ros_car) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj\x1b[0m\n'}
+[28.531434] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj\x1b[0m\n'}
+[28.549067] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.obj\x1b[0m\n'}
+[28.549236] (-) TimerEvent: {}
+[28.572731] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.obj\x1b[0m\n'}
+[28.622849] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.obj\x1b[0m\n'}
+[28.627253] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.obj\x1b[0m\n'}
+[28.650052] (-) TimerEvent: {}
+[28.657187] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.obj\x1b[0m\n'}
+[28.664717] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.obj\x1b[0m\n'}
+[28.684410] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.obj\x1b[0m\n'}
+[28.720814] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_hal.c.obj\x1b[0m\n'}
+[28.752458] (-) TimerEvent: {}
+[28.755905] (micu_ros_car) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_phy_hal.c.obj\x1b[0m\n'}
+[28.758851] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.obj\x1b[0m\n'}
+[28.782656] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.obj\x1b[0m\n'}
+[28.787536] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.obj\x1b[0m\n'}
+[28.815898] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.obj\x1b[0m\n'}
+[28.853160] (-) TimerEvent: {}
+[28.909447] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C static library libhal.a\x1b[0m\n'}
+[28.953658] (-) TimerEvent: {}
+[28.977916] (micu_ros_car) StdoutLine: {'line': b'[ 45%] Built target __idf_hal\n'}
+[28.992321] (micu_ros_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target __idf_esp_rom\x1b[0m\n'}
+[29.008204] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj\x1b[0m\n'}
+[29.008349] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj\x1b[0m\n'}
+[29.008989] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj\x1b[0m\n'}
+[29.010055] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj\x1b[0m\n'}
+[29.045175] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj\x1b[0m\n'}
+[29.046110] (micu_ros_car) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj\x1b[0m\n'}
+[29.054947] (-) TimerEvent: {}
+[29.061578] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.obj\x1b[0m\n'}
+[29.077321] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.obj\x1b[0m\n'}
+[29.080955] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj\x1b[0m\n'}
+[29.089377] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj\x1b[0m\n'}
+[29.134853] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C static library libesp_rom.a\x1b[0m\n'}
+[29.155761] (-) TimerEvent: {}
+[29.179131] (micu_ros_car) StdoutLine: {'line': b'[ 46%] Built target __idf_esp_rom\n'}
+[29.192478] (micu_ros_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target __idf_esp_system\x1b[0m\n'}
+[29.220168] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/crosscore_int.c.obj\x1b[0m\n'}
+[29.220424] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_ipc.c.obj\x1b[0m\n'}
+[29.224689] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj\x1b[0m\n'}
+[29.225401] (micu_ros_car) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/freertos_hooks.c.obj\x1b[0m\n'}
+[29.256436] (-) TimerEvent: {}
+[29.308679] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/panic.c.obj\x1b[0m\n'}
+[29.312045] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/int_wdt.c.obj\x1b[0m\n'}
+[29.332742] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system.c.obj\x1b[0m\n'}
+[29.342833] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.obj\x1b[0m\n'}
+[29.357377] (-) TimerEvent: {}
+[29.436366] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/system_time.c.obj\x1b[0m\n'}
+[29.451750] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/stack_check.c.obj\x1b[0m\n'}
+[29.457827] (-) TimerEvent: {}
+[29.472498] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/ubsan.c.obj\x1b[0m\n'}
+[29.518429] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/debug_stubs.c.obj\x1b[0m\n'}
+[29.518680] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj\x1b[0m\n'}
+[29.528971] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt.c.obj\x1b[0m\n'}
+[29.558611] (-) TimerEvent: {}
+[29.560538] (micu_ros_car) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt_impl_timergroup.c.obj\x1b[0m\n'}
+[29.591030] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj\x1b[0m\n'}
+[29.604754] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/panic_handler.c.obj\x1b[0m\n'}
+[29.658836] (-) TimerEvent: {}
+[29.670329] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_system_chip.c.obj\x1b[0m\n'}
+[29.687826] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.obj\x1b[0m\n'}
+[29.707125] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/highint_hdl.S.obj\x1b[0m\n'}
+[29.732088] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/clk.c.obj\x1b[0m\n'}
+[29.749020] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/reset_reason.c.obj\x1b[0m\n'}
+[29.756796] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/system_internal.c.obj\x1b[0m\n'}
+[29.759732] (-) TimerEvent: {}
+[29.803347] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/cache_err_int.c.obj\x1b[0m\n'}
+[29.821190] (micu_ros_car) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/apb_backup_dma.c.obj\x1b[0m\n'}
+[29.844903] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c.obj\x1b[0m\n'}
+[29.861105] (-) TimerEvent: {}
+[29.869184] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj\x1b[0m\n'}
+[29.875036] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack.c.obj\x1b[0m\n'}
+[29.901901] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj\x1b[0m\n'}
+[29.907407] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers.c.obj\x1b[0m\n'}
+[29.942835] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj\x1b[0m\n'}
+[29.951831] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.obj\x1b[0m\n'}
+[29.961310] (-) TimerEvent: {}
+[29.970615] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj\x1b[0m\n'}
+[29.978836] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr.c.obj\x1b[0m\n'}
+[29.991122] (micu_ros_car) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj\x1b[0m\n'}
+[29.997126] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj\x1b[0m\n'}
+[30.061644] (-) TimerEvent: {}
+[30.069484] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C static library libesp_system.a\x1b[0m\n'}
+[30.131568] (micu_ros_car) StdoutLine: {'line': b'[ 50%] Built target __idf_esp_system\n'}
+[30.161733] (-) TimerEvent: {}
+[30.163761] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj\x1b[0m\n'}
+[30.163890] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj\x1b[0m\n'}
+[30.163931] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj\x1b[0m\n'}
+[30.163966] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_rwlock.c.obj\x1b[0m\n'}
+[30.251542] (micu_ros_car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_semaphore.c.obj\x1b[0m\n'}
+[30.263075] (-) TimerEvent: {}
+[30.321156] (micu_ros_car) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C static library libpthread.a\x1b[0m\n'}
+[30.363481] (-) TimerEvent: {}
+[30.365970] (micu_ros_car) StdoutLine: {'line': b'[ 51%] Built target __idf_pthread\n'}
+[30.396027] (micu_ros_car) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj\x1b[0m\n'}
+[30.396996] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_hpm_enable.c.obj\x1b[0m\n'}
+[30.397083] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_brownout_hook.c.obj\x1b[0m\n'}
+[30.397190] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32s3/spi_flash_oct_flash_init.c.obj\x1b[0m\n'}
+[30.437849] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj\x1b[0m\n'}
+[30.446604] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj\x1b[0m\n'}
+[30.463628] (-) TimerEvent: {}
+[30.481673] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj\x1b[0m\n'}
+[30.489056] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj\x1b[0m\n'}
+[30.491616] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj\x1b[0m\n'}
+[30.553768] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj\x1b[0m\n'}
+[30.555363] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_boya.c.obj\x1b[0m\n'}
+[30.555698] (micu_ros_car) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj\x1b[0m\n'}
+[30.564422] (-) TimerEvent: {}
+[30.594425] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj\x1b[0m\n'}
+[30.612787] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj\x1b[0m\n'}
+[30.618734] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj\x1b[0m\n'}
+[30.665551] (-) TimerEvent: {}
+[30.672741] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj\x1b[0m\n'}
+[30.710314] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj\x1b[0m\n'}
+[30.731473] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj\x1b[0m\n'}
+[30.731620] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj\x1b[0m\n'}
+[30.765894] (-) TimerEvent: {}
+[30.791450] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj\x1b[0m\n'}
+[30.792896] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj\x1b[0m\n'}
+[30.866273] (-) TimerEvent: {}
+[30.921559] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C static library libspi_flash.a\x1b[0m\n'}
+[30.966567] (-) TimerEvent: {}
+[30.978894] (micu_ros_car) StdoutLine: {'line': b'[ 53%] Built target __idf_spi_flash\n'}
+[31.006611] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj\x1b[0m\n'}
+[31.006965] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj\x1b[0m\n'}
+[31.007022] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj\x1b[0m\n'}
+[31.066786] (-) TimerEvent: {}
+[31.149702] (micu_ros_car) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C static library libesp_mm.a\x1b[0m\n'}
+[31.167472] (-) TimerEvent: {}
+[31.194320] (micu_ros_car) StdoutLine: {'line': b'[ 53%] Built target __idf_esp_mm\n'}
+[31.220887] (micu_ros_car) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj\x1b[0m\n'}
+[31.221262] (micu_ros_car) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj\x1b[0m\n'}
+[31.268405] (-) TimerEvent: {}
+[31.344468] (micu_ros_car) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C static library libapp_update.a\x1b[0m\n'}
+[31.368657] (-) TimerEvent: {}
+[31.389794] (micu_ros_car) StdoutLine: {'line': b'[ 54%] Built target __idf_app_update\n'}
+[31.416422] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj\x1b[0m\n'}
+[31.416615] (micu_ros_car) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj\x1b[0m\n'}
+[31.468882] (-) TimerEvent: {}
+[31.502664] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C static library libesp_partition.a\x1b[0m\n'}
+[31.545190] (micu_ros_car) StdoutLine: {'line': b'[ 55%] Built target __idf_esp_partition\n'}
+[31.569307] (-) TimerEvent: {}
+[31.572383] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj\x1b[0m\n'}
+[31.574169] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj\x1b[0m\n'}
+[31.574559] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj\x1b[0m\n'}
+[31.575889] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj\x1b[0m\n'}
+[31.634706] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj\x1b[0m\n'}
+[31.642075] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj\x1b[0m\n'}
+[31.669842] (-) TimerEvent: {}
+[31.688616] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj\x1b[0m\n'}
+[31.693263] (micu_ros_car) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj\x1b[0m\n'}
+[31.697974] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj\x1b[0m\n'}
+[31.700498] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj\x1b[0m\n'}
+[31.751558] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj\x1b[0m\n'}
+[31.766591] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj\x1b[0m\n'}
+[31.770485] (-) TimerEvent: {}
+[31.783387] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj\x1b[0m\n'}
+[31.808661] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj\x1b[0m\n'}
+[31.842021] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj\x1b[0m\n'}
+[31.852505] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/idf/bootloader_sha.c.obj\x1b[0m\n'}
+[31.871522] (-) TimerEvent: {}
+[31.969523] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C static library libbootloader_support.a\x1b[0m\n'}
+[31.971726] (-) TimerEvent: {}
+[32.021199] (micu_ros_car) StdoutLine: {'line': b'[ 56%] Built target __idf_bootloader_support\n'}
+[32.047104] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj\x1b[0m\n'}
+[32.071915] (-) TimerEvent: {}
+[32.092708] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C static library libesp_app_format.a\x1b[0m\n'}
+[32.136226] (micu_ros_car) StdoutLine: {'line': b'[ 56%] Built target __idf_esp_app_format\n'}
+[32.164103] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj\x1b[0m\n'}
+[32.164317] (micu_ros_car) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.obj\x1b[0m\n'}
+[32.166806] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.obj\x1b[0m\n'}
+[32.166917] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj\x1b[0m\n'}
+[32.172319] (-) TimerEvent: {}
+[32.212751] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj\x1b[0m\n'}
+[32.215474] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj\x1b[0m\n'}
+[32.215692] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj\x1b[0m\n'}
+[32.274845] (-) TimerEvent: {}
+[32.280303] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.obj\x1b[0m\n'}
+[32.316111] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj\x1b[0m\n'}
+[32.322509] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj\x1b[0m\n'}
+[32.335528] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj\x1b[0m\n'}
+[32.361531] (micu_ros_car) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj\x1b[0m\n'}
+[32.375451] (-) TimerEvent: {}
+[32.434710] (micu_ros_car) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj\x1b[0m\n'}
+[32.477145] (-) TimerEvent: {}
+[32.567604] (micu_ros_car) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj\x1b[0m\n'}
+[32.577504] (-) TimerEvent: {}
+[32.584269] (micu_ros_car) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj\x1b[0m\n'}
+[32.613781] (micu_ros_car) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj\x1b[0m\n'}
+[32.630781] (micu_ros_car) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj\x1b[0m\n'}
+[32.647918] (micu_ros_car) StderrLine: {'line': b'\x1b[01m\x1b[K/home/micu/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c:9540:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kerror writing to /tmp/cctGxDV1.s: No space left on device\n'}
+[32.648653] (micu_ros_car) StderrLine: {'line': b' 9540 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[32.649930] (micu_ros_car) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[32.650085] (micu_ros_car) StderrLine: {'line': b'\x1b[01m\x1b[K/home/micu/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kerror closing /tmp/ccPaI0lC.s: No space left on device\n'}
+[32.650495] (micu_ros_car) StderrLine: {'line': b'   23 | \n'}
+[32.655623] (micu_ros_car) StderrLine: {'line': b'      | \n'}
+[32.655682] (micu_ros_car) StderrLine: {'line': b'compilation terminated.\n'}
+[32.655720] (micu_ros_car) StderrLine: {'line': b'compilation terminated.\n'}
+[32.655756] (micu_ros_car) StderrLine: {'line': b'gmake[2]: *** [esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make:286: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj] Error 1\n'}
+[32.655794] (micu_ros_car) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[32.655831] (micu_ros_car) StderrLine: {'line': b'gmake[2]: *** [esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make:216: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj] Error 1\n'}
+[32.671541] (micu_ros_car) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:3105: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all] Error 2\n'}
+[32.671702] (micu_ros_car) StderrLine: {'line': b'gmake: *** [Makefile:136: all] Error 2\n'}
+[32.673979] (micu_ros_car) CommandEnded: {'returncode': 2}
+[32.674479] (micu_ros_car) JobEnded: {'identifier': 'micu_ros_car', 'rc': 2}
+[32.678417] (-) TimerEvent: {}
+[32.684963] (-) EventReactorShutdown: {}

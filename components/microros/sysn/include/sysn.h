@@ -26,6 +26,8 @@
 #include <geometry_msgs/msg/twist.h>
 #include <nav_msgs/msg/odometry.h>
 #include <sensor_msgs/msg/laser_scan.h>
+#include <std_msgs/msg/u_int8_multi_array.h>
+
 
 #define RCCHECK(fn)                                                                      \
     {                                                                                    \
@@ -52,7 +54,7 @@
 
 typedef struct {
     rcl_publisher_t publisher;
-    rcl_timer_t timer;
+    rcl_timer_t timer;// 用于在指定的时间间隔内执行回调函数
     unsigned int timer_timeout;
     union {
         sensor_msgs__msg__Imu Imu;
@@ -60,6 +62,7 @@ typedef struct {
         geometry_msgs__msg__Twist Twist;
         sensor_msgs__msg__LaserScan LaserScan;
         std_msgs__msg__Int32 Int32;
+        std_msgs__msg__UInt8MultiArray UInt8MultiArray;
     } msg;
 } topic_pub;
 

@@ -208,5 +208,5 @@ void oled_show(void* pvPara)
 
 void oled_show_task(void)
 {
-    xTaskCreate(oled_show, "oled_show", 8 * 1024, NULL, 5, NULL);
+    xTaskCreatePinnedToCore(oled_show, "oled_show", 8 * 1024, NULL, 10, NULL, 0);
 }

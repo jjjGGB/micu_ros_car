@@ -1,0 +1,713 @@
+[0.065s] Invoking command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car': /usr/bin/cmake --build /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car -- -j4 -l4
+[0.139s] [  0%] Built target memory_ld
+[0.141s] [  0%] Built target partition_table_bin
+[0.143s] [  0%] Built target custom_bundle
+[0.144s] [  0%] Built target _project_elf_src
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target __idf_ulp[0m
+[0.168s] [  0%] [34m[1mPerforming build step for 'bootloader'[0m
+[0.170s] [  0%] Built target __idf_ulp
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_https_ota[0m
+[0.195s] [  0%] Built target __idf_esp_https_ota
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target __idf_log[0m
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_http_server[0m
+[0.212s] [  1%] Built target _project_elf_src
+[0.215s] [  4%] Built target __idf_log
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_rom[0m
+[0.230s] [  1%] Built target __idf_esp_http_server
+[0.246s] [ 14%] Built target __idf_esp_rom
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_http_client[0m
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_common[0m
+[0.261s] [  1%] Built target __idf_esp_http_client
+[0.269s] [ 16%] Built target __idf_esp_common
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target __idf_tcp_transport[0m
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_hw_support[0m
+[0.290s] [  2%] Built target __idf_tcp_transport
+[0.295s] [ 25%] Built target __idf_esp_hw_support
+[0.303s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_gdbstub[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_system[0m
+[0.319s] [  3%] Built target __idf_esp_gdbstub
+[0.319s] [ 27%] Built target __idf_esp_system
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_eth[0m
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target __idf_efuse[0m
+[0.349s] [  3%] Built target __idf_esp_eth
+[0.351s] [ 36%] Built target __idf_efuse
+[0.362s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_adc[0m
+[0.367s] [35m[1mConsolidate compiler generated dependencies of target __idf_bootloader_support[0m
+[0.380s] [  4%] Built target __idf_esp_adc
+[0.388s] [ 57%] Built target __idf_bootloader_support
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp-tls[0m
+[0.399s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_app_format[0m
+[0.408s] [  5%] Built target __idf_esp-tls
+[0.411s] [ 58%] Built target __idf_esp_app_format
+[0.419s] [35m[1mConsolidate compiler generated dependencies of target __idf_http_parser[0m
+[0.424s] [35m[1mConsolidate compiler generated dependencies of target __idf_spi_flash[0m
+[0.431s] [  5%] Built target __idf_http_parser
+[0.438s] [ 60%] Built target __idf_spi_flash
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_wifi[0m
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target __idf_hal[0m
+[0.463s] [  6%] Built target __idf_esp_wifi
+[0.466s] [ 65%] Built target __idf_hal
+[0.475s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_coex[0m
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target __idf_micro-ecc[0m
+[0.487s] [  6%] Built target __idf_esp_coex
+[0.490s] [ 68%] Built target __idf_micro-ecc
+[0.501s] [35m[1mConsolidate compiler generated dependencies of target __idf_soc[0m
+[0.515s] [35m[1mConsolidate compiler generated dependencies of target __idf_wpa_supplicant[0m
+[0.519s] [ 91%] Built target __idf_soc
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target __idf_xtensa[0m
+[0.559s] [ 93%] Built target __idf_xtensa
+[0.571s] [35m[1mConsolidate compiler generated dependencies of target __idf_main[0m
+[0.585s] [ 95%] Built target __idf_main
+[0.586s] [ 15%] Built target __idf_wpa_supplicant
+[0.596s] [35m[1mConsolidate compiler generated dependencies of target bootloader.elf[0m
+[0.599s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_netif[0m
+[0.608s] [ 98%] Built target bootloader.elf
+[0.615s] [ 16%] Built target __idf_esp_netif
+[0.632s] [100%] Built target gen_project_binary
+[0.646s] [35m[1mConsolidate compiler generated dependencies of target __idf_lwip[0m
+[0.674s] Bootloader binary size 0x51b0 bytes. 0x2e50 bytes (36%) free.
+[0.688s] [100%] Built target bootloader_check_size
+[0.710s] [100%] Built target app
+[0.712s] [ 25%] Built target __idf_lwip
+[0.728s] [35m[1mConsolidate compiler generated dependencies of target __idf_vfs[0m
+[0.731s] [ 25%] [34m[1mNo install step for 'bootloader'[0m
+[0.743s] [ 26%] Built target __idf_vfs
+[0.756s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_phy[0m
+[0.761s] [ 26%] [34m[1mCompleted 'bootloader'[0m
+[0.773s] [ 26%] Built target __idf_esp_phy
+[0.789s] [35m[1mConsolidate compiler generated dependencies of target __idf_nvs_flash[0m
+[0.796s] [ 27%] Built target bootloader
+[0.814s] [ 28%] Built target __idf_nvs_flash
+[0.826s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_event[0m
+[0.842s] [ 28%] Built target __idf_esp_event
+[0.855s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_timer[0m
+[0.871s] [ 28%] Built target __idf_esp_timer
+[0.882s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_common[0m
+[0.896s] [ 29%] Built target __idf_esp_common
+[0.907s] [35m[1mConsolidate compiler generated dependencies of target __idf_cxx[0m
+[0.920s] [ 29%] Built target __idf_cxx
+[0.935s] [35m[1mConsolidate compiler generated dependencies of target __idf_newlib[0m
+[0.953s] [ 31%] Built target __idf_newlib
+[0.968s] [35m[1mConsolidate compiler generated dependencies of target __idf_freertos[0m
+[0.987s] [ 33%] Built target __idf_freertos
+[1.004s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_hw_support[0m
+[1.031s] [ 37%] Built target __idf_esp_hw_support
+[1.047s] [35m[1mConsolidate compiler generated dependencies of target __idf_soc[0m
+[1.066s] [ 39%] Built target __idf_soc
+[1.079s] [35m[1mConsolidate compiler generated dependencies of target __idf_heap[0m
+[1.095s] [ 40%] Built target __idf_heap
+[1.107s] [35m[1mConsolidate compiler generated dependencies of target __idf_log[0m
+[1.120s] [ 40%] Built target __idf_log
+[1.138s] [35m[1mConsolidate compiler generated dependencies of target __idf_hal[0m
+[1.165s] [ 45%] Built target __idf_hal
+[1.178s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_rom[0m
+[1.192s] [ 46%] Built target __idf_esp_rom
+[1.207s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_system[0m
+[1.233s] [ 50%] Built target __idf_esp_system
+[1.246s] [35m[1mConsolidate compiler generated dependencies of target __idf_pthread[0m
+[1.261s] [ 51%] Built target __idf_pthread
+[1.276s] [35m[1mConsolidate compiler generated dependencies of target __idf_spi_flash[0m
+[1.296s] [ 53%] Built target __idf_spi_flash
+[1.307s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_mm[0m
+[1.322s] [ 53%] Built target __idf_esp_mm
+[1.335s] [35m[1mConsolidate compiler generated dependencies of target __idf_app_update[0m
+[1.349s] [ 54%] Built target __idf_app_update
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_partition[0m
+[1.378s] [ 55%] Built target __idf_esp_partition
+[1.394s] [35m[1mConsolidate compiler generated dependencies of target __idf_bootloader_support[0m
+[1.413s] [ 56%] Built target __idf_bootloader_support
+[1.426s] [35m[1mConsolidate compiler generated dependencies of target __idf_esp_app_format[0m
+[1.439s] [ 56%] Built target __idf_esp_app_format
+[1.457s] [35m[1mConsolidate compiler generated dependencies of target mbedtls[0m
+[1.479s] [ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/micu/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj[0m
+[1.481s] [ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj[0m
+[1.484s] [ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj[0m
+[1.484s] [ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj[0m
+[1.531s] [ 56%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/micu/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj[0m
+[1.836s] [ 56%] [32m[1mLinking CXX static library libmbedtls.a[0m
+[1.896s] [ 58%] Built target mbedtls
+[1.921s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj[0m
+[1.922s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.obj[0m
+[1.924s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj[0m
+[1.924s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj[0m
+[2.052s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj[0m
+[2.055s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.obj[0m
+[2.062s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj[0m
+[2.141s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.obj[0m
+[2.159s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.obj[0m
+[2.340s] [ 59%] [32m[1mLinking CXX static library libmbedx509.a[0m
+[2.393s] [ 59%] Built target mbedx509
+[2.423s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj[0m
+[2.424s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj[0m
+[2.424s] [ 59%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesce.c.obj[0m
+[2.425s] [ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj[0m
+[2.471s] [ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj[0m
+[2.471s] [ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj[0m
+[2.544s] [ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj[0m
+[2.584s] [ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj[0m
+[2.586s] [ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_core.c.obj[0m
+[2.595s] [ 60%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod.c.obj[0m
+[2.645s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj[0m
+[2.645s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod_raw.c.obj[0m
+[2.685s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj[0m
+[2.686s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj[0m
+[2.724s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj[0m
+[2.733s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj[0m
+[2.767s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj[0m
+[2.786s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj[0m
+[2.827s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj[0m
+[2.845s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj[0m
+[2.846s] [ 61%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj[0m
+[2.880s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj[0m
+[2.887s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj[0m
+[2.921s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.obj[0m
+[2.942s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj[0m
+[2.947s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.obj[0m
+[2.983s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.obj[0m
+[2.990s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.obj[0m
+[3.017s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy.c.obj[0m
+[3.044s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.obj[0m
+[3.101s] [ 62%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.obj[0m
+[3.124s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.obj[0m
+[3.205s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hkdf.c.obj[0m
+[3.208s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.obj[0m
+[3.215s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lmots.c.obj[0m
+[3.242s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lms.c.obj[0m
+[3.296s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md.c.obj[0m
+[3.300s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md5.c.obj[0m
+[3.316s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.obj[0m
+[3.335s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/nist_kw.c.obj[0m
+[3.361s] [ 63%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/oid.c.obj[0m
+[3.362s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/padlock.c.obj[0m
+[3.378s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pem.c.obj[0m
+[3.411s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.obj[0m
+[3.423s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.obj[0m
+[3.474s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs12.c.obj[0m
+[3.485s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs5.c.obj[0m
+[3.508s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkparse.c.obj[0m
+[3.538s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkwrite.c.obj[0m
+[3.582s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform.c.obj[0m
+[3.585s] [ 64%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform_util.c.obj[0m
+[3.653s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/poly1305.c.obj[0m
+[3.653s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.obj[0m
+[3.675s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.obj[0m
+[3.690s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.obj[0m
+[3.710s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.obj[0m
+[3.789s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj[0m
+[3.793s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj[0m
+[3.803s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.obj[0m
+[3.871s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.obj[0m
+[3.874s] [ 65%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.obj[0m
+[3.901s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_pake.c.obj[0m
+[3.970s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.obj[0m
+[3.971s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.obj[0m
+[3.984s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.obj[0m
+[4.016s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.obj[0m
+[4.083s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.obj[0m
+[4.091s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_util.c.obj[0m
+[4.107s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ripemd160.c.obj[0m
+[4.146s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa.c.obj[0m
+[4.153s] [ 66%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.obj[0m
+[4.162s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha1.c.obj[0m
+[4.225s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.obj[0m
+[4.240s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha512.c.obj[0m
+[4.298s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.obj[0m
+[4.313s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/threading.c.obj[0m
+[4.325s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/timing.c.obj[0m
+[4.358s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version.c.obj[0m
+[4.367s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version_features.c.obj[0m
+[4.404s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj[0m
+[4.410s] [ 67%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj[0m
+[4.415s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj[0m
+[4.415s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj[0m
+[4.453s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj[0m
+[4.465s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj[0m
+[4.466s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj[0m
+[4.505s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj[0m
+[4.519s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj[0m
+[4.520s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.obj[0m
+[4.537s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.obj[0m
+[4.585s] [ 68%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj[0m
+[4.592s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj[0m
+[4.649s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/esp32s3/bignum.c.obj[0m
+[4.707s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.obj[0m
+[4.713s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.obj[0m
+[4.725s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.obj[0m
+[4.727s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj[0m
+[4.781s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/micu/esp/esp-idf/components/mbedtls/port/md/esp_md.c.obj[0m
+[4.832s] [ 69%] [32m[1mLinking CXX static library libmbedcrypto.a[0m
+[4.937s] [ 69%] Built target mbedcrypto
+[4.964s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.obj[0m
+[4.964s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.obj[0m
+[5.026s] [ 69%] [32m[1mLinking CXX static library libp256m.a[0m
+[5.068s] [ 69%] Built target p256m
+[5.096s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/everest.c.obj[0m
+[5.096s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/x25519.c.obj[0m
+[5.097s] [ 69%] [32mBuilding C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj[0m
+[5.143s] [ 69%] [32m[1mLinking CXX static library libeverest.a[0m
+[5.187s] [ 69%] Built target everest
+[5.199s] [ 70%] [34m[1mGenerating x509_crt_bundle[0m
+[5.390s] [ 70%] [34m[1mGenerating ../../x509_crt_bundle.S[0m
+[5.467s] [35m[1mScanning dependencies of target __idf_mbedtls[0m
+[5.483s] [ 70%] [32mBuilding C object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj[0m
+[5.485s] [ 70%] [32mBuilding ASM object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj[0m
+[5.586s] [ 70%] [32m[1mLinking C static library libmbedtls.a[0m
+[5.635s] [ 70%] Built target __idf_mbedtls
+[5.665s] [ 70%] [32mBuilding C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj[0m
+[5.665s] [ 70%] [32mBuilding C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj[0m
+[5.667s] [ 71%] [32mBuilding C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj[0m
+[5.765s] [ 71%] [32m[1mLinking C static library libesp_pm.a[0m
+[5.811s] [ 71%] Built target __idf_esp_pm
+[5.837s] [ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio.c.obj[0m
+[5.838s] [ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/spi_bus_lock.c.obj[0m
+[5.838s] [ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/rtc_io.c.obj[0m
+[5.838s] [ 71%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio_glitch_filter_ops.c.obj[0m
+[5.900s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj[0m
+[5.986s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj[0m
+[5.990s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/dedic_gpio.c.obj[0m
+[6.096s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio_pin_glitch_filter.c.obj[0m
+[6.128s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer/gptimer.c.obj[0m
+[6.129s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.obj[0m
+[6.129s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer/gptimer_priv.c.obj[0m
+[6.201s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj[0m
+[6.207s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_common.c.obj[0m
+[6.308s] [ 72%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_std.c.obj[0m
+[6.360s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj[0m
+[6.425s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_pdm.c.obj[0m
+[6.453s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_tdm.c.obj[0m
+[6.522s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/ledc/ledc.c.obj[0m
+[6.592s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cap.c.obj[0m
+[6.613s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cmpr.c.obj[0m
+[6.722s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_com.c.obj[0m
+[6.744s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_fault.c.obj[0m
+[6.797s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_gen.c.obj[0m
+[6.839s] [ 73%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_oper.c.obj[0m
+[6.844s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_sync.c.obj[0m
+[6.893s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_timer.c.obj[0m
+[6.988s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/pcnt/pulse_cnt.c.obj[0m
+[6.988s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj[0m
+[7.024s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj[0m
+[7.074s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_common.c.obj[0m
+[7.181s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_encoder.c.obj[0m
+[7.182s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_rx.c.obj[0m
+[7.253s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_tx.c.obj[0m
+[7.283s] [ 74%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj[0m
+[7.346s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc/sdmmc_transaction.c.obj[0m
+[7.373s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc/sdmmc_host.c.obj[0m
+[7.472s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sigma_delta/sdm.c.obj[0m
+[7.531s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj[0m
+[7.545s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_common.c.obj[0m
+[7.612s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_master.c.obj[0m
+[7.658s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_slave.c.obj[0m
+[7.761s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_crc.c.obj[0m
+[7.807s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_host.c.obj[0m
+[7.807s] [ 75%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_transaction.c.obj[0m
+[7.831s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_slave_hd.c.obj[0m
+[7.834s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/temperature_sensor/temperature_sensor.c.obj[0m
+[7.913s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.obj[0m
+[7.941s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj[0m
+[7.957s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj[0m
+[7.984s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj[0m
+[8.023s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/uart/uart.c.obj[0m
+[8.066s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/usb_serial_jtag/usb_serial_jtag.c.obj[0m
+[8.156s] [ 76%] [32mBuilding C object esp-idf/driver/CMakeFiles/__idf_driver.dir/usb_serial_jtag/usb_serial_jtag_connection_monitor.c.obj[0m
+[8.376s] [ 76%] [32m[1mLinking C static library libdriver.a[0m
+[8.493s] [ 76%] Built target __idf_driver
+[8.523s] [ 76%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj[0m
+[8.524s] [ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj[0m
+[8.525s] [ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj[0m
+[8.525s] [ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj[0m
+[8.582s] [ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj[0m
+[8.588s] [ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj[0m
+[8.593s] [ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj[0m
+[8.595s] [ 77%] [32mBuilding C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj[0m
+[8.696s] [ 77%] [32m[1mLinking C static library libefuse.a[0m
+[8.751s] [ 77%] Built target __idf_efuse
+[8.778s] [ 77%] [32mBuilding C object esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj[0m
+[8.954s] [ 77%] [32m[1mLinking C static library libesp_ringbuf.a[0m
+[9.002s] [ 77%] Built target __idf_esp_ringbuf
+[9.017s] [35m[1mScanning dependencies of target __idf_xtensa[0m
+[9.038s] [ 77%] [32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj[0m
+[9.038s] [ 77%] [32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr.c.obj[0m
+[9.038s] [ 77%] [32mBuilding C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj[0m
+[9.047s] [ 78%] [32mBuilding ASM object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj[0m
+[9.108s] [ 78%] [32m[1mLinking C static library libxtensa.a[0m
+[9.155s] [ 78%] Built target __idf_xtensa
+[9.187s] [ 78%] [32mBuilding C object esp-idf/imu_ahrs/CMakeFiles/__idf_imu_ahrs.dir/MadgwickAHRS.c.obj[0m
+[9.187s] [ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj[0m
+[9.189s] [ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj[0m
+[9.194s] [ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj[0m
+[9.273s] [ 78%] [32mBuilding C object esp-idf/imu_ahrs/CMakeFiles/__idf_imu_ahrs.dir/MahonyAHRS.c.obj[0m
+[9.288s] [ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj[0m
+[9.319s] [ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj[0m
+[9.343s] [ 78%] [32m[1mLinking C static library libimu_ahrs.a[0m
+[9.385s] [ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj[0m
+[9.392s] [ 78%] Built target __idf_imu_ahrs
+[9.404s] [ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj[0m
+[9.406s] [ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj[0m
+[9.412s] [ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj[0m
+[9.469s] [ 78%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj[0m
+[9.470s] [ 78%] [32mBuilding C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj[0m
+[9.476s] [ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj[0m
+[9.501s] [ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj[0m
+[9.553s] [ 78%] [32m[1mLinking C static library libapp_trace.a[0m
+[9.567s] [ 78%] [32mBuilding C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj[0m
+[9.580s] [ 78%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj[0m
+[9.602s] [ 78%] Built target __idf_app_trace
+[9.635s] [ 78%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj[0m
+[9.641s] [ 78%] [32mBuilding C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj[0m
+[9.650s] [ 79%] [32mBuilding C object esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj[0m
+[9.668s] [ 79%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.obj[0m
+[9.713s] [ 79%] [32m[1mLinking C static library libunity.a[0m
+[9.721s] [ 80%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj[0m
+[9.758s] [ 80%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.obj[0m
+[9.776s] [ 80%] [32mBuilding C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj[0m
+[9.780s] [ 80%] Built target __idf_unity
+[9.792s] [ 81%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.obj[0m
+[9.801s] [ 81%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj[0m
+[9.862s] [ 81%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj[0m
+[9.883s] [ 81%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.obj[0m
+[9.888s] [ 82%] [32m[1mLinking C static library libesp_hid.a[0m
+[9.942s] [ 82%] [32mBuilding C object esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj[0m
+[9.955s] [ 82%] Built target __idf_esp_hid
+[9.956s] [ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.obj[0m
+[9.971s] [ 82%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj[0m
+[10.024s] [ 82%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj[0m
+[10.024s] [ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.obj[0m
+[10.081s] [ 82%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj[0m
+[10.094s] [ 82%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.obj[0m
+[10.096s] [ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.obj[0m
+[10.158s] [ 82%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj[0m
+[10.172s] [ 82%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj[0m
+[10.177s] [ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj[0m
+[10.254s] [ 82%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj[0m
+[10.261s] [ 83%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj[0m
+[10.266s] [ 83%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj[0m
+[10.326s] [ 83%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj[0m
+[10.334s] [ 83%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i80.c.obj[0m
+[10.340s] [ 84%] [32m[1mLinking C static library libprotobuf-c.a[0m
+[10.344s] [ 84%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj[0m
+[10.393s] [ 84%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj[0m
+[10.404s] [ 84%] Built target __idf_protobuf-c
+[10.418s] [ 84%] [32mBuilding C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_rgb.c.obj[0m
+[10.435s] [ 84%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj[0m
+[10.503s] [ 84%] [32mBuilding C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj[0m
+[10.548s] [ 84%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj[0m
+[10.553s] [ 85%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj[0m
+[10.585s] [ 85%] [32m[1mLinking C static library libespcoredump.a[0m
+[10.622s] [ 85%] [32mBuilding C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj[0m
+[10.629s] [ 85%] Built target __idf_espcoredump
+[10.634s] [ 85%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj[0m
+[10.665s] [ 85%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj[0m
+[10.705s] [ 85%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj[0m
+[10.739s] [ 85%] [32m[1mLinking C static library libesp_lcd.a[0m
+[10.754s] [ 85%] [32m[1mLinking C static library libconsole.a[0m
+[10.782s] [ 85%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj[0m
+[10.793s] [ 85%] Built target __idf_esp_lcd
+[10.807s] [ 85%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj[0m
+[10.811s] [ 85%] Built target __idf_console
+[10.822s] [ 85%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj[0m
+[10.830s] [ 86%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj[0m
+[10.874s] [ 86%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj[0m
+[10.925s] [ 86%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj[0m
+[10.930s] [ 86%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj[0m
+[10.930s] [ 86%] [32mBuilding C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj[0m
+[10.967s] [ 87%] [32mBuilding C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj[0m
+[11.066s] [ 87%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj[0m
+[11.118s] [ 87%] [32mBuilding CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj[0m
+[11.151s] [ 87%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj[0m
+[11.181s] [ 88%] [32mBuilding C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj[0m
+[11.222s] [ 88%] [32m[1mLinking C static library libwear_levelling.a[0m
+[11.246s] [ 88%] [32m[1mLinking C static library libjson.a[0m
+[11.269s] [ 88%] Built target __idf_wear_levelling
+[11.287s] [ 88%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj[0m
+[11.305s] [ 88%] Built target __idf_json
+[11.318s] [ 88%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj[0m
+[11.320s] [ 88%] [32m[1mLinking C static library libsdmmc.a[0m
+[11.369s] [ 88%] Built target __idf_sdmmc
+[11.382s] [ 88%] [32mBuilding C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj[0m
+[11.431s] [ 89%] [32mBuilding C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj[0m
+[11.450s] [ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj[0m
+[11.470s] [ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_element.c.obj[0m
+[11.489s] [ 90%] [32mBuilding C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj[0m
+[11.549s] [ 90%] [32m[1mLinking C static library libmqtt.a[0m
+[11.552s] [ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj[0m
+[11.566s] [ 90%] [32mBuilding C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj[0m
+[11.599s] [ 90%] Built target __idf_mqtt
+[11.625s] [ 90%] [32m[1mLinking C static library libperfmon.a[0m
+[11.635s] [ 90%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/hcd_dwc.c.obj[0m
+[11.655s] [ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj[0m
+[11.674s] [ 90%] Built target __idf_perfmon
+[11.694s] [ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_button.c.obj[0m
+[11.771s] [ 90%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/hub.c.obj[0m
+[11.812s] [ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj[0m
+[11.851s] [ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_slider.c.obj[0m
+[11.946s] [ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj[0m
+[11.966s] [ 90%] [32mBuilding C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_matrix.c.obj[0m
+[12.031s] [ 90%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj[0m
+[12.049s] [ 90%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_helpers.c.obj[0m
+[12.138s] [ 91%] [32m[1mLinking C static library libtouch_element.a[0m
+[12.150s] [ 91%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_host.c.obj[0m
+[12.173s] [ 91%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_private.c.obj[0m
+[12.202s] [ 91%] Built target __idf_touch_element
+[12.218s] [ 91%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usbh.c.obj[0m
+[12.255s] [ 92%] [32mBuilding C object esp-idf/espressif__pid_ctrl/CMakeFiles/__idf_espressif__pid_ctrl.dir/src/pid_ctrl.c.obj[0m
+[12.317s] [ 92%] [32m[1mLinking C static library libespressif__pid_ctrl.a[0m
+[12.349s] [ 92%] [32mBuilding C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj[0m
+[12.363s] [ 92%] Built target __idf_espressif__pid_ctrl
+[12.380s] [ 92%] [32mBuilding C object esp-idf/esp32_i2c_rw/CMakeFiles/__idf_esp32_i2c_rw.dir/esp32_i2c_rw.c.obj[0m
+[12.391s] [ 92%] [32mBuilding C object esp-idf/proto_utils/CMakeFiles/__idf_proto_utils.dir/proto_utils.c.obj[0m
+[12.424s] [ 92%] [32mBuilding C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_phy.c.obj[0m
+[12.466s] [ 92%] [32m[1mLinking C static library libesp32_i2c_rw.a[0m
+[12.470s] [ 92%] [32m[1mLinking C static library libproto_utils.a[0m
+[12.518s] [ 92%] Built target __idf_esp32_i2c_rw
+[12.527s] [ 92%] Built target __idf_proto_utils
+[12.554s] [ 92%] [32m[1mLinking C static library libspiffs.a[0m
+[12.558s] [ 92%] [32mBuilding C object esp-idf/rotary_encoder/CMakeFiles/__idf_rotary_encoder.dir/src/rotary_encoder_pcnt_ec11.c.obj[0m
+[12.563s] [ 92%] [32mBuilding C object esp-idf/WP_Math/CMakeFiles/__idf_WP_Math.dir/WP_Math.c.obj[0m
+[12.582s] [ 92%] [32m[1mLinking C static library libusb.a[0m
+[12.601s] In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/rotary_encoder/src/rotary_encoder_pcnt_ec11.c:19[m[K:
+[12.602s] [01m[K/home/micu/esp/esp-idf/components/driver/deprecated/driver/pcnt.h:15:2:[m[K [01;35m[Kwarning: [m[K#warning "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[12.602s]    15 | #[01;35m[Kwarning[m[K "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h"
+[12.602s]       |  [01;35m[K^~~~~~~[m[K
+[12.611s] [ 92%] Built target __idf_spiffs
+[12.650s] [ 92%] [32m[1mLinking C static library librotary_encoder.a[0m
+[12.650s] [ 92%] [32mBuilding C object esp-idf/mcu_dmp/CMakeFiles/__idf_mcu_dmp.dir/mcu_dmp.c.obj[0m
+[12.659s] [ 92%] Built target __idf_usb
+[12.678s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K In function '[01m[Kekf_update[m[K':
+[12.679s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:370:11:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[KF[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.679s]   370 |     float [01;35m[KF[m[K[2][2] = {{1.0f, dt}, {0.0f, 1.0f}};
+[12.679s]       |           [01;35m[K^[m[K
+[12.679s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K In function '[01m[Kimu_get_euler_angles[m[K':
+[12.679s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:411:18:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Klast_raw_yaw[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[12.679s]   411 |     static float [01;35m[Klast_raw_yaw[m[K = 0.0f;
+[12.679s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[12.682s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:[m[K At top level:
+[12.682s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lib/mcu_dmp/mcu_dmp.c:103:14:[m[K [01;35m[Kwarning: [m[K'[01m[Kfiltered_yaw_rate[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.682s]   103 | static float [01;35m[Kfiltered_yaw_rate[m[K = 0.0f;
+[12.682s]       |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[12.686s] [ 92%] [32m[1mLinking C static library libWP_Math.a[0m
+[12.687s] [ 92%] [32mBuilding C object esp-idf/ring_buffer/CMakeFiles/__idf_ring_buffer.dir/ring_buffer.c.obj[0m
+[12.692s] [ 92%] Built target __idf_rotary_encoder
+[12.725s] [ 92%] [32mBuilding C object esp-idf/micro_ros_espidf_component/CMakeFiles/__idf_micro_ros_espidf_component.dir/network_interfaces/uros_ethernet_netif.c.obj[0m
+[12.737s] [ 92%] [32m[1mLinking C static library libmcu_dmp.a[0m
+[12.742s] [ 92%] Built target __idf_WP_Math
+[12.764s] [ 92%] [32m[1mLinking C static library libring_buffer.a[0m
+[12.776s] [ 93%] [32mBuilding C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj[0m
+[12.785s] [ 93%] Built target __idf_mcu_dmp
+[12.800s] [ 93%] [32mBuilding C object esp-idf/micro_ros_espidf_component/CMakeFiles/__idf_micro_ros_espidf_component.dir/network_interfaces/uros_wlan_netif.c.obj[0m
+[12.811s] [ 93%] Built target __idf_ring_buffer
+[12.815s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj[0m
+[12.843s] [ 93%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns.c.obj[0m
+[12.868s] [ 93%] [32m[1mLinking C static library libcmock.a[0m
+[12.918s] [ 93%] Built target __idf_cmock
+[12.919s] [ 93%] [32m[1mLinking C static library libmicro_ros_espidf_component.a[0m
+[12.930s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj[0m
+[12.957s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj[0m
+[12.969s] [ 93%] Built target __idf_micro_ros_espidf_component
+[12.979s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj[0m
+[12.988s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj[0m
+[13.051s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj[0m
+[13.060s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj[0m
+[13.060s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj[0m
+[13.134s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj[0m
+[13.142s] [ 93%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns_mem_caps.c.obj[0m
+[13.146s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj[0m
+[13.213s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj[0m
+[13.249s] [ 93%] [32mBuilding C object esp-idf/proto_define/CMakeFiles/__idf_proto_define.dir/proto.c.obj[0m
+[13.287s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj[0m
+[13.306s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_potocol_config_fun[m[K':
+[13.306s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:13:31:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_protocol_config_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_proto_mode_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_proto_mode_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_proto_mode_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[13.307s]    13 |   update_protocol_config_fun_ [01;35m[K=[m[K update_protocol_config_fun;
+[13.307s]       |                               [01;35m[K^[m[K
+[13.307s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_wifi_config_fun[m[K':
+[13.309s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:30:27:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_wifi_config_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_wifi_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_wifi_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_wifi_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[13.309s]    30 |   update_wifi_config_fun_ [01;35m[K=[m[K update_wifi_config_fun;
+[13.310s]       |                           [01;35m[K^[m[K
+[13.310s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_pid_fun[m[K':
+[13.310s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:46:26:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_pid_params_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_data_pid_config_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_pid_config_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[13.310s]    46 |   update_pid_params_fun_ [01;35m[K=[m[K update_pid_params_fun;
+[13.310s]       |                          [01;35m[K^[m[K
+[13.310s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_register_update_motor_speed_fun[m[K':
+[13.310s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:58:28:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kupdate_speed_params_fun_t[m[K' {aka '[01m[Kunsigned char (*)(proto_motor_speed_ctrl_data_t *)[m[K'} from incompatible pointer type '[01m[Kuint8_t (**)(proto_motor_speed_ctrl_data_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_motor_speed_ctrl_data_t *)[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[13.310s]    58 |   update_speed_params_fun_ [01;35m[K=[m[K update_motor_speed_ctrl_fun;// 将传入的函数指针保存到全局变量
+[13.310s]       |                            [01;35m[K^[m[K
+[13.310s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:[m[K In function '[01m[Kproto_deal_frame_data[m[K':
+[13.310s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/proto.c:86:19:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kframe_size[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[13.310s]    86 |   static uint16_t [01;35m[Kframe_size[m[K = 0;
+[13.310s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[13.345s] [ 93%] [32m[1mLinking C static library libproto_define.a[0m
+[13.392s] [ 93%] Built target __idf_proto_define
+[13.392s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj[0m
+[13.402s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj[0m
+[13.468s] [ 93%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns_networking_lwip.c.obj[0m
+[13.497s] [ 93%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj[0m
+[13.509s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj[0m
+[13.586s] [ 93%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj[0m
+[13.587s] [ 94%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj[0m
+[13.596s] [ 95%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj[0m
+[13.754s] [ 95%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj[0m
+[13.775s] [ 95%] [32mBuilding C object esp-idf/motor/CMakeFiles/__idf_motor.dir/motor.c.obj[0m
+[13.800s] [ 95%] [32mBuilding C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj[0m
+[13.845s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:[m[K In function '[01m[Kupdate_motor_pid_param[m[K':
+[13.845s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:73:40:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of '[01m[Kpid_update_parameters[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[13.845s]    73 |     pid_update_parameters(pid_motor[0],[01;35m[K&proto_pid_data[m[K);
+[13.845s]       |                                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[13.845s]       |                                        [01;35m[K|[m[K
+[13.845s]       |                                        [01;35m[Kproto_data_pid_config_t **[m[K
+[13.845s] In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/include/motor.h:12[m[K,
+[13.845s]                  from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:1[m[K:
+[13.846s] [01m[K/home/micu/esp/mycode/micu_ros_car/managed_components/espressif__pid_ctrl/include/pid_ctrl.h:84:90:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kconst pid_ctrl_parameter_t *[m[K' but argument is of type '[01m[Kproto_data_pid_config_t **[m[K'
+[13.846s]    84 | esp_err_t pid_update_parameters(pid_ctrl_block_handle_t pid, [01;36m[Kconst pid_ctrl_parameter_t *params[m[K);
+[13.846s]       |                                                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[13.846s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:[m[K In function '[01m[Kmotor_init[m[K':
+[13.846s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/motor.c:136:35:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of '[01m[Kproto_register_update_pid_fun[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[13.846s]   136 |     proto_register_update_pid_fun([01;35m[Kupdate_motor_pid_param[m[K);
+[13.846s]       |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.846s]       |                                   [01;35m[K|[m[K
+[13.846s]       |                                   [01;35m[Kuint8_t (*)(proto_data_pid_config_t *) {aka unsigned char (*)(proto_data_pid_config_t *)}[m[K
+[13.846s] In file included from [01m[K/home/micu/esp/mycode/micu_ros_car/components/motor/include/motor.h:18[m[K:
+[13.846s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/protocal/proto_define/include/proto.h:200:30:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kuint8_t (**)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (**)(proto_data_pid_config_t *)[m[K'} but argument is of type '[01m[Kuint8_t (*)(proto_data_pid_config_t *)[m[K' {aka '[01m[Kunsigned char (*)(proto_data_pid_config_t *)[m[K'}
+[13.846s]   200 |     [01;36m[Kupdate_pid_params_fun_t *update_pid_params_fun[m[K);
+[13.846s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.894s] [ 96%] [32m[1mLinking C static library libmotor.a[0m
+[13.932s] [ 96%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj[0m
+[13.944s] [ 96%] Built target __idf_motor
+[13.946s] [ 96%] [32m[1mLinking C static library libfatfs.a[0m
+[13.961s] [ 96%] [32mBuilding C object esp-idf/espressif__mdns/CMakeFiles/__idf_espressif__mdns.dir/mdns_console.c.obj[0m
+[13.989s] [ 96%] [32mBuilding C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj[0m
+[14.012s] [ 96%] Built target __idf_fatfs
+[14.040s] [ 96%] [32mBuilding C object esp-idf/mpu6050/CMakeFiles/__idf_mpu6050.dir/mpu6050.c.obj[0m
+[14.063s] [ 96%] [32mBuilding C object esp-idf/UART/CMakeFiles/__idf_UART.dir/UART.c.obj[0m
+[14.075s] [ 96%] [32m[1mLinking C static library libprotocomm.a[0m
+[14.127s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[Kmpu6050_madgwick_quaternion_update[m[K':
+[14.130s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3094:8:[m[K [01;35m[Kwarning: [m[Kusing integer absolute value function '[01m[Kabs[m[K' when argument is of floating-point type '[01m[Kfloat[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value-Wabsolute-value]8;;[m[K]
+[14.130s]  3094 |     if([01;35m[Kabs[m[K(yaw_buf[9]-yaw_buf[0])<=0.0001)
+[14.130s]       |        [01;35m[K^~~[m[K
+[14.130s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kprev_time[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[14.130s]  3020 |     uint64_t now_time = 0, [01;35m[Kprev_time[m[K = 0;
+[14.130s]       |                            [01;35m[K^~~~~~~~~[m[K
+[14.130s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:14:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Know_time[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[14.130s]  3020 |     uint64_t [01;35m[Know_time[m[K = 0, prev_time = 0;
+[14.130s]       |              [01;35m[K^~~~~~~~[m[K
+[14.130s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[KMahonyAHRSupdateIMU[m[K':
+[14.130s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3199:8:[m[K [01;35m[Kwarning: [m[Kusing integer absolute value function '[01m[Kabs[m[K' when argument is of floating-point type '[01m[Kfloat[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value-Wabsolute-value]8;;[m[K]
+[14.130s]  3199 |     if([01;35m[Kabs[m[K(yaw_buf[9]-yaw_buf[0])<=0.0001)
+[14.130s]       |        [01;35m[K^~~[m[K
+[14.130s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:[m[K In function '[01m[Kget_mpu6050_euler_angle[m[K':
+[14.130s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of '[01m[Kmpu6050_get_motion[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[14.130s]  3273 |         mpu6050_get_motion([01;35m[Kaccel_[m[K,gyro_);
+[14.131s]       |                            [01;35m[K^~~~~~[m[K
+[14.131s]       |                            [01;35m[K|[m[K
+[14.131s]       |                            [01;35m[Kint16_t * {aka short int *}[m[K
+[14.131s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1638:29:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kmpu6050_acceleration_t *[m[K' {aka '[01m[Kstruct _mpu6050_acceleration_t *[m[K'} but argument is of type '[01m[Kint16_t *[m[K' {aka '[01m[Kshort int *[m[K'}
+[14.131s]  1638 |     [01;36m[Kmpu6050_acceleration_t *data_accel[m[K,
+[14.131s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[14.131s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:35:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of '[01m[Kmpu6050_get_motion[m[K' from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[14.131s]  3273 |         mpu6050_get_motion(accel_,[01;35m[Kgyro_[m[K);
+[14.131s]       |                                   [01;35m[K^~~~~[m[K
+[14.131s]       |                                   [01;35m[K|[m[K
+[14.131s]       |                                   [01;35m[Kint16_t * {aka short int *}[m[K
+[14.133s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1639:25:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kmpu6050_rotation_t *[m[K' {aka '[01m[Kstruct _mpu6050_rotation_t *[m[K'} but argument is of type '[01m[Kint16_t *[m[K' {aka '[01m[Kshort int *[m[K'}
+[14.133s]  1639 |     [01;36m[Kmpu6050_rotation_t *data_gyro[m[K)
+[14.133s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[14.138s] [ 96%] Built target __idf_protocomm
+[14.177s] [ 96%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj[0m
+[14.201s] [ 96%] [32m[1mLinking C static library libUART.a[0m
+[14.217s] [ 96%] [32m[1mLinking C static library libespressif__mdns.a[0m
+[14.261s] [ 96%] Built target __idf_UART
+[14.266s] [ 96%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj[0m
+[14.275s] [ 96%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_ctrl.c.obj[0m
+[14.290s] [ 96%] Built target __idf_espressif__mdns
+[14.321s] [ 96%] [32mBuilding C object esp-idf/oled/CMakeFiles/__idf_oled.dir/oled.c.obj[0m
+[14.344s] [ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj[0m
+[14.382s] [ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj[0m
+[14.397s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:[m[K In function '[01m[Koled_ascii[m[K':
+[14.397s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:150:63:[m[K [01;35m[Kwarning: [m[Kiteration 6 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+[14.397s]   150 |       esp32_i2c_write_byte(OLED_ADDR, 0x40, [01;35m[Kascii[str[i] - 32][j][m[K);
+[14.397s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[14.397s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:149:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+[14.397s]   149 |     for (int j = 0; [01;36m[Kj < 8[m[K; j++) {
+[14.397s]       |                     [01;36m[K~~^~~[m[K
+[14.430s] [ 97%] [32m[1mLinking C static library liboled.a[0m
+[14.442s] [ 97%] [32m[1mLinking C static library libmpu6050.a[0m
+[14.485s] [ 97%] Built target __idf_oled
+[14.495s] [ 97%] Built target __idf_mpu6050
+[14.496s] [ 97%] [32mBuilding C object esp-idf/lidar/CMakeFiles/__idf_lidar.dir/lidar.c.obj[0m
+[14.498s] [ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj[0m
+[14.509s] [ 97%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj[0m
+[14.574s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:[m[K In function '[01m[Kparse_lidar_byte[m[K':
+[14.574s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:108:34:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Ksimilar_flag[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[14.574s]   108 |                   static uint8_t [01;35m[Ksimilar_flag[m[K = 0;  // 记录是否是相同角度的标志位
+[14.574s]       |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[14.574s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:107:32:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Klast_angle[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[14.574s]   107 |                   static float [01;35m[Klast_angle[m[K = -1;  // 记录上一个点的角度
+[14.574s]       |                                [01;35m[K^~~~~~~~~~[m[K
+[14.576s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:[m[K At top level:
+[14.576s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:3:20:[m[K [01;35m[Kwarning: [m[K'[01m[KTAG[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[14.576s]     3 | static const char *[01;35m[KTAG[m[K = "lidar";
+[14.576s]       |                    [01;35m[K^~~[m[K
+[14.606s] [ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj[0m
+[14.609s] [ 98%] [32m[1mLinking C static library liblidar.a[0m
+[14.626s] [ 98%] [32mBuilding C object esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj[0m
+[14.631s] [ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj[0m
+[14.672s] [ 98%] Built target __idf_lidar
+[14.688s] [ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_ctrl.pb-c.c.obj[0m
+[14.704s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kevent_handler[m[K':
+[14.705s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:60:47:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kevent[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[14.705s]    60 |                 wifi_event_ap_staconnected_t *[01;35m[Kevent[m[K =
+[14.705s]       |                                               [01;35m[K^~~~~[m[K
+[14.705s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:69:50:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kevent[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[14.705s]    69 |                 wifi_event_ap_stadisconnected_t *[01;35m[Kevent[m[K =
+[14.705s]       |                                                  [01;35m[K^~~~~[m[K
+[14.707s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kset_wifi_config[m[K':
+[14.707s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:104:18:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Kproto_data_wifi_config_t *[m[K' from incompatible pointer type '[01m[Kwifi_config_t *[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+[14.707s]   104 |     wifi_config_ [01;35m[K=[m[K wifi_config;
+[14.707s]       |                  [01;35m[K^[m[K
+[14.707s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kwifi_set_ap[m[K':
+[14.707s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:111:21:[m[K [01;35m[Kwarning: [m[Kinitialization of '[01m[Kesp_err_t[m[K' {aka '[01m[Kint[m[K'} from '[01m[Kchar *[m[K' makes integer from pointer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+[14.707s]   111 |     esp_err_t ret = [01;35m[K"ESP-OK"[m[K;
+[14.707s]       |                     [01;35m[K^~~~~~~~[m[K
+[14.715s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:[m[K In function '[01m[Kwifi_set_sta[m[K':
+[14.715s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/wifi/wifi.c:214:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kbits[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[14.715s]   214 |     EventBits_t [01;35m[Kbits[m[K = xEventGroupWaitBits(
+[14.715s]       |                 [01;35m[K^~~~[m[K
+[14.736s] [ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj[0m
+[14.746s] [ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj[0m
+[14.772s] [ 98%] [32mBuilding C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj[0m
+[14.776s] [ 98%] [32m[1mLinking C static library libwifi.a[0m
+[14.821s] [ 98%] [32mBuilding C object esp-idf/imu_publisher/CMakeFiles/__idf_imu_publisher.dir/imu_pub.c.obj[0m
+[14.825s] [ 98%] Built target __idf_wifi
+[14.836s] [ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj[0m
+[14.845s] [ 98%] [32mBuilding C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj[0m
+[14.872s] [ 98%] [32m[1mLinking C static library libwifi_provisioning.a[0m
+[14.945s] [ 98%] Built target __idf_wifi_provisioning
+[14.959s] [ 98%] [32m[1mLinking C static library libesp_local_ctrl.a[0m
+[15.007s] [ 98%] Built target __idf_esp_local_ctrl
+[15.170s] [ 98%] [32m[1mLinking C static library libimu_publisher.a[0m
+[15.208s] [ 98%] Built target __idf_imu_publisher
+[15.233s] [ 98%] [32mBuilding C object esp-idf/sysn/CMakeFiles/__idf_sysn.dir/sysn.c.obj[0m
+[15.461s] [ 98%] [32m[1mLinking C static library libsysn.a[0m
+[15.501s] [ 98%] Built target __idf_sysn
+[15.527s] [ 98%] [32mBuilding C object esp-idf/lidar_publisher/CMakeFiles/__idf_lidar_publisher.dir/lidar_pub.c.obj[0m
+[15.722s] [01m[K/home/micu/esp/mycode/micu_ros_car/components/microros/lidar_publisher/lidar_pub.c:4:20:[m[K [01;35m[Kwarning: [m[K'[01m[KTAG[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.722s]     4 | static const char *[01;35m[KTAG[m[K = "LIDAR_PUB";
+[15.722s]       |                    [01;35m[K^~~[m[K
+[15.743s] [ 98%] [32m[1mLinking C static library liblidar_publisher.a[0m
+[15.789s] [ 98%] Built target __idf_lidar_publisher
+[15.814s] [ 98%] [32mBuilding C object esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj[0m
+[16.061s] [ 98%] [32m[1mLinking C static library libconfig.a[0m
+[16.103s] [ 98%] Built target __idf_config
+[16.130s] [ 98%] [32mBuilding C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj[0m
+[16.432s] [ 98%] [32m[1mLinking C static library libmain.a[0m
+[16.475s] [ 98%] Built target __idf_main
+[16.501s] [ 98%] [34m[1mGenerating ld/sections.ld[0m
+[19.522s] [ 98%] Built target __ldgen_output_sections.ld
+[19.548s] [ 98%] [32mBuilding C object CMakeFiles/micu_ros_car.elf.dir/project_elf_src_esp32s3.c.obj[0m
+[19.573s] [ 98%] [32m[1mLinking CXX executable micu_ros_car.elf[0m
+[22.476s] /home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/ld: final link failed: No space left on device
+[22.485s] collect2: error: ld returned 1 exit status
+[22.488s] gmake[2]: *** [CMakeFiles/micu_ros_car.elf.dir/build.make:581: micu_ros_car.elf] Error 1
+[22.488s] gmake[1]: *** [CMakeFiles/Makefile2:2375: CMakeFiles/micu_ros_car.elf.dir/all] Error 2
+[22.488s] gmake: *** [Makefile:136: all] Error 2
+[22.490s] Invoked command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car' returned '2': /usr/bin/cmake --build /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car -- -j4 -l4

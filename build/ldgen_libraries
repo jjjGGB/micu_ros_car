@@ -82,5 +82,6 @@
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/lidar_publisher/liblidar_publisher.a
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/sysn/libsysn.a
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/imu_publisher/libimu_publisher.a
+/home/micu/esp/mycode/micu_ros_car/build/esp-idf/udp_tcp/libudp_tcp.a
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/config/libconfig.a
 /home/micu/esp/mycode/micu_ros_car/build/esp-idf/imu_ahrs/libimu_ahrs.a

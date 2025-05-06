@@ -19,7 +19,7 @@ topic_pub imu_pub_topic = {
 };
 
 topic_pub lidar_pub_topic = {
-    .timer_timeout = 90
+    .timer_timeout = 20
 };
 
 
@@ -57,8 +57,8 @@ struct timespec get_timespec(void)
 // micro ros processes tasks
 void micro_ros_task(void *arg)
 {
-    rcl_allocator_t allocator = rcl_get_default_allocator();
-    rclc_support_t support;
+    rcl_allocator_t allocator = rcl_get_default_allocator();  // 用于在 ROS 2 节点中分配和释放内存
+    rclc_support_t support; // 用于在 ROS 2 上下文中初始化和配置执行器、节点等资源
 
     // 创建rcl初始化选项
     // Create init_options.
@@ -94,9 +94,10 @@ void micro_ros_task(void *arg)
     // 创建ROS2节点
     // create ROS2 node
     rcl_node_t node;
+    // 调用 rclc_node_init_default 函数初始化 ROS 2 节点，传入节点名称、命名空间和支持库
     RCCHECK(rclc_node_init_default(&node, "esp32_publisher", ROS_NAMESPACE, &support));
 
-    // 创建发布者
+    // 创建imu发布者
     // create publisher_imu
     RCCHECK(rclc_publisher_init_default(
         &imu_pub_topic.publisher,
@@ -112,13 +113,19 @@ void micro_ros_task(void *arg)
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
         "test_pub"));
 
-        // 创建发布者
+    // 创建lidar发布者
     // create publisher_lidar
+    // RCCHECK(rclc_publisher_init_default(
+    //     &lidar_pub_topic.publisher,
+    //     &node,
+    //     ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, LaserScan),
+    //     "scan"));
+
     RCCHECK(rclc_publisher_init_default(
         &lidar_pub_topic.publisher,
         &node,
-        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, LaserScan),
-        "scan"));
+        ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, UInt8MultiArray),
+        "raw_scan"));
 
     // 创建定时器，设置发布频率
     // create timer. Set the publish frequency to 20HZ
@@ -135,15 +142,21 @@ void micro_ros_task(void *arg)
         RCL_MS_TO_NS(test_pub_topic.timer_timeout),
         timer1_callback));
 
+    // RCCHECK(rclc_timer_init_default(
+    //     &lidar_pub_topic.timer,
+    //     &support,
+    //     RCL_MS_TO_NS(lidar_pub_topic.timer_timeout),
+    //     timer_lidar_callback));
+    
     RCCHECK(rclc_timer_init_default(
         &lidar_pub_topic.timer,
         &support,
         RCL_MS_TO_NS(lidar_pub_topic.timer_timeout),
-        timer_lidar_callback));
+        timer_raw_lidar_callback));
 
     // 创建执行者，其中三个参数为执行者控制的数量，要大于或等于添加到执行者的订阅者和发布者数量。
     // create executor. Three of the parameters are the number of actuators controlled that is greater than or equal to the number of subscribers and publishers added to the executor.
-    rclc_executor_t executor;
+    rclc_executor_t executor;  // 用于在单个线程中处理多个 ROS 2 资源的回调函数。
 
 
     RCCHECK(rclc_executor_init(&executor, &support.context, handle_num, &allocator));
@@ -170,6 +183,7 @@ void micro_ros_task(void *arg)
     RCCHECK(rcl_publisher_fini(&test_pub_topic.publisher, &node));
     RCCHECK(rcl_publisher_fini(&lidar_pub_topic.publisher, &node));
     RCCHECK(rcl_node_fini(&node));
+    free(lidar_pub_topic.msg.UInt8MultiArray.data.data);
 
     vTaskDelete(NULL);
 }
@@ -180,10 +194,10 @@ void micro_ros_init_task(void)
     printf(" Start microROS tasks!!!");
     // 开启microROS任务
     // Start microROS tasks
-    xTaskCreate(micro_ros_task,
+    xTaskCreatePinnedToCore(micro_ros_task,
                 "micro_ros_task",
                 CONFIG_MICRO_ROS_APP_STACK,
                 NULL,
                 CONFIG_MICRO_ROS_APP_TASK_PRIO,
-                NULL);
+                NULL, 1);
 }

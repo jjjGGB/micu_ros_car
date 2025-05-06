@@ -1,0 +1,4 @@
+Invoking command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car': /usr/bin/cmake /home/micu/esp/mycode/micu_ros_car -DCMAKE_INSTALL_PREFIX=/home/micu/esp/mycode/micu_ros_car/install/micu_ros_car
+Invoked command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car' returned '0': /usr/bin/cmake /home/micu/esp/mycode/micu_ros_car -DCMAKE_INSTALL_PREFIX=/home/micu/esp/mycode/micu_ros_car/install/micu_ros_car
+Invoking command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car': /usr/bin/cmake --build /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car -- -j4 -l4
+Invoked command in '/home/micu/esp/mycode/micu_ros_car/build/micu_ros_car' returned '2': /usr/bin/cmake --build /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car -- -j4 -l4

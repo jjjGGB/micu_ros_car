@@ -1,0 +1,73 @@
+[0/2] Re-checking globbed directories...
+[1/21] Performing build step for 'bootloader'
+[1/1] cd /home/micu/esp/mycode/micu_ros_car/build/bootloader/esp-idf/esptool_py && /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/micu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/micu/esp/mycode/micu_ros_car/build/bootloader/bootloader.bin
+Bootloader binary size 0x51b0 bytes. 0x2e50 bytes (36%) free.
+[2/19] Building C object esp-idf/esp32_i2c_rw/CMakeFiles/__idf_esp32_i2c_rw.dir/esp32_i2c_rw.c.obj
+[3/19] Building C object esp-idf/UART/CMakeFiles/__idf_UART.dir/UART.c.obj
+[4/19] Building C object esp-idf/lidar/CMakeFiles/__idf_lidar.dir/lidar.c.obj
+/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c: In function 'parse_lidar_byte':
+/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:107:34: warning: variable 'similar_flag' set but not used [-Wunused-but-set-variable]
+  107 |                   static uint8_t similar_flag = 0;  // 记录是否是相同角度的标志位
+      |                                  ^~~~~~~~~~~~
+/home/micu/esp/mycode/micu_ros_car/components/lidar/lidar.c:106:32: warning: variable 'last_angle' set but not used [-Wunused-but-set-variable]
+  106 |                   static float last_angle = -1;  // 记录上一个点的角度
+      |                                ^~~~~~~~~~
+[5/19] Linking C static library esp-idf/esp32_i2c_rw/libesp32_i2c_rw.a
+[6/19] Building C object esp-idf/oled/CMakeFiles/__idf_oled.dir/oled.c.obj
+/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c: In function 'oled_ascii':
+/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:150:63: warning: iteration 6 invokes undefined behavior [-Waggressive-loop-optimizations]
+  150 |       esp32_i2c_write_byte(OLED_ADDR, 0x40, ascii[str[i] - 32][j]);
+      |                                             ~~~~~~~~~~~~~~~~~~^~~
+/home/micu/esp/mycode/micu_ros_car/components/oled/oled.c:149:23: note: within this loop
+  149 |     for (int j = 0; j < 8; j++) {
+      |                     ~~^~~
+[7/19] Linking C static library esp-idf/UART/libUART.a
+[8/19] Linking C static library esp-idf/oled/liboled.a
+[9/19] Linking C static library esp-idf/lidar/liblidar.a
+[10/19] Building C object esp-idf/sysn/CMakeFiles/__idf_sysn.dir/sysn.c.obj
+[11/19] Linking C static library esp-idf/sysn/libsysn.a
+[12/19] Building C object esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj
+[13/19] Building C object esp-idf/mpu6050/CMakeFiles/__idf_mpu6050.dir/mpu6050.c.obj
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c: In function 'mpu6050_madgwick_quaternion_update':
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3094:8: warning: using integer absolute value function 'abs' when argument is of floating-point type 'float' [-Wabsolute-value]
+ 3094 |     if(abs(yaw_buf[9]-yaw_buf[0])<=0.0001)
+      |        ^~~
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:28: warning: unused variable 'prev_time' [-Wunused-variable]
+ 3020 |     uint64_t now_time = 0, prev_time = 0;
+      |                            ^~~~~~~~~
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3020:14: warning: unused variable 'now_time' [-Wunused-variable]
+ 3020 |     uint64_t now_time = 0, prev_time = 0;
+      |              ^~~~~~~~
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c: In function 'MahonyAHRSupdateIMU':
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3199:8: warning: using integer absolute value function 'abs' when argument is of floating-point type 'float' [-Wabsolute-value]
+ 3199 |     if(abs(yaw_buf[9]-yaw_buf[0])<=0.0001)
+      |        ^~~
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c: In function 'get_mpu6050_euler_angle':
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:28: warning: passing argument 1 of 'mpu6050_get_motion' from incompatible pointer type [-Wincompatible-pointer-types]
+ 3273 |         mpu6050_get_motion(accel_,gyro_);
+      |                            ^~~~~~
+      |                            |
+      |                            int16_t * {aka short int *}
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1638:29: note: expected 'mpu6050_acceleration_t *' {aka 'struct _mpu6050_acceleration_t *'} but argument is of type 'int16_t *' {aka 'short int *'}
+ 1638 |     mpu6050_acceleration_t *data_accel,
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:3273:35: warning: passing argument 2 of 'mpu6050_get_motion' from incompatible pointer type [-Wincompatible-pointer-types]
+ 3273 |         mpu6050_get_motion(accel_,gyro_);
+      |                                   ^~~~~
+      |                                   |
+      |                                   int16_t * {aka short int *}
+/home/micu/esp/mycode/micu_ros_car/components/mpu6050/mpu6050.c:1639:25: note: expected 'mpu6050_rotation_t *' {aka 'struct _mpu6050_rotation_t *'} but argument is of type 'int16_t *' {aka 'short int *'}
+ 1639 |     mpu6050_rotation_t *data_gyro)
+      |     ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[14/19] Linking C static library esp-idf/mpu6050/libmpu6050.a
+[15/19] Linking C static library esp-idf/config/libconfig.a
+[16/19] Generating ld/sections.ld
+[17/19] Linking CXX executable micu_ros_car.elf
+[18/19] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car.bin
+[19/19] cd /home/micu/esp/mycode/micu_ros_car/build/esp-idf/esptool_py && /home/micu/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/micu/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/micu/esp/mycode/micu_ros_car/build/partition_table/partition-table.bin /home/micu/esp/mycode/micu_ros_car/build/micu_ros_car.bin
+micu_ros_car.bin binary size 0xd69c0 bytes. Smallest app partition is 0x177000 bytes. 0xa0640 bytes (43%) free.

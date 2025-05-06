@@ -60,6 +60,9 @@
         "proto_utils.h": "c",
         "rotary_encoder.h": "c",
         "system_error": "c",
-        "functional": "c"
+        "functional": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c"
     }
 }
