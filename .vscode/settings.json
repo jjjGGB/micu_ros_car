@@ -5,7 +5,7 @@
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32s3.cfg"
     ],
-    "idf.portWin": "COM5",
+    "idf.portWin": "COM8",
     "idf.toolsPathWin": "d:\\Espresssif\\tools",
     "files.associations": {
         "stdio.h": "c",
@@ -63,6 +63,16 @@
         "functional": "c",
         "array": "c",
         "string": "c",
-        "string_view": "c"
+        "string_view": "c",
+        "ringbuf.h": "c",
+        "mdns.h": "c",
+        "utilities.h": "c",
+        "wireless_conn.h": "c",
+        "cjson.h": "c",
+        "controller.h": "c",
+        "esp_err.h": "c",
+        "math.h": "c",
+        "stddef.h": "c",
+        "proto_data.h": "c"
     }
 }
