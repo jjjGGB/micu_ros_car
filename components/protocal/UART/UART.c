@@ -6,9 +6,6 @@
 Ring_Buffer_t uart_ringbuf[2];//0-user,1-lidar
 uint16_t uart0_rx_len = 0;
 
-proto_data_pid_config_t pid_update_data;
-
-
 
 void uart_init(int baud,int UART_NUM,int TXD_PIN, int RXD_PIN,int RX_BUF_SIZE,int TX_BUF_SIZE) 
 {    
@@ -64,9 +61,9 @@ void uart1_send_imu(void* pvPara)
         addcheck = 0;
         index = 0;
 		// 将欧拉角转换为 int16，并放大100倍
-		int16_t roll_int = (int16_t)(proto_imu_data.euler[0] * 100.0f);
-		int16_t pitch_int = (int16_t)(proto_imu_data.euler[1] * 100.0f);
-		int16_t yaw_int = (int16_t)(proto_imu_data.euler[2] * 100.0f);
+		// int16_t roll_int = (int16_t)(proto_imu_data.euler[0] * 100.0f);
+		// int16_t pitch_int = (int16_t)(proto_imu_data.euler[1] * 100.0f);
+		// int16_t yaw_int = (int16_t)(proto_imu_data.euler[2] * 100.0f);
 		uint8_t fusion_sta=0;
 		// 帧头 (0xAB)
 		buffer[index++] = 0xAB;
@@ -81,12 +78,12 @@ void uart1_send_imu(void* pvPara)
 		buffer[index++] = 0;  // 数据长度高字节为0
 
 		// 欧拉角数据 (int16, 角度扩大100倍)
-		buffer[index++] = (uint8_t)(roll_int & 0xFF);
-		buffer[index++] = (uint8_t)((roll_int >> 8) & 0xFF);
-		buffer[index++] = (uint8_t)(pitch_int & 0xFF);
-		buffer[index++] = (uint8_t)((pitch_int >> 8) & 0xFF);
-		buffer[index++] = (uint8_t)(yaw_int & 0xFF);
-		buffer[index++] = (uint8_t)((yaw_int >> 8) & 0xFF);
+		// buffer[index++] = (uint8_t)(roll_int & 0xFF);
+		// buffer[index++] = (uint8_t)((roll_int >> 8) & 0xFF);
+		// buffer[index++] = (uint8_t)(pitch_int & 0xFF);
+		// buffer[index++] = (uint8_t)((pitch_int >> 8) & 0xFF);
+		// buffer[index++] = (uint8_t)(yaw_int & 0xFF);
+		// buffer[index++] = (uint8_t)((yaw_int >> 8) & 0xFF);
 
 		// 融合状态 (uint8)
 		buffer[index++] = fusion_sta;
@@ -111,6 +108,7 @@ void uart1_send_imu(void* pvPara)
 
 void uart0_send_motor(void* pvPara)
 {
+    context_pack_t *ctx = (context_pack_t*)pvPara;
 	static uint8_t rx_buffer[256];
 	static uint8_t *data_ptr = rx_buffer;  // 缓冲区指针
 	bool frame_flag = false;
@@ -163,8 +161,8 @@ void uart0_send_motor(void* pvPara)
             if(p) kd = atof(p + 2);
 
 			// 更新PID参数和目标速度
-            Motor_Update_PID_Parm(kp, ki, kd);
-            Motor_Set_Speed(target, target);
+            mc_set_expect_rpm(ctx->mc.right, target);
+            mc_set_pid_params(ctx->mc.right, kp, ki, kd);
 			PRINT(debug, "Update: Target=%.2f, P=%.2f, I=%.2f, D=%.2f\n",
             target, kp, ki, kd);
             frame_flag=false;
@@ -226,12 +224,12 @@ void Uart1_Rx_Task(void *arg)
     vTaskDelete(NULL);
 }
 
-void  uart_task(void)
+void  uart_task(context_pack_t *ctx)
 {
     //xTaskCreate(uart1_send_imu, "uart1_send_Task", 4096 , NULL, 5, NULL);
     //xTaskCreatePinnedToCore(Uart1_Rx_Task, "Uart1_Rx_Task", 5*1024, NULL, 10, NULL, 0);
 	xTaskCreatePinnedToCore(Uart0_Rx_Task, "Uart0_Rx_Task", 5*1024, NULL, 10, NULL, 0);
-	//xTaskCreate(uart0_send_motor, "Uart0_Tx_Task", 5*1024, NULL, 6, NULL);
+	xTaskCreatePinnedToCore(uart0_send_motor, "Uart0_Tx_Task", 5*1024, ctx, 6, NULL,0);
 }
 
 

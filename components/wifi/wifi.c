@@ -1,5 +1,7 @@
 #include "wifi.h"
-
+#include "mdns.h"
+#include "esp_err.h" 
+#include "esp_check.h" 
 /* FreeRTOS event group to signal when we are connected*/
 static EventGroupHandle_t s_wifi_event_group;
 
@@ -13,7 +15,6 @@ static EventGroupHandle_t s_wifi_event_group;
 
 static const char *TAG = "WIFI";
 
-static proto_data_wifi_config_t *wifi_config_ = NULL;
 static wifi_status_t wifi_status_ = WIFI_STATUS_STA_DISCONECTED;
 static char wifi_ip_[16];
 static uint8_t retry_connect_sta_count_ = 0;
@@ -97,12 +98,6 @@ static void event_handler(void *arg, esp_event_base_t event_base,
     }
     
 
-}
-
-bool set_wifi_config(wifi_config_t *wifi_config)
-{
-    wifi_config_ = wifi_config;
-    return true;
 }
 
 
@@ -215,22 +210,6 @@ bool wifi_set_sta()
         s_wifi_event_group, WIFI_CONNECTED_BIT | WIFI_FAIL_BIT, pdFALSE, pdFALSE,
         10 * 1000 / portTICK_RATE_MS);//等待最多10秒
 
-    // //处理连接结果
-    // if (bits & WIFI_CONNECTED_BIT)
-    // {
-    //     ESP_LOGI(TAG, "connected to ap SSID:%s password:%s",
-    //              wifi_config.ap.ssid, wifi_config.ap.password);
-    // }
-    // else if (bits & WIFI_FAIL_BIT)
-    // {
-    //     ESP_LOGI(TAG, "Failed to connect to SSID:%s, password:%s",
-    //              wifi_config.ap.ssid, wifi_config.ap.password);
-    // }
-    // else
-    // {
-    //     ESP_LOGE(TAG, "UNEXPECTED EVENT");
-    // }
-
     //注销事件处理函数,删除事件组
     ESP_ERROR_CHECK(esp_event_handler_instance_unregister(
         IP_EVENT, IP_EVENT_STA_GOT_IP, instance_got_ip));
@@ -245,10 +224,28 @@ bool wifi_set_sta()
 }
 
 
+esp_err_t start_mdns_service(const char *hostname, const char *instance_name) 
+{
+	esp_err_t err = mdns_init();
+    if (err) {
+        printf("MDNS Init failed: %d\n", err);
+        return ESP_FAIL;
+    }
+    ESP_RETURN_ON_ERROR(mdns_hostname_set(hostname), TAG, "");// 设置 hostname
+    ESP_RETURN_ON_ERROR(mdns_instance_name_set(instance_name), TAG, "");// 设置实例名
+
+    return ESP_OK;
+}
+
 bool wifi_init()
 {
     //NVS初始化（WIFI底层驱动有用到NVS，所以这里要初始化）
-    nvs_flash_init();
+    esp_err_t ret = nvs_flash_init();
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        ret = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK(ret);
     ESP_ERROR_CHECK(esp_netif_init());//用于初始化tcpip协议栈
     ESP_ERROR_CHECK(esp_event_loop_create_default()); //创建一个默认系统事件调度循环，之后可以注册回调函数来处理系统的一些事件
     #ifdef STA_MODE
@@ -256,6 +253,7 @@ bool wifi_init()
     #else
     wifi_set_ap();
     #endif
+    ESP_ERROR_CHECK(start_mdns_service("micu-ros-car", "ESP32"));
     ESP_LOGI(TAG, "wifi init success!");
     return true;
 }

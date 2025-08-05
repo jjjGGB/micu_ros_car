@@ -182,31 +182,56 @@ bool oled_init() {
 
 void oled_show(void* pvPara)
 {
-  char buf[21];
-  float p_value, i_value, d_value,v_current,v_target;
-  while (1) 
+  context_pack_t *ctx = (context_pack_t*)pvPara;
+  char buf[25];
+
+  while (1)
   {
-    vTaskDelay(pdMS_TO_TICKS(50));
-   
-		snprintf(buf, sizeof(buf), "Roll:%.1f",proto_imu_data.euler[0]);
-    oled_ascii8(0,3,buf);
-    snprintf(buf, sizeof(buf), "pitch:%.1f",proto_imu_data.euler[1]);
-    oled_ascii8(0,4,buf);
-    snprintf(buf, sizeof(buf), "yaw:%.1f",proto_imu_data.euler[2]);
-    oled_ascii8(0,5,buf);
-    Motor_Read_PID_Parm(&p_value, &i_value, &d_value);
-    snprintf(buf, sizeof(buf), "p:%.2f,i:%.2f,d:%.2f",p_value,i_value,d_value);
-    oled_ascii8(0,6,buf); 
-    Motor_Get_Speed(&v_current,&v_target);
-    snprintf(buf, sizeof(buf), " V_c:%.2f,V_t:%.2f",v_current,v_target);
-    oled_ascii8(0,7,buf); 
+    vTaskDelay(pdMS_TO_TICKS(100));
 
+    // 显示加速度计数据（校准后的值）
+    // int16_t acce_x = ctx->mpu6050.curr_acce.raw_acce_x - ctx->mpu6050.acce_cal.raw_acce_x;
+    // int16_t acce_y = ctx->mpu6050.curr_acce.raw_acce_y - ctx->mpu6050.acce_cal.raw_acce_y;
+    // int16_t acce_z = ctx->mpu6050.curr_acce.raw_acce_z - ctx->mpu6050.acce_cal.raw_acce_z;
 
-		}
+    // snprintf(buf, sizeof(buf), "AccX:%4d AccY:%4d", acce_x, acce_y);
+    // oled_ascii8(0, 3, buf);
+
+    // snprintf(buf, sizeof(buf), "AccZ:%4d", acce_z);
+    // oled_ascii8(0, 4, buf);
+
+    // 显示陀螺仪数据（校准后的值）
+    int16_t gyro_x = ctx->mpu6050.curr_gyro.raw_gyro_x - ctx->mpu6050.gyro_cal.raw_gyro_x;
+    int16_t gyro_y = ctx->mpu6050.curr_gyro.raw_gyro_y - ctx->mpu6050.gyro_cal.raw_gyro_y;
+
+    snprintf(buf, sizeof(buf), "GyrX:%3d GyrY:%3d", gyro_x,gyro_y);
+    oled_ascii8(0, 3, buf);
+
+    
+
+    float kp = 0, ki = 0, kd = 0;
+    mc_get_pid_params(ctx->mc.right, &kp, &ki, &kd);
+    snprintf(buf, sizeof(buf), "PID:%.2f-%.2f-%.2f", kp, ki, kd);
+    oled_ascii8(0, 4, buf);
+
+    float cur_rpm_r=mc_get_real_rpm(ctx->mc.right);
+    float target_rpm_r=mc_get_expect_rpm(ctx->mc.right);
+    snprintf(buf, sizeof(buf), "R:C%.2f T:%.2f", cur_rpm_r, target_rpm_r);
+    oled_ascii8(0, 5, buf);    
+
+    float cur_rpm_l=mc_get_real_rpm(ctx->mc.left);
+    float target_rpm_l=mc_get_expect_rpm(ctx->mc.left);
+    snprintf(buf, sizeof(buf), "L:C%.2f T:%.2f", cur_rpm_l, target_rpm_l);
+    oled_ascii8(0, 6, buf);    
+
+    snprintf(buf, sizeof(buf), "Vx:C%.2f T%.2f",ctx->wheel_perimeter * (cur_rpm_r + cur_rpm_l) / 2,ctx->wheel_perimeter * (target_rpm_l + target_rpm_l) / 2);
+    oled_ascii8(0, 7, buf);    
+    
+  }
 }
 
 
-void oled_show_task(void)
+void oled_show_task(context_pack_t *ctx)
 {
-    xTaskCreatePinnedToCore(oled_show, "oled_show", 8 * 1024, NULL, 10, NULL, 0);
+    xTaskCreatePinnedToCore(oled_show, "oled_show", 8 * 1024, ctx, 10, NULL, 0);
 }

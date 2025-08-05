@@ -1,12 +1,4 @@
-/**
- * @brief 文件描述：待更新
- * @author 小鱼 (fishros@foxmail.com)
- * @version V1.0.0
- * @date 2022-07-07
- * @copyright 版权所有：FishBot Open Source Organization
- */
-#ifndef _OLED_H_
-#define _OLED_H_
+#pragma once
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -20,12 +12,12 @@
 #include "esp_system.h"
 #include "esp_err.h"
 #include "esp32_i2c_rw.h"
-#include "proto.h"
-#include "motor.h"
+#include "wireless_conn.h"
+
 
 #define OLED_ADDR 0x3C /*!< slave address for OLED sensor */
 
-extern proto_data_imu_t proto_imu_data;
+
 
 
 typedef struct
@@ -87,6 +79,10 @@ void oled_ascii(uint8_t x, uint8_t y, char *str);
  * @param str
  */
 void oled_ascii8(uint8_t x, uint8_t y, char *str);
-void oled_show_task(void);
 
-#endif
+/**
+ * @brief OLED显示任务
+ *
+ * @param ctx 上下文包，包含MPU6050数据
+ */
+void oled_show_task(context_pack_t *ctx);

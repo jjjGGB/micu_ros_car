@@ -17,11 +17,10 @@
 #include "lwip/sys.h"
 #include "nvs_flash.h"
 #include "nvs.h"
-#include "proto.h"
 
 #define WIF_MAX_AP_CONNECTION 2
-#define DEFAULT_WIFI_SSID           "华航学社_2.4G"
-#define DEFAULT_WIFI_PASSWORD       "hhxs2021"
+#define DEFAULT_WIFI_SSID           "Xiaomi_95EE"
+#define DEFAULT_WIFI_PASSWORD       "jjt707127ok"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  10
 #define DEFAULT_WIFI_AP_PSWD "87654321"
 #define DEFAULT_WIFI_AP_SSID_PREFIX "micu_ros"
@@ -61,5 +60,5 @@ bool wifi_init(void);
  * @return wifi_status_t
  */
 wifi_status_t get_wifi_ip(char *ip_address);
-esp_err_t start_mdns_service(void);
+esp_err_t start_mdns_service(const char *hostname, const char *instance_name);
 #endif
