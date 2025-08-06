@@ -1,2 +1,0 @@
-/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ar qc libWP_Math.a CMakeFiles/__idf_WP_Math.dir/WP_Math.c.obj
-/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ranlib libWP_Math.a

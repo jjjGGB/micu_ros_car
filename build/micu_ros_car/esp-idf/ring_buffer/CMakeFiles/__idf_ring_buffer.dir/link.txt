@@ -1,2 +1,0 @@
-/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ar qc libring_buffer.a CMakeFiles/__idf_ring_buffer.dir/ring_buffer.c.obj
-/home/micu/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-ranlib libring_buffer.a

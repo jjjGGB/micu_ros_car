@@ -1,7 +1,0 @@
-source "/home/micu/esp/esp-idf/components/bootloader/Kconfig.projbuild"
-source "/home/micu/esp/esp-idf/components/esp_app_format/Kconfig.projbuild"
-source "/home/micu/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
-source "/home/micu/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
-source "/home/micu/esp/esp-idf/components/partition_table/Kconfig.projbuild"
-source "/home/micu/esp/mycode/micu_ros_car/main/Kconfig.projbuild"
-source "/home/micu/esp/mycode/extra_components/micro_ros_espidf_component/Kconfig.projbuild"
