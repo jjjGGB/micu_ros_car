@@ -1,9 +1,14 @@
 # Build artifacts
 build/
 
+# Component manager
+managed_components/
+
 # IDE files
 .vscode/
 .idea/
+.claude/
+.devcontainer/
 
 # OS generated files
 .DS_Store

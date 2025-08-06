@@ -236,7 +236,7 @@ void  uart_task(context_pack_t *ctx)
 bool UART_HARDWARE_init(void) 
 {
 	uart_init(baud_R,USER_UART_NUM,UART0_TXD_PIN,UART0_RXD_PIN,UART0_RX0_BUF_SIZE,0);  //调试串口
-	uart_init(baud_R,LIDAR_UART_NUM,UART1_TXD_PIN,UART1_RXD_PIN,UART1_RX0_BUF_SIZE,0);  //激光雷达串口
+	//uart_init(baud_R,LIDAR_UART_NUM,UART1_TXD_PIN,UART1_RXD_PIN,UART1_RX0_BUF_SIZE,0);  //激光雷达串口
 	RingBuffer_Init(&uart_ringbuf[USER_UART_NUM], UART0_RX0_BUF_SIZE);
     RingBuffer_Init(&uart_ringbuf[LIDAR_UART_NUM], UART1_RX0_BUF_SIZE);
     return true;
